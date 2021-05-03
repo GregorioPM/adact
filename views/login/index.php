@@ -8,6 +8,9 @@
 </head>
 <body>
 <h1>Este es login</h1>
+<p><?php
+    $this->showMessages();
+?></p>
     
 </body>
 </html>

@@ -63,17 +63,17 @@
                         $query->execute([
                                 'id' =>$id
                         ]); 
-                        $user = $query->fetch(PDO::FETCH_ASSOC)
+                        $user = $query->fetch(PDO::FETCH_ASSOC);
                                 
-                                $this->setId($user['id']);
-                                $this->setCorreo($user['correo']);
-                                $this->setPassword($user['password']);
-                                $this->setRol($user['rol']);
-                                $this->setNombres($user['nombres']);
-                                $this->setApellidos($user['apellidos']);
+                                $this->id = $user['id'];
+                                $this->correo = $user['correo'];
+                                $this->password = $user['password'];
+                                $this->rol = $user['rol'];
+                                $this->nombres = $user['nombres'];
+                                $this->apellidos = $user['apellidos'];
 
                              
-                        return $items;
+                        return $this;
                 } catch (PDOException $e) {
                         error_log('USERMODEL::getAll->PDOException ' . $e); 
                 }
@@ -122,7 +122,7 @@
         public function exists($correo){
                 try {
                        $query= $this->prepare('SELECT correo FROM usuario WHERE correo=:correo');
-                       $query->execute(['correo'=$correo]);
+                       $query->execute(['correo'=>$correo]);
                        if($query->rowCount()>0){
                                return true;
                        }else{
@@ -173,15 +173,16 @@
 
         public function getPassword()
         {
-                return $this->getHashedPassword($password);
+                return $this->password;
         }
 
-        public function setPassword($password)
-        {
-                $this->password = $password;
-
-                return $this;
-        }
+        public function setPassword($password, $hash = true){ 
+                if($hash){
+                    $this->password = $this->getHashedPassword($password);
+                }else{
+                    $this->password = $password;
+                }
+            }
 
         public function getRol()
         {

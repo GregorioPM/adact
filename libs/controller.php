@@ -45,7 +45,7 @@
         function redirect($url, $mensajes){
             $data = [];
             $params = '';
-            foreach($mensajes as $key -> $mensaje){
+            foreach($mensajes as $key => $mensaje){
                 array_push($data, $key . '=' . $mensaje);
             }
             $params = join('&', $data);
@@ -53,7 +53,7 @@
                 $params = '?' . $params;
             } 
 
-            header('Location: ' . constant('URL') . $url . $params);
+            header('Location: ' . constant('URL') . '/' . $url . $params);
         }
 
     }

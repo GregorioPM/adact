@@ -1,296 +1,189 @@
-[05-May-2021 02:36:19 Europe/Berlin] Hello, errors!
-[05-May-2021 02:36:19 Europe/Berlin] PHP Fatal error:  Can't use function return value in write context in C:\xampp\htdocs\Adact\classes\session.php on line 8
-[05-May-2021 02:37:24 Europe/Berlin] Hello, errors!
-[05-May-2021 02:37:24 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:37:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/, url => 
-[05-May-2021 02:37:24 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:37:24 Europe/Berlin] SessionController::validateSession() public page
-[05-May-2021 02:37:24 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:37:24 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:44 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/, url => 
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:44 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:44 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:44 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:44 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:44 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:44 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:44 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:44 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:44 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:44 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:44 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:44 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:44 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:44 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:44 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:44 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:44 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:44 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:44 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:44 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:44 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:44 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:44 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:44 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:44 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:44 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:44 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:44 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:44 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:44 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:44 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:45 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:45 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:45 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:45 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:45 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:45 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:45 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:45 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:45 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:45 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:45 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:45 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:45 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:45 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:45 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:45 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:45 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:45 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:45 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:46 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:46 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:46 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:46 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:46 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:46 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:46 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:46 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:46 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:46 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:46 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:46 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:46 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:46 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:46 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:46 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:46 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:46 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:46 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:46 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:46 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:46 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:46 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:46 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:46 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:51 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:51 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:51 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:51 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:51 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:51 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:51 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:51 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:51 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:51 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:51 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:51 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:51 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:51 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:51 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:51 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:51 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:51 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:51 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:51 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:51 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:51 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:51 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:51 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:51 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:51 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:51 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:46:51 Europe/Berlin] Hello, errors!
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:46:51 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:46:51 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:46:51 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:46:51 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:21 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:47:21 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:21 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:21 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:47:21 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:21 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:21 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:47:21 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:21 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:21 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:47:21 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:21 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:21 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:47:21 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:21 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:21 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:47:21 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:21 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:21 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:47:21 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:21 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:21 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:47:21 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:21 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:21 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:47:21 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:21 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:21 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:21 Europe/Berlin] SessionController::validateSession() redirect al login
-[05-May-2021 02:47:21 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:21 Europe/Berlin] Login::render -> carga Index login
-[05-May-2021 02:47:35 Europe/Berlin] Hello, errors!
-[05-May-2021 02:47:35 Europe/Berlin] SessionController::validateSession()
-[05-May-2021 02:47:35 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[05-May-2021 02:47:35 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[05-May-2021 02:47:35 Europe/Berlin] SessionController::validateSession() public page
-[05-May-2021 02:47:35 Europe/Berlin] Login::construct -> inicio login
-[05-May-2021 02:47:35 Europe/Berlin] Login::render -> carga Index login
+[05-May-2021 23:29:59 Europe/Berlin] Hello, errors!
+[05-May-2021 23:29:59 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:29:59 Europe/Berlin] SessionController::existsSession() NOOOOOOOOOO0
+[05-May-2021 23:29:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[05-May-2021 23:29:59 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[05-May-2021 23:29:59 Europe/Berlin] SessionController::validateSession() public page
+[05-May-2021 23:29:59 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:29:59 Europe/Berlin] Login::render -> carga Index login
+[05-May-2021 23:30:00 Europe/Berlin] Hello, errors!
+[05-May-2021 23:30:00 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:30:00 Europe/Berlin] SessionController::existsSession() NOOOOOOOOOO0
+[05-May-2021 23:30:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
+[05-May-2021 23:30:00 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[05-May-2021 23:30:00 Europe/Berlin] SessionController::validateSession() redirect al login
+[05-May-2021 23:30:00 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:30:00 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:30:00 Europe/Berlin] login: user id 0
+[05-May-2021 23:30:00 Europe/Berlin] loginModel::login ->success
+[05-May-2021 23:30:00 Europe/Berlin] Login::authenticate() passed
+[05-May-2021 23:30:00 Europe/Berlin] sessionController::initialize(): user: jose@gmai.com
+[05-May-2021 23:30:00 Europe/Berlin] sessionController::initialize(): xxxxxx: user
+[05-May-2021 23:30:00 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[05-May-2021 23:30:00 Europe/Berlin] sessionController::authorizeAccess(): que puede ser
+[05-May-2021 23:30:00 Europe/Berlin] Hello, errors!
+[05-May-2021 23:30:00 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:30:00 Europe/Berlin] SessionController::existsSession() NOOOOOOOOOO0
+[05-May-2021 23:30:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[05-May-2021 23:30:00 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[05-May-2021 23:30:00 Europe/Berlin] SessionController::validateSession() redirect al login
+[05-May-2021 23:30:00 Europe/Berlin] Dashboard::construct -> inicio login
+[05-May-2021 23:30:00 Europe/Berlin] Dashboard::render -> carga Index usuario
+[05-May-2021 23:30:00 Europe/Berlin] Hello, errors!
+[05-May-2021 23:30:00 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:30:00 Europe/Berlin] SessionController::existsSession() NOOOOOOOOOO0
+[05-May-2021 23:30:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[05-May-2021 23:30:00 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[05-May-2021 23:30:00 Europe/Berlin] SessionController::validateSession() public page
+[05-May-2021 23:30:00 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:30:00 Europe/Berlin] Login::render -> carga Index login
+[05-May-2021 23:30:55 Europe/Berlin] Hello, errors!
+[05-May-2021 23:30:55 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:30:55 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:30:55 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[05-May-2021 23:30:55 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[05-May-2021 23:30:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[05-May-2021 23:30:55 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[05-May-2021 23:30:55 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =user
+[05-May-2021 23:30:55 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/dashboard
+[05-May-2021 23:30:55 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[05-May-2021 23:30:55 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:30:55 Europe/Berlin] Login::render -> carga Index login
+[05-May-2021 23:30:55 Europe/Berlin] Hello, errors!
+[05-May-2021 23:30:55 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:30:55 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:30:55 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[05-May-2021 23:30:55 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[05-May-2021 23:30:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[05-May-2021 23:30:55 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[05-May-2021 23:30:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[05-May-2021 23:30:55 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[05-May-2021 23:30:55 Europe/Berlin] Dashboard::construct -> inicio login
+[05-May-2021 23:30:55 Europe/Berlin] Dashboard::render -> carga Index usuario
+[05-May-2021 23:35:44 Europe/Berlin] Hello, errors!
+[05-May-2021 23:35:45 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:35:45 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:35:45 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[05-May-2021 23:35:45 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[05-May-2021 23:35:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/signup, url => signup
+[05-May-2021 23:35:45 Europe/Berlin] sessionController::isPublic(): currentURL => signup
+[05-May-2021 23:35:45 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =user
+[05-May-2021 23:35:45 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/dashboard
+[05-May-2021 23:35:45 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[05-May-2021 23:35:45 Europe/Berlin] Hello, errors!
+[05-May-2021 23:35:45 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:35:45 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:35:45 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[05-May-2021 23:35:45 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[05-May-2021 23:35:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[05-May-2021 23:35:45 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[05-May-2021 23:35:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[05-May-2021 23:35:45 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[05-May-2021 23:35:45 Europe/Berlin] Dashboard::construct -> inicio login
+[05-May-2021 23:35:45 Europe/Berlin] Dashboard::render -> carga Index usuario
+[05-May-2021 23:42:06 Europe/Berlin] Hello, errors!
+[05-May-2021 23:42:06 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:42:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/, url => 
+[05-May-2021 23:42:06 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[05-May-2021 23:42:06 Europe/Berlin] SessionController::validateSession() public page
+[05-May-2021 23:42:06 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:42:06 Europe/Berlin] Login::render -> carga Index login
+[05-May-2021 23:42:13 Europe/Berlin] Hello, errors!
+[05-May-2021 23:42:13 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:42:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
+[05-May-2021 23:42:13 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[05-May-2021 23:42:13 Europe/Berlin] SessionController::validateSession() redirect al login
+[05-May-2021 23:42:13 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:42:13 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:42:13 Europe/Berlin] Login::authenticate() username and/or password wrong
+[05-May-2021 23:42:13 Europe/Berlin] Hello, errors!
+[05-May-2021 23:42:13 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:42:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/?error=4fe5e13b3e9458d28f6632a2361b2abe, url => ?error=4fe5e13b3e9458d28f6632a2361b2abe
+[05-May-2021 23:42:13 Europe/Berlin] sessionController::isPublic(): currentURL => ?error=4fe5e13b3e9458d28f6632a2361b2abe
+[05-May-2021 23:42:13 Europe/Berlin] SessionController::validateSession() public page
+[05-May-2021 23:42:13 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:42:13 Europe/Berlin] Login::render -> carga Index login
+[05-May-2021 23:42:20 Europe/Berlin] Hello, errors!
+[05-May-2021 23:42:20 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:42:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[05-May-2021 23:42:20 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[05-May-2021 23:42:20 Europe/Berlin] SessionController::validateSession() redirect al login
+[05-May-2021 23:42:20 Europe/Berlin] Dashboard::construct -> inicio login
+[05-May-2021 23:42:20 Europe/Berlin] Dashboard::render -> carga Index usuario
+[05-May-2021 23:42:20 Europe/Berlin] Hello, errors!
+[05-May-2021 23:42:20 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:42:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[05-May-2021 23:42:20 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[05-May-2021 23:42:20 Europe/Berlin] SessionController::validateSession() public page
+[05-May-2021 23:42:20 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:42:20 Europe/Berlin] Login::render -> carga Index login
+[05-May-2021 23:42:43 Europe/Berlin] Hello, errors!
+[05-May-2021 23:42:44 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:42:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/signup, url => signup
+[05-May-2021 23:42:44 Europe/Berlin] sessionController::isPublic(): currentURL => signup
+[05-May-2021 23:42:44 Europe/Berlin] SessionController::validateSession() public page
+[05-May-2021 23:42:54 Europe/Berlin] Hello, errors!
+[05-May-2021 23:42:54 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:42:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/signup/newUser, url => signup
+[05-May-2021 23:42:54 Europe/Berlin] sessionController::isPublic(): currentURL => signup
+[05-May-2021 23:42:54 Europe/Berlin] SessionController::validateSession() public page
+[05-May-2021 23:42:54 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:42:54 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:42:54 Europe/Berlin] Hello, errors!
+[05-May-2021 23:42:54 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:42:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/?success=8281e04ed52ccfc13820d0f6acb0985a, url => ?success=8281e04ed52ccfc13820d0f6acb0985a
+[05-May-2021 23:42:54 Europe/Berlin] sessionController::isPublic(): currentURL => ?success=8281e04ed52ccfc13820d0f6acb0985a
+[05-May-2021 23:42:54 Europe/Berlin] SessionController::validateSession() public page
+[05-May-2021 23:42:54 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:42:54 Europe/Berlin] Login::render -> carga Index login
+[05-May-2021 23:43:17 Europe/Berlin] Hello, errors!
+[05-May-2021 23:43:17 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:43:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
+[05-May-2021 23:43:17 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[05-May-2021 23:43:17 Europe/Berlin] SessionController::validateSession() redirect al login
+[05-May-2021 23:43:17 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:43:17 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:43:17 Europe/Berlin] login: user id 0
+[05-May-2021 23:43:17 Europe/Berlin] loginModel::login ->success
+[05-May-2021 23:43:17 Europe/Berlin] Login::authenticate() passed
+[05-May-2021 23:43:17 Europe/Berlin] sessionController::initialize(): user: pri@gmail.com
+[05-May-2021 23:43:17 Europe/Berlin] sessionController::initialize(): xxxxxx: user
+[05-May-2021 23:43:17 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[05-May-2021 23:43:17 Europe/Berlin] sessionController::authorizeAccess(): que puede ser
+[05-May-2021 23:43:17 Europe/Berlin] Hello, errors!
+[05-May-2021 23:43:17 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:43:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[05-May-2021 23:43:17 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[05-May-2021 23:43:17 Europe/Berlin] SessionController::validateSession() redirect al login
+[05-May-2021 23:43:17 Europe/Berlin] Dashboard::construct -> inicio login
+[05-May-2021 23:43:17 Europe/Berlin] Dashboard::render -> carga Index usuario
+[05-May-2021 23:43:17 Europe/Berlin] Hello, errors!
+[05-May-2021 23:43:17 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:43:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[05-May-2021 23:43:17 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[05-May-2021 23:43:17 Europe/Berlin] SessionController::validateSession() public page
+[05-May-2021 23:43:17 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:43:17 Europe/Berlin] Login::render -> carga Index login
+[05-May-2021 23:43:31 Europe/Berlin] Hello, errors!
+[05-May-2021 23:43:31 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:43:31 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:43:31 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[05-May-2021 23:43:31 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[05-May-2021 23:43:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[05-May-2021 23:43:31 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[05-May-2021 23:43:31 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =user
+[05-May-2021 23:43:31 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/dashboard
+[05-May-2021 23:43:31 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[05-May-2021 23:43:31 Europe/Berlin] Login::construct -> inicio login
+[05-May-2021 23:43:31 Europe/Berlin] Login::render -> carga Index login
+[05-May-2021 23:43:31 Europe/Berlin] Hello, errors!
+[05-May-2021 23:43:31 Europe/Berlin] SessionController::validateSession()
+[05-May-2021 23:43:31 Europe/Berlin] Conexión a BD exitosa
+[05-May-2021 23:43:31 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[05-May-2021 23:43:31 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[05-May-2021 23:43:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[05-May-2021 23:43:31 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[05-May-2021 23:43:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[05-May-2021 23:43:31 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[05-May-2021 23:43:31 Europe/Berlin] Dashboard::construct -> inicio login
+[05-May-2021 23:43:31 Europe/Berlin] Dashboard::render -> carga Index usuario

@@ -10,7 +10,7 @@
             }
         }
         public function setCurrentUser($user){
-            $ $_SESSION[$this->sessionName] = $user;
+            $_SESSION[$this->sessionName] = $user;
         }
 
         public function getCurrentUser(){

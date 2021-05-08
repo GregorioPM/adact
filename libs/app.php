@@ -52,13 +52,13 @@ class App{
                         $controller->{$url[1]}();    
                     }
                 }else{
-                    $controller = new Errores(); 
+                    $controller = new ErrorMessages(); 
                 }
             }else{
                 $controller->render();
             }
         }else{
-            $controller = new Errores();
+            $controller = new ErrorMessages();
         }
     }
 }

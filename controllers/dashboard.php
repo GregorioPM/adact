@@ -9,5 +9,13 @@
             $this->view->render('dashboard/index', []);
             error_log('Dashboard::render -> carga Index usuario');
         }
+        
+        public function getActas(){
+
+        }
+
+        public function getDependencias(){
+
+        }
     }
 ?>

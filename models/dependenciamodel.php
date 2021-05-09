@@ -28,12 +28,63 @@
 
         }
         public function getAll(){
-        
+            $items= [];
+            try {
+               $query = $this->query('SELECT * FROM dependencia');
+
+               while($p = $query->fetch(PDO::FETCH_ASSOC)){
+                
+                   $item = new DependenciaModel();
+                   $item->from($p);
+                   array_push($items, $item);
+               } 
+               return $items;
+
+            } catch (PDOException $e) {
+                error_log('DEPENDENCIAMODEL::GETALL->PDOException ' . $e); 
+                return false;
+            }
         }
-        public function get($id){}
-        public function delete($id){}
-        public function update(){}
-        public function from($array){}
+        public function get($id){
+            try {
+                $query = $this->prepare('SELECT * FROM dependencia WHERE id=:id');
+                $query->execute(['id'=>$id]);
+                $dependencia = $query->fetch(PDO::FETCH_ASSOC);
+                $this->from($dependencia);
+            } catch (PDOException $e) {
+                error_log('DEPENDENCIAMODEL::GETID->PDOException ' . $e); 
+                return false;
+            }
+        }
+        public function delete($id){
+            try {
+                $query = $this->prepare('DELETE FROM dependencia WHERE id = :id');
+                $query->execute([
+                        'id' =>$id
+                ]);
+                return true;
+            } catch (PDOException $e) {
+                error_log('DEPENDENCIAMODEL::DELETE->PDOException ' . $e); 
+                return false;
+            }
+        }
+        public function update(){
+            try {
+                $query = $this->prepare('UPDATE dependencia SET dependencia WHERE id= :id');
+                $query->execute([
+                        'id' => $this->id,
+                        'dependencia' =>$this->dependencia
+                ]);      
+                return $true;
+            } catch (PDOException $e) {
+                error_log('DEPENDENCIAMODEL::UPDATE->PDOException ' . $e); 
+                return false;
+            }
+        }
+        public function from($array){
+            $this->id       = $array['id'];
+            $this->dependencia   =$array['dependencia'];
+        }
  
         public function exists($dependencia){
             try{

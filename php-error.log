@@ -1,342 +1,984 @@
-[08-May-2021 23:33:32 Europe/Berlin] Hello, errors!
-[08-May-2021 23:33:32 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:33:32 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:33:32 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:33:32 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:33:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
-[08-May-2021 23:33:32 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:33:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
-[08-May-2021 23:33:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:33:32 Europe/Berlin] Hello, errors!
-[08-May-2021 23:33:32 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:33:32 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:33:32 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:33:32 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:33:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[08-May-2021 23:33:32 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:33:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[08-May-2021 23:33:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:33:49 Europe/Berlin] Hello, errors!
-[08-May-2021 23:33:49 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:33:49 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:33:49 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:33:49 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:33:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
-[08-May-2021 23:33:49 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:33:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
-[08-May-2021 23:33:49 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
-[08-May-2021 23:33:49 Europe/Berlin] Hello, errors!
-[08-May-2021 23:33:49 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:33:49 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:33:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:33:49 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:33:49 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:33:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[08-May-2021 23:33:49 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:33:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[08-May-2021 23:33:49 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
-[08-May-2021 23:33:50 Europe/Berlin] Hello, errors!
-[08-May-2021 23:33:50 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:33:50 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:33:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:33:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:33:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:33:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:33:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:33:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:33:50 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:33:50 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:33:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
-[08-May-2021 23:33:50 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:33:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
-[08-May-2021 23:33:50 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
-[08-May-2021 23:33:51 Europe/Berlin] Hello, errors!
-[08-May-2021 23:33:51 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:33:51 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:33:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:33:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:33:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:33:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:33:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:33:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:33:51 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:33:51 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:33:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[08-May-2021 23:33:51 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:33:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[08-May-2021 23:33:51 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
-[08-May-2021 23:33:52 Europe/Berlin] Hello, errors!
-[08-May-2021 23:33:52 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:33:52 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:33:52 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:33:52 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:33:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
-[08-May-2021 23:33:52 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:33:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
-[08-May-2021 23:33:52 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
-[08-May-2021 23:33:52 Europe/Berlin] Hello, errors!
-[08-May-2021 23:33:52 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:33:52 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:33:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:33:52 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:33:52 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:33:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[08-May-2021 23:33:52 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:33:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[08-May-2021 23:33:52 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
-[08-May-2021 23:33:54 Europe/Berlin] Hello, errors!
-[08-May-2021 23:33:54 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:33:54 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:33:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:33:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:33:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:33:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:33:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:33:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:33:54 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:33:54 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:33:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/, url => 
-[08-May-2021 23:33:54 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[08-May-2021 23:33:54 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
-[08-May-2021 23:33:54 Europe/Berlin] Login::construct -> inicio login
-[08-May-2021 23:33:54 Europe/Berlin] Login::render -> carga Index login
-[08-May-2021 23:34:02 Europe/Berlin] Hello, errors!
-[08-May-2021 23:34:02 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:34:02 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:34:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:34:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:34:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:34:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:34:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:34:02 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:34:02 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:34:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/signup, url => signup
-[08-May-2021 23:34:02 Europe/Berlin] sessionController::isPublic(): currentURL => signup
-[08-May-2021 23:34:02 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
-[08-May-2021 23:34:06 Europe/Berlin] Hello, errors!
-[08-May-2021 23:34:06 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:34:06 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:34:06 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:34:06 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:34:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/signup/newUser, url => signup
-[08-May-2021 23:34:06 Europe/Berlin] sessionController::isPublic(): currentURL => signup
-[08-May-2021 23:34:06 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
-[08-May-2021 23:34:06 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:06 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:06 Europe/Berlin] Hello, errors!
-[08-May-2021 23:34:06 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:34:06 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:34:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:34:06 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:34:06 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:34:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/?success=8281e04ed52ccfc13820d0f6acb0985a, url => ?success=8281e04ed52ccfc13820d0f6acb0985a
-[08-May-2021 23:34:06 Europe/Berlin] sessionController::isPublic(): currentURL => ?success=8281e04ed52ccfc13820d0f6acb0985a
-[08-May-2021 23:34:06 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
-[08-May-2021 23:34:06 Europe/Berlin] Login::construct -> inicio login
-[08-May-2021 23:34:06 Europe/Berlin] Login::render -> carga Index login
-[08-May-2021 23:34:09 Europe/Berlin] Hello, errors!
-[08-May-2021 23:34:09 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:34:09 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
-[08-May-2021 23:34:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
-[08-May-2021 23:34:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
-[08-May-2021 23:34:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
-[08-May-2021 23:34:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
-[08-May-2021 23:34:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
-[08-May-2021 23:34:09 Europe/Berlin] sessionController::getUserSessionData(): 
-[08-May-2021 23:34:09 Europe/Berlin] sessionController::validateSession(): correo: - role: 
-[08-May-2021 23:34:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
-[08-May-2021 23:34:09 Europe/Berlin] sessionController::isPublic(): currentURL => login
-[08-May-2021 23:34:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
-[08-May-2021 23:34:09 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
-[08-May-2021 23:34:09 Europe/Berlin] Login::construct -> inicio login
-[08-May-2021 23:34:10 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:10 Europe/Berlin] login: user id 9
-[08-May-2021 23:34:10 Europe/Berlin] loginModel::login ->success
-[08-May-2021 23:34:10 Europe/Berlin] Login::authenticate() passed
-[08-May-2021 23:34:10 Europe/Berlin] sessionController::initialize(): user: admin@gmail.com
-[08-May-2021 23:34:10 Europe/Berlin] sessionController::initialize(): xxxxxx: user
-[08-May-2021 23:34:10 Europe/Berlin] sessionController::authorizeAccess(): role: user
-[08-May-2021 23:34:10 Europe/Berlin] sessionController::authorizeAccess(): que puede ser
-[08-May-2021 23:34:10 Europe/Berlin] Hello, errors!
-[08-May-2021 23:34:10 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:34:10 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:10 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:34:10 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: user
-[08-May-2021 23:34:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
-[08-May-2021 23:34:10 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
-[08-May-2021 23:34:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
-[08-May-2021 23:34:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:34:10 Europe/Berlin] Dashboard::construct -> inicio login
-[08-May-2021 23:34:10 Europe/Berlin] Dashboard::render -> carga Index usuario
-[08-May-2021 23:34:28 Europe/Berlin] Hello, errors!
-[08-May-2021 23:34:28 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:34:28 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:28 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:34:28 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:34:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
-[08-May-2021 23:34:28 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
-[08-May-2021 23:34:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
-[08-May-2021 23:34:28 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
-[08-May-2021 23:34:28 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
-[08-May-2021 23:34:28 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
-[08-May-2021 23:34:28 Europe/Berlin] Dashboard::construct -> inicio login
-[08-May-2021 23:34:28 Europe/Berlin] Dashboard::render -> carga Index usuario
-[08-May-2021 23:34:28 Europe/Berlin] Hello, errors!
-[08-May-2021 23:34:28 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:34:28 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:28 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:34:28 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:34:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[08-May-2021 23:34:28 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:34:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[08-May-2021 23:34:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:34:29 Europe/Berlin] Hello, errors!
-[08-May-2021 23:34:29 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:34:29 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:29 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:34:29 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:34:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/creardependencia, url => admin
-[08-May-2021 23:34:29 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:34:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/creardependencia, url => admin
-[08-May-2021 23:34:29 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:34:29 Europe/Berlin] ADMIN::CREARDEPENDENCIA -> Nueva Dependencia
-[08-May-2021 23:34:33 Europe/Berlin] Hello, errors!
-[08-May-2021 23:34:33 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:34:33 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:34:33 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:34:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/newDependencia, url => admin
-[08-May-2021 23:34:33 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:34:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/newDependencia, url => admin
-[08-May-2021 23:34:33 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:34:33 Europe/Berlin] ADMIN::NUEVADEPENDENCIA -> Creada Dependencia
-[08-May-2021 23:34:33 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:33 Europe/Berlin] CategoriesModel::exists() => false
-[08-May-2021 23:34:33 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:33 Europe/Berlin] DEPENDENCIAMODEL::save->PDOException PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\Adact\models\dependenciamodel.php:16
+[09-May-2021 20:23:11 Europe/Berlin] Hello, errors!
+[09-May-2021 20:23:11 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:23:11 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:23:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:23:11 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:23:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
+[09-May-2021 20:23:11 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:23:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
+[09-May-2021 20:23:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:23:11 Europe/Berlin] Hello, errors!
+[09-May-2021 20:23:11 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:23:11 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:23:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:23:11 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:23:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[09-May-2021 20:23:11 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:23:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[09-May-2021 20:23:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:23:30 Europe/Berlin] Hello, errors!
+[09-May-2021 20:23:30 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:23:30 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:23:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
+[09-May-2021 20:23:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
+[09-May-2021 20:23:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
+[09-May-2021 20:23:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
+[09-May-2021 20:23:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
+[09-May-2021 20:23:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
+[09-May-2021 20:23:30 Europe/Berlin] sessionController::getUserSessionData(): 
+[09-May-2021 20:23:30 Europe/Berlin] sessionController::validateSession(): correo: - role: 
+[09-May-2021 20:23:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/, url => 
+[09-May-2021 20:23:30 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[09-May-2021 20:23:30 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[09-May-2021 20:23:30 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 20:23:30 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 20:23:35 Europe/Berlin] Hello, errors!
+[09-May-2021 20:23:35 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:23:35 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:23:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
+[09-May-2021 20:23:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
+[09-May-2021 20:23:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
+[09-May-2021 20:23:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
+[09-May-2021 20:23:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
+[09-May-2021 20:23:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
+[09-May-2021 20:23:35 Europe/Berlin] sessionController::getUserSessionData(): 
+[09-May-2021 20:23:35 Europe/Berlin] sessionController::validateSession(): correo: - role: 
+[09-May-2021 20:23:35 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/signup, url => signup
+[09-May-2021 20:23:35 Europe/Berlin] sessionController::isPublic(): currentURL => signup
+[09-May-2021 20:23:35 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[09-May-2021 20:23:41 Europe/Berlin] Hello, errors!
+[09-May-2021 20:23:41 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:23:41 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:23:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
+[09-May-2021 20:23:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
+[09-May-2021 20:23:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
+[09-May-2021 20:23:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
+[09-May-2021 20:23:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
+[09-May-2021 20:23:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
+[09-May-2021 20:23:41 Europe/Berlin] sessionController::getUserSessionData(): 
+[09-May-2021 20:23:41 Europe/Berlin] sessionController::validateSession(): correo: - role: 
+[09-May-2021 20:23:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/signup/newUser, url => signup
+[09-May-2021 20:23:41 Europe/Berlin] sessionController::isPublic(): currentURL => signup
+[09-May-2021 20:23:41 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[09-May-2021 20:23:41 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:23:41 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:23:42 Europe/Berlin] Hello, errors!
+[09-May-2021 20:23:42 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:23:42 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:23:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
+[09-May-2021 20:23:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
+[09-May-2021 20:23:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
+[09-May-2021 20:23:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
+[09-May-2021 20:23:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
+[09-May-2021 20:23:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
+[09-May-2021 20:23:42 Europe/Berlin] sessionController::getUserSessionData(): 
+[09-May-2021 20:23:42 Europe/Berlin] sessionController::validateSession(): correo: - role: 
+[09-May-2021 20:23:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/?success=8281e04ed52ccfc13820d0f6acb0985a, url => ?success=8281e04ed52ccfc13820d0f6acb0985a
+[09-May-2021 20:23:42 Europe/Berlin] sessionController::isPublic(): currentURL => ?success=8281e04ed52ccfc13820d0f6acb0985a
+[09-May-2021 20:23:42 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[09-May-2021 20:23:42 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 20:23:42 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 20:24:07 Europe/Berlin] Hello, errors!
+[09-May-2021 20:24:07 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:24:07 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
+[09-May-2021 20:24:07 Europe/Berlin] sessionController::getUserSessionData(): 
+[09-May-2021 20:24:07 Europe/Berlin] sessionController::validateSession(): correo: - role: 
+[09-May-2021 20:24:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
+[09-May-2021 20:24:07 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:24:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
+[09-May-2021 20:24:07 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[09-May-2021 20:24:07 Europe/Berlin] Hello, errors!
+[09-May-2021 20:24:07 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:24:07 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
+[09-May-2021 20:24:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
+[09-May-2021 20:24:07 Europe/Berlin] sessionController::getUserSessionData(): 
+[09-May-2021 20:24:07 Europe/Berlin] sessionController::validateSession(): correo: - role: 
+[09-May-2021 20:24:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[09-May-2021 20:24:07 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:24:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[09-May-2021 20:24:07 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[09-May-2021 20:24:14 Europe/Berlin] Hello, errors!
+[09-May-2021 20:24:14 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:24:14 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:24:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 68
+[09-May-2021 20:24:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 69
+[09-May-2021 20:24:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 70
+[09-May-2021 20:24:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 71
+[09-May-2021 20:24:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 72
+[09-May-2021 20:24:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Adact\models\userModel.php on line 73
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::getUserSessionData(): 
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::validateSession(): correo: - role: 
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
+[09-May-2021 20:24:14 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[09-May-2021 20:24:14 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 20:24:14 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:24:14 Europe/Berlin] login: user id 10
+[09-May-2021 20:24:14 Europe/Berlin] loginModel::login ->success
+[09-May-2021 20:24:14 Europe/Berlin] Login::authenticate() passed
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::initialize(): user: admin@gmail.com
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::initialize(): xxxxxx: admin
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::authorizeAccess(): role: admin
+[09-May-2021 20:24:14 Europe/Berlin] Hello, errors!
+[09-May-2021 20:24:14 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:24:14 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:24:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:24:14 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:24:15 Europe/Berlin] Hello, errors!
+[09-May-2021 20:24:15 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:24:15 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:24:15 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:24:15 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:24:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/creardependencia, url => admin
+[09-May-2021 20:24:15 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:24:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/creardependencia, url => admin
+[09-May-2021 20:24:15 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:24:15 Europe/Berlin] ADMIN::CREARDEPENDENCIA -> Nueva Dependencia
+[09-May-2021 20:24:21 Europe/Berlin] Hello, errors!
+[09-May-2021 20:24:21 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:24:21 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:24:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:24:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:24:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/newDependencia, url => admin
+[09-May-2021 20:24:21 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:24:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/newDependencia, url => admin
+[09-May-2021 20:24:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:24:21 Europe/Berlin] ADMIN::NUEVADEPENDENCIA -> Creada Dependencia
+[09-May-2021 20:24:21 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:24:21 Europe/Berlin] CategoriesModel::exists() => false
+[09-May-2021 20:24:21 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:24:21 Europe/Berlin] Admin::newDependencia() => new dependencia created
+[09-May-2021 20:24:21 Europe/Berlin] Hello, errors!
+[09-May-2021 20:24:21 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:24:21 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:24:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:24:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:24:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:24:21 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:24:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:24:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:26:55 Europe/Berlin] Hello, errors!
+[09-May-2021 20:26:55 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:26:55 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:26:55 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:26:55 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:26:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:26:55 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:26:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:26:55 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:26:56 Europe/Berlin] Hello, errors!
+[09-May-2021 20:26:56 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:26:56 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:26:56 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:26:56 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:26:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:26:56 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:26:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:26:56 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:27:14 Europe/Berlin] Hello, errors!
+[09-May-2021 20:27:14 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:27:14 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:27:14 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:27:14 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:27:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:27:14 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:27:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:27:14 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:27:15 Europe/Berlin] Hello, errors!
+[09-May-2021 20:27:15 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:27:15 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:27:15 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:27:15 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:27:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias?%3E, url => admin
+[09-May-2021 20:27:15 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:27:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias?%3E, url => admin
+[09-May-2021 20:27:15 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:27:15 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:27:15 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:27:28 Europe/Berlin] Hello, errors!
+[09-May-2021 20:27:28 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:27:28 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:27:28 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:27:28 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:27:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:27:28 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:27:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:27:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:27:29 Europe/Berlin] Hello, errors!
+[09-May-2021 20:27:29 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:27:29 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:27:29 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:27:29 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:27:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:27:29 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:27:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:27:29 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:27:31 Europe/Berlin] Hello, errors!
+[09-May-2021 20:27:31 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:27:31 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:27:31 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:27:31 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:27:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:27:31 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:27:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:27:31 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:27:31 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:27:31 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:29:21 Europe/Berlin] Hello, errors!
+[09-May-2021 20:29:21 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:29:21 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:29:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:29:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:29:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=4, url => admin
+[09-May-2021 20:29:21 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:29:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=4, url => admin
+[09-May-2021 20:29:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:29:21 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:29:22 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:29:29 Europe/Berlin] Hello, errors!
+[09-May-2021 20:29:29 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:29:29 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:29:29 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:29:29 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:29:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getdependencias, url => admin
+[09-May-2021 20:29:29 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:29:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getdependencias, url => admin
+[09-May-2021 20:29:29 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:29:29 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:34:39 Europe/Berlin] Hello, errors!
+[09-May-2021 20:34:39 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:34:39 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:34:39 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:34:39 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:34:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getdependencias, url => admin
+[09-May-2021 20:34:39 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:34:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getdependencias, url => admin
+[09-May-2021 20:34:39 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:34:39 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:34:44 Europe/Berlin] Hello, errors!
+[09-May-2021 20:34:44 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:34:44 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:34:44 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:34:44 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:34:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
+[09-May-2021 20:34:44 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:34:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
+[09-May-2021 20:34:44 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:34:44 Europe/Berlin] Hello, errors!
+[09-May-2021 20:34:44 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:34:44 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:34:44 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:34:44 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:34:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[09-May-2021 20:34:44 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:34:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[09-May-2021 20:34:44 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:34:50 Europe/Berlin] Hello, errors!
+[09-May-2021 20:34:50 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:34:50 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:34:50 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:34:50 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:34:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
+[09-May-2021 20:34:50 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:34:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
+[09-May-2021 20:34:50 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:34:50 Europe/Berlin] Hello, errors!
+[09-May-2021 20:34:50 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:34:50 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:34:50 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:34:50 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:34:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[09-May-2021 20:34:50 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:34:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[09-May-2021 20:34:50 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:34:53 Europe/Berlin] Hello, errors!
+[09-May-2021 20:34:53 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:34:53 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:34:53 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:34:53 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:34:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
+[09-May-2021 20:34:53 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:34:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/, url => admin
+[09-May-2021 20:34:53 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:34:53 Europe/Berlin] Hello, errors!
+[09-May-2021 20:34:53 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:34:53 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:34:53 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:34:53 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:34:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[09-May-2021 20:34:53 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:34:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[09-May-2021 20:34:53 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:35:05 Europe/Berlin] Hello, errors!
+[09-May-2021 20:35:05 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:35:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[09-May-2021 20:35:05 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[09-May-2021 20:35:05 Europe/Berlin] SessionController::validateSession() public page
+[09-May-2021 20:35:05 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 20:35:05 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 20:35:09 Europe/Berlin] Hello, errors!
+[09-May-2021 20:35:09 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:35:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
+[09-May-2021 20:35:09 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[09-May-2021 20:35:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[09-May-2021 20:35:09 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 20:35:09 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:09 Europe/Berlin] login: user id 10
+[09-May-2021 20:35:09 Europe/Berlin] loginModel::login ->success
+[09-May-2021 20:35:09 Europe/Berlin] Login::authenticate() passed
+[09-May-2021 20:35:09 Europe/Berlin] sessionController::initialize(): user: admin@gmail.com
+[09-May-2021 20:35:09 Europe/Berlin] sessionController::initialize(): xxxxxx: admin
+[09-May-2021 20:35:09 Europe/Berlin] sessionController::authorizeAccess(): role: admin
+[09-May-2021 20:35:09 Europe/Berlin] Hello, errors!
+[09-May-2021 20:35:09 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:35:09 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:09 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:35:09 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:35:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:35:09 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:35:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:35:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:35:15 Europe/Berlin] Hello, errors!
+[09-May-2021 20:35:15 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:35:15 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:15 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:35:15 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:35:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/creardependencia, url => admin
+[09-May-2021 20:35:15 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:35:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/creardependencia, url => admin
+[09-May-2021 20:35:15 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:35:15 Europe/Berlin] ADMIN::CREARDEPENDENCIA -> Nueva Dependencia
+[09-May-2021 20:35:20 Europe/Berlin] Hello, errors!
+[09-May-2021 20:35:20 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:35:20 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:20 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:35:20 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:35:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/newDependencia, url => admin
+[09-May-2021 20:35:20 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:35:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/newDependencia, url => admin
+[09-May-2021 20:35:20 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:35:20 Europe/Berlin] ADMIN::NUEVADEPENDENCIA -> Creada Dependencia
+[09-May-2021 20:35:20 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:20 Europe/Berlin] CategoriesModel::exists() => false
+[09-May-2021 20:35:20 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:21 Europe/Berlin] Admin::newDependencia() => new dependencia created
+[09-May-2021 20:35:21 Europe/Berlin] Hello, errors!
+[09-May-2021 20:35:21 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:35:21 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:35:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:35:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:35:21 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:35:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 20:35:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:35:23 Europe/Berlin] Hello, errors!
+[09-May-2021 20:35:23 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:35:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:23 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:35:23 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:35:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:35:23 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:35:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:35:23 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:35:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:23 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:35:26 Europe/Berlin] Hello, errors!
+[09-May-2021 20:35:26 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:35:26 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:26 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:35:26 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:35:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=5, url => admin
+[09-May-2021 20:35:26 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:35:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=5, url => admin
+[09-May-2021 20:35:26 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:35:26 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:26 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:26 Europe/Berlin] Hello, errors!
+[09-May-2021 20:35:26 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:35:26 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:35:26 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:35:26 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:35:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[09-May-2021 20:35:26 Europe/Berlin] sessionController::isPublic(): currentURL => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[09-May-2021 20:35:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[09-May-2021 20:35:26 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:18 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:18 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:18 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:18 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:18 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[09-May-2021 20:36:18 Europe/Berlin] sessionController::isPublic(): currentURL => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[09-May-2021 20:36:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[09-May-2021 20:36:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:19 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:19 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:19 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:19 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:19 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:36:19 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:36:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:36:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:19 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:19 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:19 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:19 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:19 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:23 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:23 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:23 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:23 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=6, url => admin
+[09-May-2021 20:36:23 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:36:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=6, url => admin
+[09-May-2021 20:36:23 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:23 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:23 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:23 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:23 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:23 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:23 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:23 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin
+[09-May-2021 20:36:23 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:36:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin
+[09-May-2021 20:36:23 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:23 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:23 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:23 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:32 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:32 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:32 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:32 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:32 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=7, url => admin
+[09-May-2021 20:36:32 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:36:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=7, url => admin
+[09-May-2021 20:36:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:32 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:33 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:33 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:33 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:33 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:33 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:33 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:33 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin
+[09-May-2021 20:36:33 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:36:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin
+[09-May-2021 20:36:33 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:33 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:33 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:33 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:46 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:46 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:46 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:46 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:46 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin
+[09-May-2021 20:36:46 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:36:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin
+[09-May-2021 20:36:46 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:46 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:46 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:46 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:48 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:48 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:48 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:48 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:48 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=8, url => admin
+[09-May-2021 20:36:48 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:36:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=8, url => admin
+[09-May-2021 20:36:48 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:48 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:49 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:49 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:49 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:49 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:49 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:49 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:49 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:36:49 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:36:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:36:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:49 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:49 Europe/Berlin] PHP Warning:  Undefined property: DependenciaModel::$dependecia in C:\xampp\htdocs\Adact\views\admin\list-dependencia.php on line 28
+[09-May-2021 20:36:50 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:50 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:50 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:50 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:50 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=9, url => admin
+[09-May-2021 20:36:50 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:36:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/deleteDependencias?id=9, url => admin
+[09-May-2021 20:36:50 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:50 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:51 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:51 Europe/Berlin] Hello, errors!
+[09-May-2021 20:36:51 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:36:51 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:36:51 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:36:51 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:36:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:36:51 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:36:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:36:51 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:36:51 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:42:23 Europe/Berlin] Hello, errors!
+[09-May-2021 20:42:23 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 20:42:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 20:42:23 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 20:42:23 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 20:42:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:42:23 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 20:42:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 20:42:23 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 20:42:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:38:08 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:08 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:08 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:38:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 21:38:08 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 21:38:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/, url => 
+[09-May-2021 21:38:08 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[09-May-2021 21:38:08 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[09-May-2021 21:38:08 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[09-May-2021 21:38:08 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[09-May-2021 21:38:08 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 21:38:08 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 21:38:08 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:08 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:08 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:38:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 21:38:08 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 21:38:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 21:38:08 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 21:38:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 21:38:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 21:38:21 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:21 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/, url => 
+[09-May-2021 21:38:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[09-May-2021 21:38:21 Europe/Berlin] SessionController::validateSession() public page
+[09-May-2021 21:38:21 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 21:38:21 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 21:38:30 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:30 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
+[09-May-2021 21:38:30 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[09-May-2021 21:38:30 Europe/Berlin] SessionController::validateSession() redirect al login
+[09-May-2021 21:38:30 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 21:38:30 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:38:30 Europe/Berlin] login: user id 11
+[09-May-2021 21:38:30 Europe/Berlin] Login::authenticate() username and/or password wrong
+[09-May-2021 21:38:30 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:30 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/?error=4fe5e13b3e9458d28f6632a2361b2abe, url => ?error=4fe5e13b3e9458d28f6632a2361b2abe
+[09-May-2021 21:38:30 Europe/Berlin] sessionController::isPublic(): currentURL => ?error=4fe5e13b3e9458d28f6632a2361b2abe
+[09-May-2021 21:38:30 Europe/Berlin] SessionController::validateSession() public page
+[09-May-2021 21:38:30 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 21:38:30 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 21:38:35 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:35 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:35 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/signup, url => signup
+[09-May-2021 21:38:35 Europe/Berlin] sessionController::isPublic(): currentURL => signup
+[09-May-2021 21:38:35 Europe/Berlin] SessionController::validateSession() public page
+[09-May-2021 21:38:41 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:41 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/signup/newUser, url => signup
+[09-May-2021 21:38:41 Europe/Berlin] sessionController::isPublic(): currentURL => signup
+[09-May-2021 21:38:41 Europe/Berlin] SessionController::validateSession() public page
+[09-May-2021 21:38:41 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:38:41 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:38:41 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:41 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/?success=8281e04ed52ccfc13820d0f6acb0985a, url => ?success=8281e04ed52ccfc13820d0f6acb0985a
+[09-May-2021 21:38:41 Europe/Berlin] sessionController::isPublic(): currentURL => ?success=8281e04ed52ccfc13820d0f6acb0985a
+[09-May-2021 21:38:41 Europe/Berlin] SessionController::validateSession() public page
+[09-May-2021 21:38:41 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 21:38:41 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 21:38:48 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:48 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
+[09-May-2021 21:38:48 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[09-May-2021 21:38:48 Europe/Berlin] SessionController::validateSession() redirect al login
+[09-May-2021 21:38:48 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 21:38:48 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:38:48 Europe/Berlin] Login::authenticate() username and/or password wrong
+[09-May-2021 21:38:48 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:48 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/?error=4fe5e13b3e9458d28f6632a2361b2abe, url => ?error=4fe5e13b3e9458d28f6632a2361b2abe
+[09-May-2021 21:38:48 Europe/Berlin] sessionController::isPublic(): currentURL => ?error=4fe5e13b3e9458d28f6632a2361b2abe
+[09-May-2021 21:38:48 Europe/Berlin] SessionController::validateSession() public page
+[09-May-2021 21:38:48 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 21:38:48 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 21:38:52 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:52 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[09-May-2021 21:38:52 Europe/Berlin] SessionController::validateSession() redirect al login
+[09-May-2021 21:38:52 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 21:38:52 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:38:52 Europe/Berlin] login: user id 12
+[09-May-2021 21:38:52 Europe/Berlin] loginModel::login ->success
+[09-May-2021 21:38:52 Europe/Berlin] Login::authenticate() passed
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::initialize(): user: jose@gmai.com
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::initialize(): xxxxxx: user
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::authorizeAccess(): que puede ser
+[09-May-2021 21:38:52 Europe/Berlin] Hello, errors!
+[09-May-2021 21:38:52 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:38:52 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[09-May-2021 21:38:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[09-May-2021 21:38:52 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 21:38:52 Europe/Berlin] Dashboard::construct -> inicio login
+[09-May-2021 21:38:52 Europe/Berlin] Dashboard::render -> carga Index usuario
+[09-May-2021 21:39:09 Europe/Berlin] Hello, errors!
+[09-May-2021 21:39:09 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:39:09 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:09 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 21:39:09 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 21:39:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/Adact/, url => 
+[09-May-2021 21:39:09 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[09-May-2021 21:39:09 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[09-May-2021 21:39:09 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[09-May-2021 21:39:09 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[09-May-2021 21:39:09 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 21:39:09 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 21:39:09 Europe/Berlin] Hello, errors!
+[09-May-2021 21:39:09 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:39:09 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:09 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 21:39:09 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 21:39:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 21:39:09 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 21:39:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 21:39:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 21:39:11 Europe/Berlin] Hello, errors!
+[09-May-2021 21:39:11 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:39:11 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 21:39:11 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 21:39:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 21:39:11 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 21:39:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 21:39:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 21:39:11 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:18 Europe/Berlin] Hello, errors!
+[09-May-2021 21:39:18 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:39:18 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:18 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[09-May-2021 21:39:18 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[09-May-2021 21:39:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 21:39:18 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 21:39:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 21:39:18 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[09-May-2021 21:39:18 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =user
+[09-May-2021 21:39:18 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/dashboard
+[09-May-2021 21:39:18 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:18 Europe/Berlin] Hello, errors!
+[09-May-2021 21:39:18 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:39:18 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:18 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[09-May-2021 21:39:18 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[09-May-2021 21:39:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[09-May-2021 21:39:18 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[09-May-2021 21:39:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[09-May-2021 21:39:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 21:39:18 Europe/Berlin] Dashboard::construct -> inicio login
+[09-May-2021 21:39:18 Europe/Berlin] Dashboard::render -> carga Index usuario
+[09-May-2021 21:39:21 Europe/Berlin] Hello, errors!
+[09-May-2021 21:39:21 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:39:21 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:21 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[09-May-2021 21:39:21 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[09-May-2021 21:39:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 21:39:21 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 21:39:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 21:39:21 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[09-May-2021 21:39:21 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =user
+[09-May-2021 21:39:21 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/dashboard
+[09-May-2021 21:39:21 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:21 Europe/Berlin] Hello, errors!
+[09-May-2021 21:39:21 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:39:21 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:21 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[09-May-2021 21:39:21 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[09-May-2021 21:39:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[09-May-2021 21:39:21 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[09-May-2021 21:39:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[09-May-2021 21:39:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 21:39:21 Europe/Berlin] Dashboard::construct -> inicio login
+[09-May-2021 21:39:21 Europe/Berlin] Dashboard::render -> carga Index usuario
+[09-May-2021 21:39:23 Europe/Berlin] Hello, errors!
+[09-May-2021 21:39:23 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:39:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:23 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[09-May-2021 21:39:23 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[09-May-2021 21:39:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 21:39:23 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 21:39:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 21:39:23 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[09-May-2021 21:39:23 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =user
+[09-May-2021 21:39:23 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/dashboard
+[09-May-2021 21:39:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:23 Europe/Berlin] Hello, errors!
+[09-May-2021 21:39:23 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 21:39:23 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 21:39:23 Europe/Berlin] sessionController::getUserSessionData(): jose@gmai.com
+[09-May-2021 21:39:23 Europe/Berlin] sessionController::validateSession(): correo:jose@gmai.com - role: user
+[09-May-2021 21:39:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[09-May-2021 21:39:23 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[09-May-2021 21:39:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dashboard, url => dashboard
+[09-May-2021 21:39:23 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 21:39:23 Europe/Berlin] Dashboard::construct -> inicio login
+[09-May-2021 21:39:23 Europe/Berlin] Dashboard::render -> carga Index usuario
+[09-May-2021 22:21:10 Europe/Berlin] Hello, errors!
+[09-May-2021 22:21:10 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:21:10 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:21:10 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:21:10 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:21:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 22:21:10 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:21:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 22:21:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:21:10 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:28:49 Europe/Berlin] Hello, errors!
+[09-May-2021 22:28:49 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:28:49 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:28:49 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:28:49 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:28:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:28:49 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:28:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:28:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:28:49 Europe/Berlin] Hello, errors!
+[09-May-2021 22:28:49 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:28:49 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:28:49 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:28:49 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:28:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:28:49 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:28:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:28:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:29:35 Europe/Berlin] Hello, errors!
+[09-May-2021 22:29:35 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:29:35 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:29:35 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:29:35 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:29:35 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:29:35 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:29:35 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:29:35 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:29:36 Europe/Berlin] Hello, errors!
+[09-May-2021 22:29:36 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:29:36 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:29:36 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:29:36 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:29:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:29:36 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:29:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:29:36 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:29:47 Europe/Berlin] Hello, errors!
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:29:47 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[09-May-2021 22:29:47 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 22:29:47 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 22:29:47 Europe/Berlin] Hello, errors!
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:29:47 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:29:47 Europe/Berlin] Hello, errors!
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:29:47 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[09-May-2021 22:29:47 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 22:29:47 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 22:29:47 Europe/Berlin] Hello, errors!
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:29:47 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:29:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:29:47 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:29:48 Europe/Berlin] Hello, errors!
+[09-May-2021 22:30:01 Europe/Berlin] Hello, errors!
+[09-May-2021 22:30:01 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:30:01 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:30:01 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:30:01 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:30:01 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:30:01 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:30:01 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:30:01 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:30:37 Europe/Berlin] Hello, errors!
+[09-May-2021 22:30:37 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:30:37 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:30:37 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:30:37 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:30:37 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:30:37 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:30:37 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:30:37 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:30:38 Europe/Berlin] Hello, errors!
+[09-May-2021 22:30:38 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:30:38 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:30:38 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:30:38 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:30:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/logout, url => logout
+[09-May-2021 22:30:38 Europe/Berlin] sessionController::isPublic(): currentURL => logout
+[09-May-2021 22:30:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/logout, url => logout
+[09-May-2021 22:30:38 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[09-May-2021 22:30:38 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[09-May-2021 22:30:38 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[09-May-2021 22:30:38 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::redirect(), 1 passed in C:\xampp\htdocs\Adact\controllers\logout.php on line 12 and exactly 2 expected in C:\xampp\htdocs\Adact\libs\controller.php:45
 Stack trace:
-#0 C:\xampp\htdocs\Adact\models\dependenciamodel.php(16): PDOStatement->execute(Array)
-#1 C:\xampp\htdocs\Adact\controllers\admin.php(33): DependenciaModel->save()
-#2 C:\xampp\htdocs\Adact\libs\app.php(52): Admin->newDependencia()
-#3 C:\xampp\htdocs\Adact\index.php(29): App->__construct()
-#4 {main}
-[08-May-2021 23:34:33 Europe/Berlin] Admin::newDependencia() => new dependencia created
-[08-May-2021 23:34:33 Europe/Berlin] Hello, errors!
-[08-May-2021 23:34:33 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:34:33 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:34:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:34:33 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:34:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[08-May-2021 23:34:33 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:34:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[08-May-2021 23:34:33 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:43:04 Europe/Berlin] Hello, errors!
-[08-May-2021 23:43:04 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:43:04 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:43:04 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:43:04 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:43:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[08-May-2021 23:43:04 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:43:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[08-May-2021 23:43:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:43:05 Europe/Berlin] Hello, errors!
-[08-May-2021 23:43:05 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:43:05 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:43:05 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:43:05 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:43:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/creardependencia, url => admin
-[08-May-2021 23:43:05 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:43:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/creardependencia, url => admin
-[08-May-2021 23:43:05 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:43:05 Europe/Berlin] ADMIN::CREARDEPENDENCIA -> Nueva Dependencia
-[08-May-2021 23:43:10 Europe/Berlin] Hello, errors!
-[08-May-2021 23:43:10 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:43:10 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:43:10 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:43:10 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:43:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/newDependencia, url => admin
-[08-May-2021 23:43:10 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:43:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/newDependencia, url => admin
-[08-May-2021 23:43:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:43:10 Europe/Berlin] ADMIN::NUEVADEPENDENCIA -> Creada Dependencia
-[08-May-2021 23:43:10 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:43:10 Europe/Berlin] CategoriesModel::exists() => false
-[08-May-2021 23:43:10 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:43:10 Europe/Berlin] Admin::newDependencia() => new dependencia created
-[08-May-2021 23:43:10 Europe/Berlin] Hello, errors!
-[08-May-2021 23:43:10 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:43:10 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:43:10 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:43:10 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:43:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[08-May-2021 23:43:10 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:43:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[08-May-2021 23:43:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:58:10 Europe/Berlin] Hello, errors!
-[08-May-2021 23:58:10 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:58:10 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:58:10 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:58:10 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:58:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/creardependencia, url => admin
-[08-May-2021 23:58:10 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:58:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/creardependencia, url => admin
-[08-May-2021 23:58:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:58:10 Europe/Berlin] ADMIN::CREARDEPENDENCIA -> Nueva Dependencia
-[08-May-2021 23:59:33 Europe/Berlin] Hello, errors!
-[08-May-2021 23:59:33 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:59:33 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:59:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:59:33 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:59:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/newDependencia, url => admin
-[08-May-2021 23:59:33 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:59:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/newDependencia, url => admin
-[08-May-2021 23:59:33 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[08-May-2021 23:59:33 Europe/Berlin] ADMIN::NUEVADEPENDENCIA -> Creada Dependencia
-[08-May-2021 23:59:33 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:59:33 Europe/Berlin] CategoriesModel::exists() => false
-[08-May-2021 23:59:33 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:59:33 Europe/Berlin] Admin::newDependencia() => new dependencia created
-[08-May-2021 23:59:33 Europe/Berlin] Hello, errors!
-[08-May-2021 23:59:33 Europe/Berlin] SessionController::validateSession()
-[08-May-2021 23:59:33 Europe/Berlin] Conexión a BD exitosa
-[08-May-2021 23:59:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[08-May-2021 23:59:33 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[08-May-2021 23:59:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[08-May-2021 23:59:33 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[08-May-2021 23:59:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[08-May-2021 23:59:33 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+#0 C:\xampp\htdocs\Adact\controllers\logout.php(12): Controller->redirect('')
+#1 C:\xampp\htdocs\Adact\libs\app.php(58): Logout->render()
+#2 C:\xampp\htdocs\Adact\index.php(29): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\Adact\libs\controller.php on line 45
+[09-May-2021 22:30:38 Europe/Berlin] Hello, errors!
+[09-May-2021 22:30:38 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:30:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:30:38 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:30:38 Europe/Berlin] SessionController::validateSession() redirect al login
+[09-May-2021 22:30:38 Europe/Berlin] Hello, errors!
+[09-May-2021 22:30:38 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:30:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[09-May-2021 22:30:38 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[09-May-2021 22:30:38 Europe/Berlin] SessionController::validateSession() public page
+[09-May-2021 22:30:38 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 22:30:38 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 22:31:22 Europe/Berlin] Hello, errors!
+[09-May-2021 22:31:22 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:31:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/login/authenticate, url => login
+[09-May-2021 22:31:22 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[09-May-2021 22:31:22 Europe/Berlin] SessionController::validateSession() redirect al login
+[09-May-2021 22:31:22 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 22:31:22 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:31:22 Europe/Berlin] login: user id 10
+[09-May-2021 22:31:22 Europe/Berlin] loginModel::login ->success
+[09-May-2021 22:31:22 Europe/Berlin] Login::authenticate() passed
+[09-May-2021 22:31:22 Europe/Berlin] sessionController::initialize(): user: admin@gmail.com
+[09-May-2021 22:31:22 Europe/Berlin] sessionController::initialize(): xxxxxx: admin
+[09-May-2021 22:31:22 Europe/Berlin] sessionController::authorizeAccess(): role: admin
+[09-May-2021 22:31:22 Europe/Berlin] Hello, errors!
+[09-May-2021 22:31:22 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:31:22 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:31:22 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:31:22 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:31:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:31:22 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:31:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:31:22 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:31:24 Europe/Berlin] Hello, errors!
+[09-May-2021 22:31:24 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:31:24 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:31:24 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:31:24 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:31:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[09-May-2021 22:31:24 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[09-May-2021 22:31:24 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[09-May-2021 22:31:24 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[09-May-2021 22:31:24 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[09-May-2021 22:31:24 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 22:31:24 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 22:31:24 Europe/Berlin] Hello, errors!
+[09-May-2021 22:31:24 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:31:24 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:31:24 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:31:24 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:31:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:31:24 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:31:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:31:24 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:32:13 Europe/Berlin] Hello, errors!
+[09-May-2021 22:32:13 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:32:13 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:32:13 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:32:13 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:32:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:32:13 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:32:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:32:13 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:32:15 Europe/Berlin] Hello, errors!
+[09-May-2021 22:32:15 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:32:15 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:32:15 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:32:15 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:32:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 22:32:15 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:32:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[09-May-2021 22:32:15 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[09-May-2021 22:32:15 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:32:17 Europe/Berlin] Hello, errors!
+[09-May-2021 22:32:17 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:32:17 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:32:17 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:32:17 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:32:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[09-May-2021 22:32:17 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[09-May-2021 22:32:17 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[09-May-2021 22:32:17 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[09-May-2021 22:32:17 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[09-May-2021 22:32:17 Europe/Berlin] Login::construct -> inicio login
+[09-May-2021 22:32:17 Europe/Berlin] Login::render -> carga Index login
+[09-May-2021 22:32:17 Europe/Berlin] Hello, errors!
+[09-May-2021 22:32:17 Europe/Berlin] SessionController::validateSession()
+[09-May-2021 22:32:17 Europe/Berlin] Conexión a BD exitosa
+[09-May-2021 22:32:17 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[09-May-2021 22:32:17 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[09-May-2021 22:32:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:32:17 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[09-May-2021 22:32:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[09-May-2021 22:32:17 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar

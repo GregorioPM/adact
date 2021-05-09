@@ -4,7 +4,7 @@ require_once "models/dependenciamodel.php";
 
 class Admin extends SessionController{
 
-
+    private $user;
     function __construct(){
         parent::__construct();
     }
@@ -38,5 +38,26 @@ class Admin extends SessionController{
             }
         }
     }
+
+    function getDependencias(){
+        /*$dependencias = [
+            "dependencia" => "gregorio",
+        ];*/
+       $dependencias= [];
+       $dependenciaModel = new DependenciaModel();
+       $dependencias = $dependenciaModel->getAll();
+       /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
+       
+       $this->view->render('admin/list-dependencia', ['dependencias' => $dependencias]);
+    }
+
+    function deleteDependencias(){
+       $id = $_GET['id'];
+       $dependenciaModel = new DependenciaModel();
+       $dependenciaModel->delete($id);
+       $this->getDependencias();
+       $this->redirect('admin/getDependencias', []);
+    }
+
 }
 ?>

@@ -38,6 +38,6 @@ btnDependencia.addEventListener('click', async e =>{
 async function getContent(){
     console.log("entra aca");
 
-  const html = await fetch('http://localhost/adact/admin/creardependencia').then(res => res.text());
+  const html = await fetch('http://localhost/adact/admin/detalleDependencia').then(res => res.text());
   return html;
 }

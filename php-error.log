@@ -1,691 +1,475 @@
-[11-May-2021 01:47:58 Europe/Berlin] Hello, errors!
-[11-May-2021 01:47:58 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:47:58 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:47:58 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:47:58 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:47:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:47:58 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:47:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:47:58 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:47:58 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:47:58 Europe/Berlin] DependenciaModel::exists() => TRUE
-[11-May-2021 01:47:58 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDcalculo
-[11-May-2021 01:47:58 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->PDOException  ENTRAAASSScalculo
-[11-May-2021 01:47:58 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:47:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type DependenciaModel as array in C:\xampp\htdocs\Adact\models\dependenciamodel.php:78
+[11-May-2021 03:16:12 Europe/Berlin] Hello, errors!
+[11-May-2021 03:16:12 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:16:12 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:16:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:16:12 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:16:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:16:12 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:16:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:16:12 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:16:12 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:16:12 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:16:12 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDfalsossaa
+[11-May-2021 03:16:12 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1
+[11-May-2021 03:16:12 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:16:12 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 82
+[11-May-2021 03:16:12 Europe/Berlin] PHP Warning:  Undefined array key "dependencia" in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 83
+[11-May-2021 03:16:12 Europe/Berlin] Hello, errors!
+[11-May-2021 03:16:12 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:16:12 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:16:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:16:12 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:16:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:16:12 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:16:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:16:12 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:16:12 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:17:05 Europe/Berlin] Hello, errors!
+[11-May-2021 03:17:05 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:17:05 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:17:05 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:17:05 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:17:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:17:05 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:17:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:17:05 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:17:05 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:17:05 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:17:05 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDfalsossasa
+[11-May-2021 03:17:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class DependenciaModel could not be converted to string in C:\xampp\htdocs\Adact\models\dependenciamodel.php:76
 Stack trace:
-#0 C:\xampp\htdocs\Adact\controllers\admin.php(82): DependenciaModel->update(Object(DependenciaModel))
+#0 C:\xampp\htdocs\Adact\controllers\admin.php(83): DependenciaModel->update(Object(DependenciaModel))
 #1 C:\xampp\htdocs\Adact\libs\app.php(52): Admin->updateDependencia()
 #2 C:\xampp\htdocs\Adact\index.php(29): App->__construct()
 #3 {main}
-  thrown in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 78
-[11-May-2021 01:48:55 Europe/Berlin] Hello, errors!
-[11-May-2021 01:48:55 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:48:55 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:48:55 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:48:55 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:48:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
-[11-May-2021 01:48:55 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:48:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
-[11-May-2021 01:48:55 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:48:55 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:48:57 Europe/Berlin] Hello, errors!
-[11-May-2021 01:48:57 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:48:57 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:48:57 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:48:57 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:48:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
-[11-May-2021 01:48:57 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:48:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
-[11-May-2021 01:48:57 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:48:57 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:48:58 Europe/Berlin] Hello, errors!
-[11-May-2021 01:48:58 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:48:58 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:48:58 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:48:58 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:48:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:48:58 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:48:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:48:58 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:48:58 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:48:58 Europe/Berlin] DependenciaModel::exists() => TRUE
-[11-May-2021 01:48:58 Europe/Berlin] Hello, errors!
-[11-May-2021 01:48:58 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:48:58 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:48:58 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:48:58 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:48:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
-[11-May-2021 01:48:58 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:48:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
-[11-May-2021 01:48:58 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:48:58 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:50:31 Europe/Berlin] Hello, errors!
-[11-May-2021 01:50:31 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:50:31 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:50:31 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:50:31 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:50:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:50:31 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:50:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:50:31 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:50:31 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:50:31 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 01:50:31 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDcalculos
-[11-May-2021 01:50:31 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->PDOException  ENTRAAASSScalculos
-[11-May-2021 01:50:31 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:50:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type DependenciaModel as array in C:\xampp\htdocs\Adact\models\dependenciamodel.php:78
-Stack trace:
-#0 C:\xampp\htdocs\Adact\controllers\admin.php(82): DependenciaModel->update(Object(DependenciaModel))
-#1 C:\xampp\htdocs\Adact\libs\app.php(52): Admin->updateDependencia()
-#2 C:\xampp\htdocs\Adact\index.php(29): App->__construct()
-#3 {main}
-  thrown in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 78
-[11-May-2021 01:54:15 Europe/Berlin] Hello, errors!
-[11-May-2021 01:54:15 Europe/Berlin] PHP Parse error:  Unclosed '(' does not match ']' in C:\xampp\htdocs\Adact\controllers\admin.php on line 82
-[11-May-2021 01:54:19 Europe/Berlin] Hello, errors!
-[11-May-2021 01:54:19 Europe/Berlin] PHP Parse error:  Unclosed '(' does not match ']' in C:\xampp\htdocs\Adact\controllers\admin.php on line 82
-[11-May-2021 01:54:21 Europe/Berlin] Hello, errors!
-[11-May-2021 01:54:21 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:54:21 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:54:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:54:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:54:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[11-May-2021 01:54:21 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[11-May-2021 01:54:21 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
-[11-May-2021 01:54:21 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
-[11-May-2021 01:54:21 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
-[11-May-2021 01:54:21 Europe/Berlin] Login::construct -> inicio login
-[11-May-2021 01:54:21 Europe/Berlin] Login::render -> carga Index login
-[11-May-2021 01:54:21 Europe/Berlin] Hello, errors!
-[11-May-2021 01:54:21 Europe/Berlin] PHP Parse error:  Unclosed '(' does not match ']' in C:\xampp\htdocs\Adact\controllers\admin.php on line 82
-[11-May-2021 01:55:06 Europe/Berlin] Hello, errors!
-[11-May-2021 01:55:06 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:55:06 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:06 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:55:06 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:55:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[11-May-2021 01:55:06 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:55:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[11-May-2021 01:55:06 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:55:09 Europe/Berlin] Hello, errors!
-[11-May-2021 01:55:09 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:55:09 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:09 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:55:09 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:55:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia, url => admin
-[11-May-2021 01:55:09 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:55:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia, url => admin
-[11-May-2021 01:55:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:55:09 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Adact\controllers\admin.php on line 18
-[11-May-2021 01:55:09 Europe/Berlin] ADMIN::CREARDEPENDENCIA -> Nueva Dependencia
-[11-May-2021 01:55:09 Europe/Berlin] PHP Warning:  Undefined array key "dependencia" in C:\xampp\htdocs\Adact\views\admin\creardependencia.php on line 3
-[11-May-2021 01:55:11 Europe/Berlin] Hello, errors!
-[11-May-2021 01:55:11 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:55:11 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:55:11 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:55:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/crearDependencia, url => admin
-[11-May-2021 01:55:11 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:55:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/crearDependencia, url => admin
-[11-May-2021 01:55:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:55:11 Europe/Berlin] ADMIN::NUEVADEPENDENCIA -> Creada Dependencia
-[11-May-2021 01:55:11 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:11 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 01:55:11 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:11 Europe/Berlin] Admin::newDependencia() => new dependencia created
-[11-May-2021 01:55:11 Europe/Berlin] Hello, errors!
-[11-May-2021 01:55:11 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:55:11 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:55:11 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:55:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[11-May-2021 01:55:11 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:55:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[11-May-2021 01:55:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:55:12 Europe/Berlin] Hello, errors!
-[11-May-2021 01:55:12 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:55:12 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:55:12 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:55:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
-[11-May-2021 01:55:12 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:55:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
-[11-May-2021 01:55:12 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:55:12 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:12 Europe/Berlin] Hello, errors!
-[11-May-2021 01:55:12 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:55:12 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:55:12 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:55:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[11-May-2021 01:55:12 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:55:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[11-May-2021 01:55:12 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:55:14 Europe/Berlin] Hello, errors!
-[11-May-2021 01:55:14 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:55:14 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:14 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:55:14 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:55:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:55:14 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:55:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:55:14 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:55:14 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:17 Europe/Berlin] Hello, errors!
-[11-May-2021 01:55:17 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:55:17 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:17 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:55:17 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:55:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:55:17 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:55:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:55:17 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:55:17 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:55:17 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 01:55:17 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDsaes
-[11-May-2021 01:55:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getDependencia() on array in C:\xampp\htdocs\Adact\models\dependenciamodel.php:73
-Stack trace:
-#0 C:\xampp\htdocs\Adact\controllers\admin.php(82): DependenciaModel->update(Array)
-#1 C:\xampp\htdocs\Adact\libs\app.php(52): Admin->updateDependencia()
-#2 C:\xampp\htdocs\Adact\index.php(29): App->__construct()
-#3 {main}
-  thrown in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 73
-[11-May-2021 01:57:11 Europe/Berlin] Hello, errors!
-[11-May-2021 01:57:11 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:57:11 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:57:11 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:57:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:11 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:57:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:57:11 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:12 Europe/Berlin] Hello, errors!
-[11-May-2021 01:57:12 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:57:12 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:57:12 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:57:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:12 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:57:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:12 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:57:12 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:14 Europe/Berlin] Hello, errors!
-[11-May-2021 01:57:14 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:57:14 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:14 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:57:14 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:57:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:57:14 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:57:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:57:14 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:57:14 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:14 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 01:57:14 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDsaer
-[11-May-2021 01:57:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getDependencia() on array in C:\xampp\htdocs\Adact\models\dependenciamodel.php:73
-Stack trace:
-#0 C:\xampp\htdocs\Adact\controllers\admin.php(83): DependenciaModel->update(Array)
-#1 C:\xampp\htdocs\Adact\libs\app.php(52): Admin->updateDependencia()
-#2 C:\xampp\htdocs\Adact\index.php(29): App->__construct()
-#3 {main}
-  thrown in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 73
-[11-May-2021 01:57:43 Europe/Berlin] Hello, errors!
-[11-May-2021 01:57:43 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:57:43 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:57:43 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:57:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:43 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:57:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:57:43 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:44 Europe/Berlin] Hello, errors!
-[11-May-2021 01:57:44 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:57:44 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:44 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:57:44 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:57:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:44 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:57:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:44 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:57:44 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:45 Europe/Berlin] Hello, errors!
-[11-May-2021 01:57:45 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:57:45 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:45 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:57:45 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:57:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:57:45 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:57:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:57:45 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:57:45 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:45 Europe/Berlin] DependenciaModel::exists() => TRUE
-[11-May-2021 01:57:45 Europe/Berlin] Hello, errors!
-[11-May-2021 01:57:45 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:57:45 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:45 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:57:45 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:57:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:45 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:57:45 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:45 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:57:45 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:56 Europe/Berlin] Hello, errors!
-[11-May-2021 01:57:56 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:57:56 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:56 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:57:56 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:57:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:56 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:57:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:56 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:57:56 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:57 Europe/Berlin] Hello, errors!
-[11-May-2021 01:57:57 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:57:57 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:57 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:57:57 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:57:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:57:57 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:57:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:57:57 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:57:57 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:57 Europe/Berlin] DependenciaModel::exists() => TRUE
-[11-May-2021 01:57:57 Europe/Berlin] Hello, errors!
-[11-May-2021 01:57:57 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:57:57 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:57:57 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:57:57 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:57:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:57 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:57:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:57:57 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:57:57 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:00 Europe/Berlin] Hello, errors!
-[11-May-2021 01:58:00 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:58:00 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:00 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:58:00 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:58:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:58:00 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:58:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:58:00 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:58:00 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:00 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 01:58:00 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDsaes
-[11-May-2021 01:58:00 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 73
-[11-May-2021 01:58:00 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:00 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->PDOException PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\Adact\models\dependenciamodel.php:79
-Stack trace:
-#0 C:\xampp\htdocs\Adact\models\dependenciamodel.php(79): PDOStatement->execute(Array)
-#1 C:\xampp\htdocs\Adact\controllers\admin.php(83): DependenciaModel->update(Array)
-#2 C:\xampp\htdocs\Adact\libs\app.php(52): Admin->updateDependencia()
-#3 C:\xampp\htdocs\Adact\index.php(29): App->__construct()
-#4 {main}
-[11-May-2021 01:58:00 Europe/Berlin] Hello, errors!
-[11-May-2021 01:58:00 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:58:00 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:00 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:58:00 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:58:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:58:00 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:58:00 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:58:00 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:58:00 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:20 Europe/Berlin] Hello, errors!
-[11-May-2021 01:58:20 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:20 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:58:20 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:58:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:58:20 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:58:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:58:20 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:22 Europe/Berlin] Hello, errors!
-[11-May-2021 01:58:22 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:58:22 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:22 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:58:22 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:58:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:58:22 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:58:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 01:58:22 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:58:22 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:22 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 01:58:22 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDsaesa
-[11-May-2021 01:58:22 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:22 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->PDOException PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\Adact\models\dependenciamodel.php:79
-Stack trace:
-#0 C:\xampp\htdocs\Adact\models\dependenciamodel.php(79): PDOStatement->execute(Array)
-#1 C:\xampp\htdocs\Adact\controllers\admin.php(83): DependenciaModel->update(Array)
-#2 C:\xampp\htdocs\Adact\libs\app.php(52): Admin->updateDependencia()
-#3 C:\xampp\htdocs\Adact\index.php(29): App->__construct()
-#4 {main}
-[11-May-2021 01:58:22 Europe/Berlin] Hello, errors!
-[11-May-2021 01:58:22 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 01:58:22 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:58:22 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 01:58:22 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 01:58:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:58:22 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 01:58:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 01:58:22 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 01:58:22 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 01:59:56 Europe/Berlin] Hello, errors!
-[11-May-2021 01:59:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 79
-[11-May-2021 02:00:11 Europe/Berlin] Hello, errors!
-[11-May-2021 02:00:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 79
-[11-May-2021 02:00:12 Europe/Berlin] Hello, errors!
-[11-May-2021 02:00:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 79
-[11-May-2021 02:01:21 Europe/Berlin] Hello, errors!
-[11-May-2021 02:01:21 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:01:21 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:01:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:01:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
-[11-May-2021 02:01:21 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:01:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
-[11-May-2021 02:01:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:01:21 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:21 Europe/Berlin] Hello, errors!
-[11-May-2021 02:01:21 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:01:21 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:01:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:01:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[11-May-2021 02:01:21 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:01:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[11-May-2021 02:01:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:01:24 Europe/Berlin] Hello, errors!
-[11-May-2021 02:01:24 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:01:24 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:24 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:01:24 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:01:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:01:24 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:01:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:01:24 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:01:24 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:25 Europe/Berlin] Hello, errors!
-[11-May-2021 02:01:25 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:01:25 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:25 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:01:25 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:01:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:01:25 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:01:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:01:25 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:01:25 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:25 Europe/Berlin] DependenciaModel::exists() => TRUE
-[11-May-2021 02:01:25 Europe/Berlin] Hello, errors!
-[11-May-2021 02:01:25 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:01:26 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:26 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:01:26 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:01:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:01:26 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:01:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:01:26 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:01:26 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:30 Europe/Berlin] Hello, errors!
-[11-May-2021 02:01:30 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:01:30 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:30 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:01:30 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:01:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:01:30 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:01:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:01:30 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:01:30 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:30 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 02:01:30 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDsaer
-[11-May-2021 02:01:30 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 73
-[11-May-2021 02:01:30 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1Array
-[11-May-2021 02:01:30 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:30 Europe/Berlin] Hello, errors!
-[11-May-2021 02:01:30 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:01:30 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:01:30 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:01:30 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:01:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:01:30 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:01:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:01:30 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:01:30 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:02:11 Europe/Berlin] Hello, errors!
-[11-May-2021 02:02:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 74
-[11-May-2021 02:02:32 Europe/Berlin] Hello, errors!
-[11-May-2021 02:02:32 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:02:32 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:02:32 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:02:32 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:02:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:02:32 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:02:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:02:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:02:32 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:02:36 Europe/Berlin] Hello, errors!
-[11-May-2021 02:02:36 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:02:36 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:02:36 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:02:36 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:02:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:02:36 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:02:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:02:36 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:02:36 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:02:36 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 02:02:36 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDsaersa
-[11-May-2021 02:02:36 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1
-[11-May-2021 02:02:36 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:02:37 Europe/Berlin] Hello, errors!
-[11-May-2021 02:02:37 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:02:37 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:02:37 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:02:37 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:02:37 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:02:37 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:02:37 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:02:37 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:02:37 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:03:39 Europe/Berlin] Hello, errors!
-[11-May-2021 02:03:39 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:03:39 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:03:39 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:03:39 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:03:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:03:39 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:03:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:03:39 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:03:39 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:03:39 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 02:03:39 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDsaasasd
-[11-May-2021 02:03:39 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1
-[11-May-2021 02:03:39 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:03:40 Europe/Berlin] Hello, errors!
-[11-May-2021 02:03:40 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:03:40 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:03:40 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:03:40 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:03:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:03:40 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:03:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=17, url => admin
-[11-May-2021 02:03:40 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:03:40 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:23 Europe/Berlin] Hello, errors!
-[11-May-2021 02:04:24 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:04:24 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:24 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:04:24 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:04:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[11-May-2021 02:04:24 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[11-May-2021 02:04:24 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
-[11-May-2021 02:04:24 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
-[11-May-2021 02:04:24 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
-[11-May-2021 02:04:24 Europe/Berlin] Login::construct -> inicio login
-[11-May-2021 02:04:24 Europe/Berlin] Login::render -> carga Index login
-[11-May-2021 02:04:24 Europe/Berlin] Hello, errors!
-[11-May-2021 02:04:24 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:04:24 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:24 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:04:24 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:04:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[11-May-2021 02:04:24 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:04:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[11-May-2021 02:04:24 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:04:38 Europe/Berlin] Hello, errors!
-[11-May-2021 02:04:38 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:04:38 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:38 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:04:38 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:04:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia, url => admin
-[11-May-2021 02:04:38 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:04:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia, url => admin
-[11-May-2021 02:04:38 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:04:38 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Adact\controllers\admin.php on line 18
-[11-May-2021 02:04:38 Europe/Berlin] ADMIN::CREARDEPENDENCIA -> Nueva Dependencia
-[11-May-2021 02:04:38 Europe/Berlin] PHP Warning:  Undefined array key "dependencia" in C:\xampp\htdocs\Adact\views\admin\creardependencia.php on line 3
-[11-May-2021 02:04:40 Europe/Berlin] Hello, errors!
-[11-May-2021 02:04:40 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:04:40 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:40 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:04:40 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:04:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia, url => admin
-[11-May-2021 02:04:40 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:04:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia, url => admin
-[11-May-2021 02:04:40 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:04:40 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Adact\controllers\admin.php on line 18
-[11-May-2021 02:04:40 Europe/Berlin] ADMIN::CREARDEPENDENCIA -> Nueva Dependencia
-[11-May-2021 02:04:40 Europe/Berlin] PHP Warning:  Undefined array key "dependencia" in C:\xampp\htdocs\Adact\views\admin\creardependencia.php on line 3
-[11-May-2021 02:04:47 Europe/Berlin] Hello, errors!
-[11-May-2021 02:04:47 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:04:47 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:47 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:04:47 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:04:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/crearDependencia, url => admin
-[11-May-2021 02:04:47 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:04:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/crearDependencia, url => admin
-[11-May-2021 02:04:47 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:04:47 Europe/Berlin] ADMIN::NUEVADEPENDENCIA -> Creada Dependencia
-[11-May-2021 02:04:47 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:47 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 02:04:47 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:47 Europe/Berlin] Admin::newDependencia() => new dependencia created
-[11-May-2021 02:04:47 Europe/Berlin] Hello, errors!
-[11-May-2021 02:04:47 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:04:47 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:47 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:04:47 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:04:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[11-May-2021 02:04:47 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:04:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[11-May-2021 02:04:47 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:04:52 Europe/Berlin] Hello, errors!
-[11-May-2021 02:04:52 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:04:52 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:52 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:04:52 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:04:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
-[11-May-2021 02:04:52 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:04:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
-[11-May-2021 02:04:52 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:04:52 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:52 Europe/Berlin] Hello, errors!
-[11-May-2021 02:04:52 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:04:52 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:52 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:04:52 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:04:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[11-May-2021 02:04:52 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:04:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
-[11-May-2021 02:04:52 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:04:58 Europe/Berlin] Hello, errors!
-[11-May-2021 02:04:58 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:04:58 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:04:58 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:04:58 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:04:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
-[11-May-2021 02:04:58 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:04:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
-[11-May-2021 02:04:58 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:04:58 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:03 Europe/Berlin] Hello, errors!
-[11-May-2021 02:05:03 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:05:03 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:03 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:05:03 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:05:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:05:03 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:05:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:05:03 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:05:03 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:03 Europe/Berlin] DependenciaModel::exists() => TRUE
-[11-May-2021 02:05:03 Europe/Berlin] Hello, errors!
-[11-May-2021 02:05:03 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:05:03 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:03 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:05:03 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:05:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
-[11-May-2021 02:05:03 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:05:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
-[11-May-2021 02:05:03 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:05:03 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:08 Europe/Berlin] Hello, errors!
-[11-May-2021 02:05:08 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:05:08 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:05:08 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:05:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:05:08 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:05:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
-[11-May-2021 02:05:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:05:08 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:08 Europe/Berlin] DependenciaModel::exists() => FALSE
-[11-May-2021 02:05:08 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDfalsossa
-[11-May-2021 02:05:08 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1
-[11-May-2021 02:05:08 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:08 Europe/Berlin] Hello, errors!
-[11-May-2021 02:05:08 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:05:08 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:05:08 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:05:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
-[11-May-2021 02:05:08 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:05:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
-[11-May-2021 02:05:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:05:08 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:17 Europe/Berlin] Hello, errors!
-[11-May-2021 02:05:17 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:05:17 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:17 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:05:17 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:05:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
-[11-May-2021 02:05:17 Europe/Berlin] sessionController::isPublic(): currentURL => 
-[11-May-2021 02:05:17 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
-[11-May-2021 02:05:17 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
-[11-May-2021 02:05:17 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
-[11-May-2021 02:05:17 Europe/Berlin] Login::construct -> inicio login
-[11-May-2021 02:05:17 Europe/Berlin] Login::render -> carga Index login
-[11-May-2021 02:05:17 Europe/Berlin] Hello, errors!
-[11-May-2021 02:05:17 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:05:17 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:17 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:05:17 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:05:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[11-May-2021 02:05:17 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:05:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
-[11-May-2021 02:05:17 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:05:18 Europe/Berlin] Hello, errors!
-[11-May-2021 02:05:18 Europe/Berlin] SessionController::validateSession()
-[11-May-2021 02:05:18 Europe/Berlin] Conexión a BD exitosa
-[11-May-2021 02:05:18 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[11-May-2021 02:05:18 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[11-May-2021 02:05:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia, url => admin
-[11-May-2021 02:05:18 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[11-May-2021 02:05:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia, url => admin
-[11-May-2021 02:05:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[11-May-2021 02:05:18 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Adact\controllers\admin.php on line 18
-[11-May-2021 02:05:18 Europe/Berlin] ADMIN::CREARDEPENDENCIA -> Nueva Dependencia
-[11-May-2021 02:05:18 Europe/Berlin] PHP Warning:  Undefined array key "dependencia" in C:\xampp\htdocs\Adact\views\admin\creardependencia.php on line 3
+  thrown in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 76
+[11-May-2021 03:17:43 Europe/Berlin] Hello, errors!
+[11-May-2021 03:17:43 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:17:43 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:17:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:17:43 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:17:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:17:43 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:17:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:17:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:17:43 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:17:46 Europe/Berlin] Hello, errors!
+[11-May-2021 03:17:46 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:17:46 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:17:46 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:17:46 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:17:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:17:46 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:17:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:17:46 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:17:46 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:17:46 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:17:46 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDfalsossasa
+[11-May-2021 03:17:46 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1falsossasa
+[11-May-2021 03:17:46 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:17:46 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 82
+[11-May-2021 03:17:46 Europe/Berlin] PHP Warning:  Undefined array key "dependencia" in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 83
+[11-May-2021 03:17:46 Europe/Berlin] Hello, errors!
+[11-May-2021 03:17:46 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:17:46 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:17:46 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:17:46 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:17:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:17:46 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:17:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:17:46 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:17:46 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:19:27 Europe/Berlin] Hello, errors!
+[11-May-2021 03:19:27 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:19:27 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:19:27 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:19:27 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:19:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:19:27 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:19:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:19:27 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:19:27 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:19:29 Europe/Berlin] Hello, errors!
+[11-May-2021 03:19:29 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:19:29 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:19:29 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:19:29 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:19:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:19:29 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:19:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:19:29 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:19:29 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:19:29 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:19:29 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDfalsossasa
+[11-May-2021 03:19:29 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1falsossasa 18
+[11-May-2021 03:19:29 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:19:29 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 83
+[11-May-2021 03:19:29 Europe/Berlin] PHP Warning:  Undefined array key "dependencia" in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 84
+[11-May-2021 03:19:29 Europe/Berlin] Hello, errors!
+[11-May-2021 03:19:29 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:19:29 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:19:29 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:19:29 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:19:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:19:29 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:19:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:19:29 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:19:29 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:26 Europe/Berlin] Hello, errors!
+[11-May-2021 03:20:26 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:20:26 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:26 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:20:26 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:20:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:20:26 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:20:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:20:26 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:20:26 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:28 Europe/Berlin] Hello, errors!
+[11-May-2021 03:20:28 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:20:28 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:28 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:20:28 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:20:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:20:28 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:20:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:20:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:20:28 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:28 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:20:28 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDsasa
+[11-May-2021 03:20:28 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1sasa 18
+[11-May-2021 03:20:28 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:28 Europe/Berlin] Hello, errors!
+[11-May-2021 03:20:28 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:20:28 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:28 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:20:28 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:20:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:20:28 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:20:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:20:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:20:28 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:48 Europe/Berlin] Hello, errors!
+[11-May-2021 03:20:48 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:20:48 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:48 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:20:48 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:20:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:20:48 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:20:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:20:48 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:20:48 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:48 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:20:48 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDsasasa
+[11-May-2021 03:20:48 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1sasasa 18
+[11-May-2021 03:20:48 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:48 Europe/Berlin] Hello, errors!
+[11-May-2021 03:20:48 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:20:48 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:20:48 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:20:48 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:20:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:20:48 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:20:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:20:48 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:20:48 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:22:38 Europe/Berlin] Hello, errors!
+[11-May-2021 03:22:38 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:22:38 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:22:38 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:22:38 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:22:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:22:38 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:22:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:22:38 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:22:38 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:22:40 Europe/Berlin] Hello, errors!
+[11-May-2021 03:22:40 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:22:40 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:22:40 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:22:40 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:22:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:22:40 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:22:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:22:40 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:22:40 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:22:40 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:22:40 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDsasasasaa
+[11-May-2021 03:22:40 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1sasasasaa 18
+[11-May-2021 03:22:40 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:22:40 Europe/Berlin] PHP Warning:  Undefined variable $dep in C:\xampp\htdocs\Adact\models\dependenciamodel.php on line 83
+[11-May-2021 03:22:40 Europe/Berlin] Hello, errors!
+[11-May-2021 03:22:40 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:22:40 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:22:40 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:22:40 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:22:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:22:40 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:22:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:22:40 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:22:40 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:05 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:05 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:05 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:05 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:05 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:23:05 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:23:05 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:05 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:06 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:06 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:06 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:06 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:06 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[11-May-2021 03:23:06 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[11-May-2021 03:23:06 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[11-May-2021 03:23:06 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[11-May-2021 03:23:06 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[11-May-2021 03:23:06 Europe/Berlin] Login::construct -> inicio login
+[11-May-2021 03:23:06 Europe/Berlin] Login::render -> carga Index login
+[11-May-2021 03:23:06 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:06 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:06 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:06 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:06 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[11-May-2021 03:23:06 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[11-May-2021 03:23:06 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:08 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:08 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:08 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:08 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[11-May-2021 03:23:08 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[11-May-2021 03:23:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:08 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:08 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:08 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:08 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:08 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[11-May-2021 03:23:08 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[11-May-2021 03:23:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:09 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:09 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:09 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:09 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:09 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:23:09 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:23:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:09 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:12 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:12 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:12 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:12 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:23:12 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:23:12 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:12 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:12 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:23:12 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDcalculos
+[11-May-2021 03:23:12 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1calculos 14
+[11-May-2021 03:23:12 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:12 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:12 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:12 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:12 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:23:12 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:23:12 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:12 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:43 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:43 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:43 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:43 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:23:43 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:23:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:43 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:48 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:48 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:48 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:48 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:48 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:23:48 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:23:48 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:48 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:48 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:23:48 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDDers
+[11-May-2021 03:23:48 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1Ders 14
+[11-May-2021 03:23:48 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:48 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:48 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:48 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:48 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:48 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:23:48 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:23:48 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:48 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:50 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:50 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:50 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:50 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:50 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[11-May-2021 03:23:50 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[11-May-2021 03:23:50 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[11-May-2021 03:23:50 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[11-May-2021 03:23:50 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[11-May-2021 03:23:50 Europe/Berlin] Login::construct -> inicio login
+[11-May-2021 03:23:50 Europe/Berlin] Login::render -> carga Index login
+[11-May-2021 03:23:50 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:50 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:50 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:50 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:50 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[11-May-2021 03:23:50 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[11-May-2021 03:23:50 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:51 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:51 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:51 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:51 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:51 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[11-May-2021 03:23:51 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[11-May-2021 03:23:51 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:51 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:51 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:51 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:51 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:51 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:51 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[11-May-2021 03:23:51 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[11-May-2021 03:23:51 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:54 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:54 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:54 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:54 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:54 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:23:54 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:23:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:54 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:56 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:56 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:56 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:56 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:56 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:23:56 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:23:56 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:56 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:56 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:23:56 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDasa
+[11-May-2021 03:23:56 Europe/Berlin] DEPENDENCIAMODEL::UPDATE->VALIDACION 1asa 18
+[11-May-2021 03:23:56 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:56 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:56 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:56 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:56 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:56 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:23:56 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=18, url => admin
+[11-May-2021 03:23:56 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:56 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:58 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:58 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:58 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:58 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:58 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/, url => 
+[11-May-2021 03:23:58 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[11-May-2021 03:23:58 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[11-May-2021 03:23:58 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[11-May-2021 03:23:58 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[11-May-2021 03:23:58 Europe/Berlin] Login::construct -> inicio login
+[11-May-2021 03:23:58 Europe/Berlin] Login::render -> carga Index login
+[11-May-2021 03:23:58 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:58 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:58 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:58 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:58 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[11-May-2021 03:23:58 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[11-May-2021 03:23:58 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:59 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:59 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:59 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:59 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:59 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[11-May-2021 03:23:59 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/getDependencias, url => admin
+[11-May-2021 03:23:59 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:23:59 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:59 Europe/Berlin] Hello, errors!
+[11-May-2021 03:23:59 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:23:59 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:23:59 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:23:59 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:23:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[11-May-2021 03:23:59 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:23:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/public/js/admin.js, url => admin
+[11-May-2021 03:23:59 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:24:31 Europe/Berlin] Hello, errors!
+[11-May-2021 03:24:31 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:24:31 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:24:31 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:24:31 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:24:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:24:31 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:24:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:24:31 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:24:31 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:24:32 Europe/Berlin] Hello, errors!
+[11-May-2021 03:24:32 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:24:32 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:24:32 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:24:32 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:24:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:24:32 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:24:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/updateDependencia, url => admin
+[11-May-2021 03:24:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:24:32 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:24:32 Europe/Berlin] DependenciaModel::exists() => FALSE
+[11-May-2021 03:24:32 Europe/Berlin] Admin::UpdateDependencia() => OBTUVE IDDDDDDerss
+[11-May-2021 03:24:32 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:24:32 Europe/Berlin] Hello, errors!
+[11-May-2021 03:24:32 Europe/Berlin] SessionController::validateSession()
+[11-May-2021 03:24:32 Europe/Berlin] Conexión a BD exitosa
+[11-May-2021 03:24:32 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[11-May-2021 03:24:32 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[11-May-2021 03:24:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:24:32 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[11-May-2021 03:24:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleDependencia?id=14, url => admin
+[11-May-2021 03:24:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-May-2021 03:24:32 Europe/Berlin] Conexión a BD exitosa

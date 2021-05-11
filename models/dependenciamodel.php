@@ -71,14 +71,12 @@
         }
        
         public function update($dependencia){
-            error_log('DEPENDENCIAMODEL::UPDATE->VALIDACION 1' .  var_dump($dependencia)); 
-            //error_log('DEPENDENCIAMODEL::UPDATE->PDOException  ENTRAAASSS' . $dependencia->getDependencia());
             try {
                 
                 $query = $this->prepare('UPDATE dependencia SET dependencia = :dependencia WHERE id=:id');
                 $query->execute([                   
-                        'id'=>$dependencia['id'],
-                        'dependencia' =>$dependencia['dependencia']
+                        'id'=>$this->getId(),
+                        'dependencia' =>$this->getDependencia()
                 ]); 
                 //error_log('DEPENDENCIAMODEL::UPDATE->PDOException  ENTRAAA' );      
                 return true;

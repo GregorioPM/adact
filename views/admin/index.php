@@ -1,5 +1,3 @@
-
-
 <?php require_once 'header.php';?>
 <div id="main-container">
 
@@ -12,5 +10,6 @@
 </button>
 </div>
     <script src="public/js/admin.js"></script>
+    <?php require_once 'views/footer.php';?>
 </body>
 </html>

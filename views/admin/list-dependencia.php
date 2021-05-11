@@ -26,15 +26,18 @@ $dependencias = $this->d['dependencias'];
                     
                 ?>
 
-                <tr id="fila-<?php echo $row->dependecia; ?>">
+                <tr id="fila-">
                     <td><?php echo $row->getID(); ?></td>
                     <td><?php echo $row->getDependencia(); ?></td>
-                    <td><button class="bEliminar" data-matricula="<?php echo $row->getID(); ?>">Eliminar</button></td>
-                    <td><a href="<?= URL ?>/admin/deleteDependencias?id=<?= $row->getId() ?>">Eliminar</a></td>
+                    
+                    <td><a href="<?= URL ?>/admin/deleteDependencias?id=<?= $row->getId() ?>">Eliminar</a>
+                    <a href="<?= URL ?>/admin/detalleDependencia?id=<?= $row->getId() ?>">Actualizar</a>
+                    </td>
                 </tr>
 
                 <?php } ?>
             </tbody>
         </table>
+        <script src="public/js/admin.js"></script>
 </body>
 </html>

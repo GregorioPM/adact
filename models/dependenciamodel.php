@@ -51,6 +51,7 @@
                 $query->execute(['id'=>$id]);
                 $dependencia = $query->fetch(PDO::FETCH_ASSOC);
                 $this->from($dependencia);
+                return $this;
             } catch (PDOException $e) {
                 error_log('DEPENDENCIAMODEL::GETID->PDOException ' . $e); 
                 return false;
@@ -68,14 +69,19 @@
                 return false;
             }
         }
-        public function update(){
+       
+        public function update($dependencia){
+            error_log('DEPENDENCIAMODEL::UPDATE->VALIDACION 1' .  var_dump($dependencia)); 
+            //error_log('DEPENDENCIAMODEL::UPDATE->PDOException  ENTRAAASSS' . $dependencia->getDependencia());
             try {
-                $query = $this->prepare('UPDATE dependencia SET dependencia WHERE id= :id');
-                $query->execute([
-                        'id' => $this->id,
-                        'dependencia' =>$this->dependencia
-                ]);      
-                return $true;
+                
+                $query = $this->prepare('UPDATE dependencia SET dependencia = :dependencia WHERE id=:id');
+                $query->execute([                   
+                        'id'=>$dependencia['id'],
+                        'dependencia' =>$dependencia['dependencia']
+                ]); 
+                //error_log('DEPENDENCIAMODEL::UPDATE->PDOException  ENTRAAA' );      
+                return true;
             } catch (PDOException $e) {
                 error_log('DEPENDENCIAMODEL::UPDATE->PDOException ' . $e); 
                 return false;
@@ -92,10 +98,10 @@
                 $query->execute( ['dependencia' => $dependencia]);
                 
                 if($query->rowCount() > 0){
-                    error_log('CategoriesModel::exists() => true');
+                    error_log('DependenciaModel::exists() => TRUE');
                     return true;
                 }else{
-                    error_log('CategoriesModel::exists() => false');
+                    error_log('DependenciaModel::exists() => FALSE');
                     return false;
                 }
             }catch(PDOException $e){

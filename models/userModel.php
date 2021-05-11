@@ -90,7 +90,7 @@
                         return false;
                 }
         }
-        public function update(){
+        public function update($id){
                 try {
                         $query = $this->prepare('UPDATE usuario SET correo= :correo, password= :password, rol=:rol, nombres=:nombres, apellidos=:apellidos WHERE id= :id');
                         $query->execute([

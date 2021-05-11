@@ -14,14 +14,22 @@ class Admin extends SessionController{
         $this->view->render('admin/index', []);
     }
 
-    function creardependencia(){
-        error_log('ADMIN::CREARDEPENDENCIA -> Nueva Dependencia');
-        $this->view->render('admin/creardependencia', []);
-       //$this->view->render('admin/creardependencia', []);
+    function detalleDependencia(){
+        $id = $_GET['id'];
+        if($id === NULL){
+            error_log('ADMIN::CREARDEPENDENCIA -> Nueva Dependencia');
+            $this->view->render('admin/creardependencia', []);
+           //$this->view->render('admin/creardependencia', []);
+        }else{
+            $dependenciaModel = new DependenciaModel();
+            $dependencia =$dependenciaModel->get($id);
+            $this->view->render('admin/creardependencia', ['dependencia' => $dependencia]);
+        }
+        
 
     }
 
-    function newDependencia(){
+    function crearDependencia(){
         error_log('ADMIN::NUEVADEPENDENCIA -> Creada Dependencia');
         if($this->existPOST(['dependencia'])){
             $dependencia = $this->getPost('dependencia');
@@ -57,6 +65,28 @@ class Admin extends SessionController{
        $dependenciaModel->delete($id);
        $this->getDependencias();
        $this->redirect('admin/getDependencias', []);
+    }
+
+    function updateDependencia(){
+        
+        if($this->existPOST(['dependencia'])){
+            $id = $this->getPost('id');
+            $dependencia = $this->getPost('dependencia');
+            //error_log('Admin::newDependencia() => OBTUVE IDDDDD' . $id);
+            $dependenciaModel = new DependenciaModel();
+
+            if(!$dependenciaModel->exists($dependencia)){
+                $dependenciaModel->setDependencia($dependencia);
+                $dependenciaModel->setId($id);
+                
+                error_log('Admin::UpdateDependencia() => OBTUVE IDDDDD' . $dependenciaModel->getDependencia());
+                $dependenciaModel->update(['id'=>$id , 'dependencia'=>$dependencia]);
+                $this->redirect('admin', []);
+            }else{
+                $this->redirect('admin', []);
+            }
+        }
+        $this->redirect('admin/detalleDependencia?id=' . $id, []);
     }
 
 }

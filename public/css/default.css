@@ -291,3 +291,56 @@ h3{
 .bs-1{
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
+/*Empieza css footer*/
+footer
+{
+    background-color: #f1f1f1;
+    position: relative;
+    width: 100%;
+}
+
+.f-copyright
+{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.f-copyright--p { padding-bottom: 20px; font-size: 1.3em;}
+
+.container__content 
+{ 
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    padding-left: calc(1440px * (1 / 24));
+    padding-right: calc(1440px * (1 / 24));
+}
+.f-adact
+{
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.f-adact--p
+{
+    color: #f1f1f1;
+    font-size: 12px;
+    opacity: .6;
+    padding-right: 10px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.f-adact--a
+{
+    color: #f1f1f1;
+    font-size: 12px;
+    opacity: .6;
+    font-weight: bolder;
+}
+
+.f-adact--a:hover { text-decoration: underline; }
+

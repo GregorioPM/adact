@@ -80,7 +80,8 @@ class Admin extends SessionController{
                 $dependenciaModel->setId($id);
                 
                 error_log('Admin::UpdateDependencia() => OBTUVE IDDDDD' . $dependenciaModel->getDependencia());
-                $dependenciaModel->update(['id'=>$id , 'dependencia'=>$dependencia]);
+                $dependenciaModel->update($dependenciaModel);
+                /*$dependenciaModel->update(['id'=>$id , 'dependencia'=>$dependencia]);*/
                 $this->redirect('admin', []);
             }else{
                 $this->redirect('admin', []);

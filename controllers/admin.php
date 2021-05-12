@@ -15,24 +15,16 @@ class Admin extends SessionController{
     }
 
     function detalleDependencia(){
-        $id = $_GET['id'];
-        if($id === NULL){
+        //$id = $_GET['id'];
             error_log('ADMIN::CREARDEPENDENCIA -> Nueva Dependencia');
             $this->view->render('admin/creardependencia', []);
            //$this->view->render('admin/creardependencia', []);
-        }else{
-            $dependenciaModel = new DependenciaModel();
-            $dependencia =$dependenciaModel->get($id);
-            $this->view->render('admin/creardependencia', ['dependencia' => $dependencia]);
-        }
-        
-
     }
 
     function crearDependencia(){
         error_log('ADMIN::NUEVADEPENDENCIA -> Creada Dependencia');
         if($this->existPOST(['dependencia'])){
-            $dependencia = $this->getPost('dependencia');
+            $dependencia = $this->getPost('dependenciaa');
 
             $dependenciaModel = new DependenciaModel();
 
@@ -40,9 +32,10 @@ class Admin extends SessionController{
                 $dependenciaModel->setDependencia($dependencia);
                 $dependenciaModel->save();
                 error_log('Admin::newDependencia() => new dependencia created');
-                $this->redirect('admin', []);
+                //$this->view->render('admin/list-dependencia', []);
+                $this->redirect('admin/getDependencias', []);
             }else{
-                $this->redirect('admin', []);
+                $this->redirect('admin/getDependencias', []);
             }
         }
     }
@@ -67,11 +60,19 @@ class Admin extends SessionController{
        $this->redirect('admin/getDependencias', []);
     }
 
+    function editDependencia(){
+        $id = $_GET['id'];
+        $dependenciaModel = new DependenciaModel();
+        $dependencia =$dependenciaModel->get($id);
+        //$this->redirect('admin/getDependencia', ['dependencia' => $dependencia]);
+       $this->view->render('admin/modal', ['dependencia' => $dependencia]);
+    }
+
     function updateDependencia(){
-        
+        error_log('Admin::UpdateDependencia() => ENTRO A UPDATEEEEEE');
         if($this->existPOST(['dependencia'])){
             $id = $this->getPost('id');
-            $dependencia = $this->getPost('dependencia');
+            $dependencia = $this->getPost('dependenciaa');
             //error_log('Admin::newDependencia() => OBTUVE IDDDDD' . $id);
             $dependenciaModel = new DependenciaModel();
 
@@ -82,12 +83,12 @@ class Admin extends SessionController{
                 error_log('Admin::UpdateDependencia() => OBTUVE IDDDDD' . $dependenciaModel->getDependencia());
                 $dependenciaModel->update($dependenciaModel);
                 /*$dependenciaModel->update(['id'=>$id , 'dependencia'=>$dependencia]);*/
-                $this->redirect('admin', []);
+                $this->redirect('admin/getDependencias', []);
             }else{
-                $this->redirect('admin', []);
+                $this->redirect('admin/getDependencias', []);
             }
         }
-        $this->redirect('admin/detalleDependencia?id=' . $id, []);
+    
     }
 
 }

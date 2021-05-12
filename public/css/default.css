@@ -248,7 +248,6 @@ button{
     border: none;
     background-color: rgb(38, 132, 214);
     border-radius: 3px;
-    color: white !important;
     cursor: pointer;
     display: inline-block;
     padding: 10px;
@@ -257,9 +256,7 @@ button{
     transition: all 0.4s;
     vertical-align: middle;
 }
-button:hover{
-    background-color: rgb(24, 97, 161);
-}
+
 a.close-button{
     color: black;
     background-color: none !important;
@@ -295,7 +292,7 @@ h3{
 footer
 {
     background-color: #f1f1f1;
-    position: relative;
+    /*position: relative;*/
     width: 100%;
 }
 

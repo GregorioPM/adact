@@ -1,0 +1,15 @@
+.action-update{
+    color: black;
+    padding: 0;
+    margin-top: -19px;
+    font-size: 21px;
+}
+
+.action-delete{
+    color: red;
+}
+.table{
+    margin: 0 auto;
+    width: 80%;
+}
+

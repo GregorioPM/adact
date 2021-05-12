@@ -8,8 +8,10 @@
                             <i class="material-icons">add</i>
                             <span>Registrar nueva Dependencia</span>
 </button>
+
+
 </div>
-    <script src="public/js/admin.js"></script>
+    //<script src="public/js/admin.js"></script>
     <?php require_once 'views/footer.php';?>
 </body>
 </html>

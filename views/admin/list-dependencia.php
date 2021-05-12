@@ -12,7 +12,7 @@ $dependencias = $this->d['dependencias'];
 </head>
 <body>
 <?php require_once 'header.php';?>
-
+<div class="container">
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newDependencia">
   Agregar Dependencia
 </button>
@@ -73,8 +73,9 @@ $dependencias = $this->d['dependencias'];
     <?php } ?>
   </tbody>
 </table>
-   
+</div>
         <script src="public/js/admin.js"></script>
         <?php require_once 'views/footer.php';?>
+
 </body>
 </html>

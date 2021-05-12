@@ -1,3 +1,7 @@
+body{
+    min-height: 90%;
+    
+}
 .action-update{
     color: black;
     padding: 0;
@@ -13,3 +17,55 @@
     width: 80%;
 }
 
+.container{
+    min-height: 75%;
+}
+
+.container-index{
+    min-height: 100%;
+}
+
+.banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: 0.5s;
+    background-position: center;
+}
+
+.login{
+  
+        width: 100%;
+        height: 110%;
+        z-index: 1;
+        background-color: rgb(8 6 6 / 40%);
+        position: absolute;
+        /* margin: 0 auto; */
+        padding: 0;
+        margin: -8% auto;
+}
+
+.form-login{
+    position: relative;
+background-color: white;
+min-width: 320px;
+max-width: 340px;
+width: 50%;
+border-radius: 10px;
+margin: 10% auto;
+padding: 10px;
+border: 1px solid #888;
+}
+
+.input-login{
+    width: 100%;
+}
+
+.btn-login{
+    width: 100%;
+    background-color: red;
+}

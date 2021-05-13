@@ -37,7 +37,7 @@
         public function getAll(){
                 $items = [];
                 try {
-                        $query = $this->query('SELECT * FROM users');
+                        $query = $this->query('SELECT * FROM usuario');
                         while($p = $query->fetch(PDO::FETCH_ASSOC)){
                                 $item= new UserModel();
                                 $item->setId($p['id']);

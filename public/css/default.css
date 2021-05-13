@@ -134,7 +134,7 @@ body{
 
 #footer{
     background-color: #ccc;
-    position: relative;
+    /*position: relative;*/
     padding: 20px;
 }
 

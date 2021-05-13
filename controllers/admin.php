@@ -7,11 +7,11 @@ class Admin extends SessionController{
     private $user;
     function __construct(){
         parent::__construct();
+        $this->user = $this->getUserSessionData();
     }
 
     function render(){
-
-        $this->view->render('admin/index', []);
+        $this->view->render('admin/index', ["user"=>$this->user]);
     }
 
     function detalleDependencia(){
@@ -49,7 +49,10 @@ class Admin extends SessionController{
        $dependencias = $dependenciaModel->getAll();
        /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
        
-       $this->view->render('admin/list-dependencia', ['dependencias' => $dependencias]);
+       $this->view->render('admin/list-dependencia', [
+           'dependencias' => $dependencias,
+           'user'=>$this->user
+           ]);
     }
 
     function deleteDependencias(){
@@ -90,6 +93,16 @@ class Admin extends SessionController{
         }
     
     }
-
+    function listUsuarios(){
+       $usuarios= [];
+       $userModel = new userModel();
+       $usuarios = $userModel->getAll();
+       /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
+       
+       $this->view->render('admin/list-usuarios', [
+           'usuarios' => $usuarios,
+           'user'=>$this->user
+           ]);
+    }
 }
 ?>

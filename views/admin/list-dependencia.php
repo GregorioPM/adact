@@ -31,7 +31,7 @@ $user= $this->d['user'];
         </button>
       </div>
       <div class="modal-body">
-      <form id="form-expense-container" action="<?php echo constant('URL'); ?>/admin/crearDependencia" method="POST">
+      <form id="form-expense-container" action="<?php echo constant('URL'); ?>/dependencia/crearDependencia" method="POST">
     <div class="section">
         <label for="amount">Nombre</label>
         <input type="hidden" name="id">
@@ -67,7 +67,7 @@ $user= $this->d['user'];
 
       <!--<a href="<?= URL ?>/admin/editDependencia?id=<?= $dependencia->getId() ?>"><span class="material-icons action-update" data-toggle="modal" data-target="#exampleModalCenter">mode_edit</span></a>-->
       <button type="button" class="btn action-update" data-toggle="modal" data-target="#editDependencia<?php echo $dependencia->getId(); ?>"><i class="fas fa-edit"></i></button>
-        <a href="<?= URL ?>/admin/deleteDependencias?id=<?= $dependencia->getId() ?>"><span class="material-icons action-delete">delete</span></a>
+        <a href="<?= URL ?>/dependencia/deleteDependencias?id=<?= $dependencia->getId() ?>"><span class="material-icons action-delete">delete</span></a>
       </td>
       
     </tr>

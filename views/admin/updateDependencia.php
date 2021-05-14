@@ -10,7 +10,7 @@
       </div>
       <div class="modal-body">
         <p></p>
-      <form id="form-expense-container" action="<?php echo constant('URL'); ?>/admin/updateDependencia" " method="POST">
+      <form id="form-expense-container" action="<?php echo constant('URL'); ?>/dependencia/updateDependencia" " method="POST">
     <div class="section">
         <label for="amount">Nombre</label>
         <input type="hidden" name="id" value="<?php

@@ -13,11 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     
-
 </head>
 <body>
     <nav class="navbar navbar-dark sticky-top flex-md-nowrap p-0 shadow nav-color">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="<?php echo constant('URL'); ?>">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="<?php echo constant('URL'); ?>/admin">
           <img src="<?php echo constant('URL'); ?>/public/img/logo.png" alt="">
           <b>Adact</b>
           
@@ -51,7 +50,7 @@
 
   <ul class="nav flex-column bg-white mb-0">
     <li class="nav-item">
-      <a href="<?php echo constant('URL'); ?>" class="nav-link text-dark bg-light">
+      <a href="<?php echo constant('URL'); ?>/admin" class="nav-link text-dark bg-light">
                 <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
                 Inicio
             </a>
@@ -63,13 +62,13 @@
             </a>
     </li>
     <li class="nav-item">
-      <a href="<?= URL ?>/admin/getDependencias" class="nav-link text-dark">
+      <a href="<?= URL ?>/admin/listDependencias" class="nav-link text-dark">
                 <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
                 Dependencias
             </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark">
+      <a href="<?= URL ?>/admin/listUsuarios" class="nav-link text-dark">
                 <i class="fas fa-user mr-3 text-primary fa-fw"></i>
                 Usuarios
             </a>

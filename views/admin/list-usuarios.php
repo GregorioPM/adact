@@ -31,6 +31,29 @@ $user= $this->d['user'];
         </button>
       </div>
       <div class="modal-body">
+      <form action="<?php echo constant('URL'); ?>/signup/newUser" method="POST">
+        <h2>Registrar Usuario</h2>
+            <p>
+                <label for="correo">Correo</label>
+                <input type="email" name="correo" id="correo">
+            </p>
+            <p>
+                <label for="password">Contraseña</label>
+                <input type="text" name="password" id="password">
+            </p>
+            <p>
+                <label for="nombres">Nombres</label>
+                <input type="text" name="nombres" id="nombres">
+            </p>
+            <p>
+                <label for="nombres">Apeliidos</label>
+                <input type="text" name="apellidos" id="apellidos">
+            </p>
+            <p>
+                <input type="submit" value="Registrar">
+            </p>
+
+    </form>  
       <form id="form-expense-container" action="<?php echo constant('URL'); ?>/admin/crearDependencia" method="POST">
     <div class="section">
         <label for="amount">Nombre</label>

@@ -15,7 +15,6 @@ class Signup extends SessionController{
     
     function newUser(){
         if($this->existPOST(['correo', 'password' , 'nombres' , 'apellidos'])){
-            error_log("entro porFINNN");
             $correo = $this->getPost('correo');
             $password = $this->getPost('password');
             $nombres= $this->getPost('nombres');
@@ -52,6 +51,17 @@ class Signup extends SessionController{
             //$this->errorAtSignup('Ingresa nombre de usuario y password');
             $this->redirect('admin/listUsuarios', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EXISTS]);
         }
+    }
+
+    function deleteUser(){
+        $id = $_GET['id'];
+        $userModel = new UserModel();
+        $userModel->delete($id);
+        $this->redirect('admin/listUsuarios', []);
+    }
+
+    function updateUser(){
+        
     }
 }
 

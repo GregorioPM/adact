@@ -25,14 +25,13 @@ $user= $this->d['user'];
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Registrar Nueva Dependencia</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">Registrar Usuario</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
       <form action="<?php echo constant('URL'); ?>/signup/newUser" method="POST">
-        <h2>Registrar Usuario</h2>
             <p>
                 <label for="correo">Correo</label>
                 <input type="email" name="correo" id="correo">
@@ -89,8 +88,8 @@ $user= $this->d['user'];
       <td class="text-center">
 
       <!--<a href="<?= URL ?>/admin/editDependencia?id=<?= $u->getId() ?>"><span class="material-icons action-update" data-toggle="modal" data-target="#exampleModalCenter">mode_edit</span></a>-->
-      <button type="button" class="btn action-update" data-toggle="modal" data-target="#editDependencia<?php echo $u->getId(); ?>"><i class="fas fa-edit"></i></button>
-        <a href="<?= URL ?>/admin/deleteDependencias?id=<?= $u->getId() ?>"><span class="material-icons action-delete">delete</span></a>
+      <button type="button" class="btn action-update" data-toggle="modal" data-target="#editUser<?php echo $u->getId(); ?>"><i class="fas fa-edit"></i></button>
+        <a href="<?= URL ?>/signup/deleteUser?id=<?= $u->getId() ?>"><span class="material-icons action-delete">delete</span></a>
       </td>
       
     </tr>

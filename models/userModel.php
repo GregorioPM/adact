@@ -8,6 +8,7 @@
         private $rol;
         private $nombres;
         private $apellidos;
+        private $foto;
         
         public function __construct(){
                 parent::__construct();
@@ -217,6 +218,19 @@
         public function setApellidos($apellidos)
         {
                 $this->apellidos = $apellidos;
+
+                return $this;
+        }
+
+
+        public function getFoto()
+        {
+                return $this->foto;
+        }
+
+        public function setFoto($foto)
+        {
+                $this->foto = $foto;
 
                 return $this;
         }

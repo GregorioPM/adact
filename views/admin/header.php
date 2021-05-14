@@ -32,11 +32,17 @@
 <div class="vertical-nav bg-white" id="sidebar">
   <div class="py-4 px-3 mb-4 bg-light">
     <div class="media d-flex align-items-center">
-      <img loading="lazy" src="<?php echo constant('URL'); ?>/public/img/logo.png" alt="..." width="80" height="80" class="mr-3 rounded-circle img-thumbnail shadow-sm">
+      <img loading="lazy" src="
+      <?php if($user->getFoto()==="" || $user->getFoto()===NULL){
+            echo constant('URL') . "/public/img/logo.png";
+      }else{
+        echo constant('URL') . "/public/img/logo.png";
+      }
+        ?>" alt="..." width="80" height="80" class="mr-3 rounded-circle img-thumbnail shadow-sm">
       <div class="media-body">
         <h4 class="m-0"><?php echo $user->getNombres() ?></h2>
 </h4>
-        <p class="font-weight-normal text-muted mb-0"><?php  if($user->getRol()==="admin"){
+        <p class="font-weight-normal text-muted mb-0"><?php  if($user->getRol()=="admin"){
           echo "Administrador";
           }else{
             echo "Participante";

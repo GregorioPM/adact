@@ -31,9 +31,11 @@
                             <span>Registrar nueva Dependencia</span>
 </button>-->
 
+
     <script src="public/js/admin.js"></script>
     <?php require_once 'views/footer.php';?>
     <script src="<?php echo constant('URL'); ?>/public/js/sidebar.js"></script>
+
 
 </body>
 </html>

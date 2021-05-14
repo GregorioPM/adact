@@ -35,7 +35,6 @@ class Dependencia extends SessionController{
         $id = $_GET['id'];
         $dependenciaModel = new DependenciaModel();
         $dependenciaModel->delete($id);
-        $this->getDependencias();
         $this->redirect('admin/listDependencias', []);
      }
     

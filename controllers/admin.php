@@ -40,5 +40,9 @@ class Admin extends SessionController{
            'user'=>$this->user
            ]);
     }
+
+    function perfil(){
+        $this->view->render('admin/perfil', ["user"=>$this->user]);
+    }
 }
 ?>

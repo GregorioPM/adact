@@ -17,7 +17,24 @@
                 $this->rol='';
                 $this->nombres='';
                 $this->apellidos='';
+                $this->foto='';
         }
+
+        function updatePhoto($name, $iduser){
+                try{
+                    $query = $this->db->connect()->prepare('UPDATE usuario SET foto = :val WHERE id = :id');
+                    $query->execute(['val' => $name, 'id' => $iduser]);
+        
+                    if($query->rowCount() > 0){
+                        return true;
+                    }else{
+                        return false;
+                    }
+                
+                }catch(PDOException $e){
+                    return NULL;
+                }
+            }
 
         public function save(){
                 try {
@@ -47,6 +64,7 @@
                                 $item->setRol($p['rol']);
                                 $item->setNombres($p['nombres']);
                                 $item->setApellidos($p['apellidos']);
+                                $item->setFoto($p['foto']);
 
                                 array_push($items, $item);
                         }
@@ -72,6 +90,7 @@
                                 $this->rol = $user['rol'];
                                 $this->nombres = $user['nombres'];
                                 $this->apellidos = $user['apellidos'];
+                                $this->foto=$user['foto'];
 
                              
                         return $this;

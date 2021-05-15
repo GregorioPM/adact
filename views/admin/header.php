@@ -62,7 +62,7 @@
             </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark">
+      <a href="<?= URL ?>/admin/perfil" class="nav-link text-dark">
                 <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
                 Perfil
             </a>

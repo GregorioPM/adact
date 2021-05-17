@@ -247,3 +247,14 @@ nav b{
     width: 100%;
     margin: 0;
 }
+
+.form-perfil{
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #adb5bd;
+}
+.form-perfil form{
+  width: 80%;
+  padding: 15px;
+}

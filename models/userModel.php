@@ -9,6 +9,7 @@
         private $nombres;
         private $apellidos;
         private $foto;
+        private $telefono;
         
         public function __construct(){
                 parent::__construct();
@@ -18,6 +19,7 @@
                 $this->nombres='';
                 $this->apellidos='';
                 $this->foto='';
+                $this->telefono='';
         }
 
         function updatePhoto($name, $iduser){
@@ -65,6 +67,7 @@
                                 $item->setNombres($p['nombres']);
                                 $item->setApellidos($p['apellidos']);
                                 $item->setFoto($p['foto']);
+                                $item->setTelefono($p['telefono']);
 
                                 array_push($items, $item);
                         }
@@ -91,6 +94,7 @@
                                 $this->nombres = $user['nombres'];
                                 $this->apellidos = $user['apellidos'];
                                 $this->foto=$user['foto'];
+                                $this->telefono=$user['telefono'];
 
                              
                         return $this;
@@ -110,21 +114,18 @@
                         return false;
                 }
         }
-        public function update($id){
+        public function update($user){
                 try {
-                        $query = $this->prepare('UPDATE usuario SET correo= :correo, password= :password, rol=:rol, nombres=:nombres, apellidos=:apellidos WHERE id= :id');
+                        $query = $this->prepare('UPDATE usuario SET correo= :correo, nombres=:nombres, apellidos=:apellidos, telefono=:telefono WHERE id= :id');
                         $query->execute([
-                                'id' => $this->id,
+                                'id' => $this->getId(),
                                 'correo' => $this->correo,
-                                'password' => $this->password,
-                                'rol' => $this->rol,
                                 'nombres' => $this->nombres,
-                                'apellidos' => $this->apellidos  
-                        ]); 
-                       
-
-                             
-                        return $true;
+                                'apellidos' => $this->apellidos,  
+                                'telefono'=> $this->telefono
+                        ]);
+                        error_log('SIGNUP::UPDATE() => ENTRA A UPDATEV222' . $this->getId());      
+                        return true;
                 } catch (PDOException $e) {
                         error_log('USERMODEL::getAll->PDOException ' . $e);
                         return false; 
@@ -154,7 +155,7 @@
                 }
         }
 
-        public function comparePasswords($password, $userid){
+        public function comparePasswords($password, $id){
                 try{
                         $user = $this->get($id);
                         return password_verify($password, $user->getPassword());
@@ -250,6 +251,17 @@
         public function setFoto($foto)
         {
                 $this->foto = $foto;
+
+                return $this;
+        }
+
+        public function getTelefono()
+        {
+                return $this->telefono;
+        }
+        public function setTelefono($telefono)
+        {
+                $this->telefono = $telefono;
 
                 return $this;
         }

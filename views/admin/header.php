@@ -38,7 +38,7 @@
       <?php if ($user->getFoto() === "" || $user->getFoto() === NULL) {
         echo constant('URL') . "/public/img/logo.png";
       } else {
-        echo constant('URL') . "/public/img/logo.png";
+        echo constant('URL') . "/public/img/fotos/" . $user->getFoto();
       }
       ?>" alt="..." width="80" height="80" class="mr-3 rounded-circle img-thumbnail shadow-sm">
         <div class="media-body">

@@ -4,28 +4,37 @@ $user = $this->d['user'];
 
 ?>
 <?php require_once 'header.php'; ?>
+<div id="probar">
+    <?php $this->showMessages(); ?>
+
+  </div>
 <!-- Page content holder -->
 <div class="page-content p-5" id="content">
   <!-- Toggle button -->
   <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
 
   <div class="container">
-    <div class="row justify-content-md-center">
+    <div class="row justify-content-md-center form-perfil col-md-10">
 
-      <form action="<?php echo constant('URL') ?>/signup/updateUser" method="POST" enctype="multipart/form-data">
+      <form  class="col-md-8" action="<?php echo constant('URL') ?>/signup/updateUser" method="POST" enctype="multipart/form-data">
         <div class="form-group">
+        <input type="hidden" name="id" value="<?php echo $user->getId(); ?>">
           <label for="inputEmail4">Email</label>
           <input type="email" name="correo" class="form-control" id="inputEmail4" value="<?php echo $user->getCorreo(); ?>">
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputPassword4">Nombres</label>
-            <input type="text" class="form-control" id="inputPassword4" value="<?php echo $user->getNombres(); ?>">
+            <input type="text" name="nombres" class="form-control" id="inputPassword4" value="<?php echo $user->getNombres(); ?>">
           </div>
           <div class="form-group col-md-6">
             <label for="inputAddress">Apellidos</label>
-            <input type="text" class="form-control" id="inputAddress" value="<?php echo $user->getApellidos(); ?>">
+            <input type="text" name="apellidos" class="form-control" id="inputAddress" value="<?php echo $user->getApellidos(); ?>">
           </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail4">Telefono</label>
+          <input type="text" name="telefono" class="form-control" id="inputEmail4" value="<?php echo $user->getTelefono(); ?>">
         </div>
         <div class="form-group img-per">
           <label for="inputEmail4">Foto perfil</label>
@@ -44,7 +53,7 @@ $user = $this->d['user'];
           <br>
           <label for="photo">Foto de perfil</label>
 
-          <input type="file" name="photo" id="photo" autocomplete="off" required>
+          <input type="file" name="photo" id="photo" autocomplete="off">
 
 
 
@@ -52,7 +61,7 @@ $user = $this->d['user'];
 
 
 
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <button type="submit" class="btn mt-4 btn-registrar">Actualizar</button>
       </form>
 
 

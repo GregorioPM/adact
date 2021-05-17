@@ -28,7 +28,7 @@ class Admin extends SessionController{
            ]);
     }
  
-
+    
     function listUsuarios(){
        $usuarios= [];
        $userModel = new userModel();

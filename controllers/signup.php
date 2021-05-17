@@ -83,7 +83,7 @@ class Signup extends SessionController{
 
         if ($uploadOk == FALSE) {
             //echo "Sorry, your file was not uploaded.";
-            $this->redirect('admin/perfil', ['error' => Errors::ERROR_USER_UPDATEPHOTO_FORMAT]);
+            $this->redirect('admin/perfil', []);
         // if everything is ok, try to upload file
         } else {
             if (move_uploaded_file($photo["tmp_name"], $target_file)) {
@@ -91,7 +91,7 @@ class Signup extends SessionController{
                 $userModel->updatePhoto($hash, $this->user->getId());
                 $this->redirect('admin/perfil', []);
             } else {
-                $this->redirect('admin/perfil', ['error' => Errors::ERROR_USER_UPDATEPHOTO]);
+                $this->redirect('admin/perfil', []);
             }
         }
     }

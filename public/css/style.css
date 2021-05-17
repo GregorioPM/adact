@@ -197,3 +197,53 @@ nav b{
   .img-per{
     margin: 0 auto;
   }
+  .modal-body{
+    padding: 0;
+  }
+
+  .modal-footer{
+    background-color: #d2d2d2;
+  }
+
+  .btn-registrar{
+    color: #fff;
+    background-color: #ff0000;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .mod-header{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+  }
+
+  .form-user{
+    padding: 1rem;
+  }
+
+  .form-user p{
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-user label {
+    margin: 0;
+    padding: 0;
+  }
+
+  .form-user input{
+    border: 1.8px solid #e9ecef;
+  }
+
+  #probar{
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+    transition: all 0.4s;
+  }
+
+  #probar.active {
+    width: 100%;
+    margin: 0;
+}

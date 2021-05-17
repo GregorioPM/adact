@@ -17,7 +17,7 @@
         function existPOST($params){
             foreach ($params as $param){
                 if(!isset($_POST[$param])){
-                    error_log('controller:: ExistPOST -> No existe el parametro' . $param);
+                    error_log('controller:: ExistPOST -> No existe el parametro ' . $param);
                     return false;
                 }
             }

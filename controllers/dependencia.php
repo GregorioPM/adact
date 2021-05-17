@@ -11,7 +11,6 @@ class Dependencia extends SessionController{
     }
 
     function crearDependencia(){
-        error_log('ADMIN::NUEVADEPENDENCIA -> Creada Dependencia');
         if($this->existPOST(['dependencia'])){
             $dependencia = $this->getPost('dependenciaa');
     
@@ -22,9 +21,9 @@ class Dependencia extends SessionController{
                 $dependenciaModel->save();
                 error_log('Admin::newDependencia() => new dependencia created');
                 //$this->view->render('admin/list-dependencia', []);
-                $this->redirect('admin/listDependencias', []);
+                $this->redirect('admin/listDependencias', ['success' => SuccessMessages::SUCCESS_ADMIN_NEWDEPENDENCY]);
             }else{
-                $this->redirect('admin/listDependencias', []);
+                $this->redirect('admin/listDependencias', ['error' => ErrorMessages::ERROR_ADMIN_NEWDEPENDENCY_EXISTS]);
             }
         }
     }
@@ -39,27 +38,23 @@ class Dependencia extends SessionController{
      }
     
      function updateDependencia(){
-         error_log('Admin::UpdateDependencia() => ENTRO A UPDATEEEEEE');
-         if($this->existPOST(['dependencia'])){
-             $id = $this->getPost('id');
-             $dependencia = $this->getPost('dependenciaa');
-             //error_log('Admin::newDependencia() => OBTUVE IDDDDD' . $id);
-             $dependenciaModel = new DependenciaModel();
-    
-             if(!$dependenciaModel->exists($dependencia)){
-                 $dependenciaModel->setDependencia($dependencia);
-                 $dependenciaModel->setId($id);
-                 
-                 error_log('Admin::UpdateDependencia() => OBTUVE IDDDDD' . $dependenciaModel->getDependencia());
-                 $dependenciaModel->update($dependenciaModel);
-                 /*$dependenciaModel->update(['id'=>$id , 'dependencia'=>$dependencia]);*/
-                 $this->redirect('admin/listDependencias', []);
-             }else{
-                 $this->redirect('admin/listDependencias', []);
-             }
-         }
-     
-     }
+        if($this->existPOST(['dependencia'])){
+            $id = $this->getPost('id');
+            $dependencia = $this->getPost('dependencia');
+            $dependenciaModel = new DependenciaModel();
+
+            if(!$dependenciaModel->exists($dependencia)){
+                $dependenciaModel->setDependencia($dependencia);
+                $dependenciaModel->setId($id);
+                $dependenciaModel->update($dependenciaModel);
+                /*$dependenciaModel->update(['id'=>$id , 'dependencia'=>$dependencia]);*/
+                $this->redirect('admin/listDependencias', ['success' => SuccessMessages::SUCCESS_ADMIN_DEPENDENCY_UPDATE]);
+            }else{
+                $this->redirect('admin/listDependencias', ['error' => ErrorMessages::ERROR_ADMIN_NEWDEPENDENCY_EXISTS]);
+            }
+        }
+
+    }
 }
 
 

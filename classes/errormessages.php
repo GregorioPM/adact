@@ -9,6 +9,7 @@
         const ERROR_SIGNUP_NEWUSER = "2121fb69c350c69f3246eb65aec12c14";
         const ERROR_SIGNUP_NEWUSER_EMPTY = "a5bcd7089d83f45e17e989fbc86003ed";
         const ERROR_SIGNUP_NEWUSER_EXISTS = "6ed9f1614737c71ba4128caa787304c4";
+       
         
 
         private $errorList = [];
@@ -22,6 +23,7 @@
                 ErrorMessages::ERROR_SIGNUP_NEWUSER => 'Hubo un error al intentar registrar. Intenta de nuevo',
                 ErrorMessages::ERROR_SIGNUP_NEWUSER_EMPTY => 'Los campos no pueden estar vacíos',
                 ErrorMessages::ERROR_SIGNUP_NEWUSER_EXISTS => 'El correo ya existe, intenta con otro',
+                
                 
                 
             ];

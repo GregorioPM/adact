@@ -75,8 +75,6 @@ class Signup extends SessionController
             $apellidos = $this->getPost('apellidos');
             $userActual = $this->getUserSessionData();
             $userModel = new userModel();
-             error_log('SIGNUP::UPDATE() => ENTRA A UPDATE' . var_dump($_FILES['photo']));
-             echo "<script> alert('".var_dump($_FILES['photo'])."'); </script>";
              
             if ($correo === '' || empty($correo) || $telefono === '' || empty($telefono) || $nombres === '' || empty($nombres) || $apellidos === '' || empty($apellidos)) {
                 $this->redirect('admin/perfil', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EMPTY]);
@@ -123,7 +121,7 @@ class Signup extends SessionController
                     }
                 }
                 //error_log('SIGNUP::UPDATE() => ENTRA A UPDATE' . $userModel->getNombres());
-                $this->redirect('admin/perfil', ['success' => SuccessMessages::SUCCESS_SIGNUP_NEWUSER]);            
+                $this->redirect('admin/perfil', ['success' => SuccessMessages::SUCCESS_PERFIL_UPDATE]);            
             } else {
                 $this->redirect('admin/perfil', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EXISTS]);
             }

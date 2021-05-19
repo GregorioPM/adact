@@ -82,7 +82,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a href="<?= URL ?>/admin/listActas" class="nav-link text-dark">
+        <a href="#" class="nav-link text-dark">
           <i class="fas fa-book-open mr-3 text-primary fa-fw"></i>
           Actas
         </a>

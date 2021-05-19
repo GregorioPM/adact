@@ -1,6 +1,7 @@
 <?php
 
 require_once "models/dependenciamodel.php";
+require_once "models/actasmodel.php";
 
 class Admin extends SessionController{
 
@@ -40,6 +41,18 @@ class Admin extends SessionController{
            'user'=>$this->user
            ]);
     }
+
+    function listActas(){
+        $actas= [];
+        $actasModel = new ActasModel();
+        $actas = $actasModel->getAll();
+        /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
+        
+        $this->view->render('admin/list-actas', [
+            'actas' => $actas,
+            'user'=>$this->user
+            ]);
+     }
 
     function perfil(){
         $this->view->render('admin/perfil', ["user"=>$this->user]);

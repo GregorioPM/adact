@@ -1,550 +1,204 @@
-[19-May-2021 15:11:19 Europe/Berlin] Hello, errors!
-[19-May-2021 15:11:19 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:11:19 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:11:19 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:11:19 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:11:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:11:19 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:11:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:11:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:11:19 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:11:19 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:11:19 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:11:19 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:11:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
-[19-May-2021 15:11:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class ActasModel could not be converted to string in C:\xampp\htdocs\Adact\models\actasmodel.php:83
-Stack trace:
-#0 C:\xampp\htdocs\Adact\controllers\admin.php(48): ActasModel->getAll()
-#1 C:\xampp\htdocs\Adact\libs\app.php(52): Admin->listActas()
-#2 C:\xampp\htdocs\Adact\index.php(29): App->__construct()
-#3 {main}
-  thrown in C:\xampp\htdocs\Adact\models\actasmodel.php on line 83
-[19-May-2021 15:13:04 Europe/Berlin] Hello, errors!
-[19-May-2021 15:13:04 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:13:04 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:13:04 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:13:04 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:13:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:13:04 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:13:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:13:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:13:04 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:13:04 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:13:04 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:13:04 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:13:04 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
-[19-May-2021 15:13:04 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
-[19-May-2021 15:13:04 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\updateDependencia.php on line 2
-[19-May-2021 15:13:24 Europe/Berlin] Hello, errors!
-[19-May-2021 15:13:24 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:13:24 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:13:24 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:13:24 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:13:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:13:24 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:13:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:13:24 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:13:24 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:13:24 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:13:24 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:13:24 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:13:24 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
-[19-May-2021 15:13:24 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
-[19-May-2021 15:13:24 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\updateDependencia.php on line 2
-[19-May-2021 15:14:43 Europe/Berlin] Hello, errors!
-[19-May-2021 15:14:43 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:14:43 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:14:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:14:43 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:14:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:14:43 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:14:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:14:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:14:43 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:14:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:14:43 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:14:43 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:14:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:14:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:14:43 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\updateDependencia.php on line 2
-[19-May-2021 15:16:19 Europe/Berlin] Hello, errors!
-[19-May-2021 15:16:19 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:16:19 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:16:19 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:16:19 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:16:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:16:19 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:16:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:16:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:16:19 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:16:19 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:16:19 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:16:19 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:16:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:16:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:16:19 Europe/Berlin] PHP Warning:  Undefined array key "dependencias" in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 2
-[19-May-2021 15:16:19 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 67
-[19-May-2021 15:17:44 Europe/Berlin] Hello, errors!
-[19-May-2021 15:17:44 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:17:44 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:17:44 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:17:44 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:17:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:17:44 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:17:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:17:44 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:17:44 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:17:44 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:17:44 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:17:44 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:17:44 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:17:44 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:17:44 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\updateDependencia.php on line 2
-[19-May-2021 15:18:34 Europe/Berlin] Hello, errors!
-[19-May-2021 15:18:34 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:18:34 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:18:34 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:18:34 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:18:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:18:34 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:18:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:18:34 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:18:34 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:18:34 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:18:34 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:18:34 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:18:34 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:18:34 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:18:34 Europe/Berlin] PHP Warning:  Undefined array key "dependencias" in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 2
-[19-May-2021 15:18:34 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 67
-[19-May-2021 15:19:10 Europe/Berlin] Hello, errors!
-[19-May-2021 15:19:10 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:19:10 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:10 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:19:10 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:19:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:19:10 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:19:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:19:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:19:10 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:10 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:19:10 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:10 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:10 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:19:10 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:19:10 Europe/Berlin] PHP Warning:  Undefined variable $dependencias in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 67
-[19-May-2021 15:19:31 Europe/Berlin] Hello, errors!
-[19-May-2021 15:19:31 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:19:31 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:31 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:19:31 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:19:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:19:31 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:19:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:19:31 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:19:31 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:31 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:19:31 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:31 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:31 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:19:31 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:19:31 Europe/Berlin] PHP Warning:  Undefined variable $dependencias in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 67
-[19-May-2021 15:19:55 Europe/Berlin] Hello, errors!
-[19-May-2021 15:19:55 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:19:55 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:55 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:19:55 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:19:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:19:55 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:19:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:19:55 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:19:55 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:55 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:19:55 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:55 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:19:55 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:19:55 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:19:55 Europe/Berlin] PHP Warning:  Undefined variable $dependencias in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 71
-[19-May-2021 15:20:53 Europe/Berlin] Hello, errors!
-[19-May-2021 15:20:53 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:20:53 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:20:53 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:20:53 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:20:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:20:53 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:20:53 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:20:53 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:20:53 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:20:53 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:20:53 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:20:53 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:20:53 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:20:53 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:20:53 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 82
-[19-May-2021 15:21:02 Europe/Berlin] Hello, errors!
-[19-May-2021 15:21:02 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:21:02 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:02 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:21:02 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:21:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:21:02 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:21:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:21:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:21:02 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:02 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:21:02 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:02 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:02 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:21:02 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:21:02 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 75
-[19-May-2021 15:21:14 Europe/Berlin] Hello, errors!
-[19-May-2021 15:21:14 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:21:14 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:14 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:21:14 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:21:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:21:14 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:21:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:21:14 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:21:14 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:14 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:21:14 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:14 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:21:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:21:14 Europe/Berlin] PHP Warning:  Undefined variable $dependencias in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 71
-[19-May-2021 15:21:31 Europe/Berlin] Hello, errors!
-[19-May-2021 15:21:31 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:21:31 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:31 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:21:31 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:21:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:21:31 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:21:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:21:31 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:21:31 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:31 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:21:31 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:31 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:21:31 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:21:31 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:21:31 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 75
-[19-May-2021 15:22:09 Europe/Berlin] Hello, errors!
-[19-May-2021 15:22:09 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:22:09 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:09 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:22:09 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:22:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:22:09 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:22:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:22:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:22:09 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:09 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:22:09 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:09 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:09 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:22:09 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:22:09 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 82
-[19-May-2021 15:22:22 Europe/Berlin] Hello, errors!
-[19-May-2021 15:22:22 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:22:22 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:22 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:22:22 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:22:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:22:22 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:22:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:22:22 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:22:22 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:22 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:22:22 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:22 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:22 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:22:22 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:22:23 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 82
-[19-May-2021 15:22:32 Europe/Berlin] Hello, errors!
-[19-May-2021 15:22:32 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:22:32 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:32 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:22:32 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:22:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:22:32 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:22:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:22:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:22:32 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:32 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:22:32 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:32 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:32 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:22:32 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:22:32 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 75
-[19-May-2021 15:22:41 Europe/Berlin] Hello, errors!
-[19-May-2021 15:22:41 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:22:41 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:41 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:22:41 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:22:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:22:41 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:22:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:22:41 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:22:41 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:41 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:22:41 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:41 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:22:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:22:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:22:41 Europe/Berlin] PHP Warning:  Undefined variable $dependencias in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 71
-[19-May-2021 15:24:17 Europe/Berlin] Hello, errors!
-[19-May-2021 15:24:17 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:24:17 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:24:17 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:24:17 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:24:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:24:17 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:24:17 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:24:17 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:24:17 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:24:17 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:24:17 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:24:17 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:24:17 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:24:17 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:24:17 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 75
-[19-May-2021 15:24:46 Europe/Berlin] Hello, errors!
-[19-May-2021 15:24:46 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:24:46 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:24:46 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:24:46 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:24:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:24:46 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:24:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:24:46 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:24:46 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:24:46 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:24:46 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:24:46 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:24:46 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:24:46 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:24:46 Europe/Berlin] PHP Warning:  Undefined variable $dependencia in C:\xampp\htdocs\Adact\views\admin\list-actas.php on line 75
-[19-May-2021 15:25:09 Europe/Berlin] Hello, errors!
-[19-May-2021 15:25:09 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:25:09 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:09 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:25:09 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:25:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:25:09 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:25:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:25:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:25:09 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:09 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:25:09 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:09 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:09 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:25:09 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:25:33 Europe/Berlin] Hello, errors!
-[19-May-2021 15:25:33 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:25:33 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:25:33 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:25:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:25:33 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:25:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:25:33 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:25:33 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:25:33 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:33 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:33 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:25:33 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:25:46 Europe/Berlin] Hello, errors!
-[19-May-2021 15:25:46 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:25:46 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:46 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:25:46 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:25:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:25:46 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:25:46 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:25:46 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:25:46 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:46 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:25:46 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:46 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:46 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:25:46 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:25:58 Europe/Berlin] Hello, errors!
-[19-May-2021 15:25:58 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:25:58 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:58 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:25:58 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:25:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:25:58 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:25:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:25:58 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:25:58 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:58 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:25:58 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:58 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:25:58 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:25:58 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:26:13 Europe/Berlin] Hello, errors!
-[19-May-2021 15:26:13 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:26:13 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:26:13 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:26:13 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:26:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:26:13 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:26:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:26:13 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:26:13 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:26:13 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:26:13 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:26:13 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:26:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:26:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:26:59 Europe/Berlin] Hello, errors!
-[19-May-2021 15:26:59 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:26:59 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:26:59 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:26:59 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:26:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:26:59 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:26:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:26:59 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:26:59 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:26:59 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:26:59 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:26:59 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:26:59 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:26:59 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:28:43 Europe/Berlin] Hello, errors!
-[19-May-2021 15:28:43 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:28:43 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dependencia/deleteDependencias?id=1, url => dependencia
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::isPublic(): currentURL => dependencia
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dependencia/deleteDependencias?id=1, url => dependencia
-[19-May-2021 15:28:43 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
-[19-May-2021 15:28:43 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
-[19-May-2021 15:28:43 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
-[19-May-2021 15:28:43 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:28:43 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:28:43 Europe/Berlin] Hello, errors!
-[19-May-2021 15:28:43 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:28:43 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listDependencias, url => admin
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listDependencias, url => admin
-[19-May-2021 15:28:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:28:43 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:28:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:28:43 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:28:49 Europe/Berlin] Hello, errors!
-[19-May-2021 15:28:49 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:28:49 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:28:49 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:28:49 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:28:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:28:49 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:28:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:28:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:28:49 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:28:49 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:28:49 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:28:49 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:28:49 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:28:49 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:35:54 Europe/Berlin] Hello, errors!
-[19-May-2021 15:35:54 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:35:54 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:35:54 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:35:54 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:35:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:35:54 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:35:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:35:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:35:54 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:35:54 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:35:54 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:35:54 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:35:54 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:35:54 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:53:30 Europe/Berlin] Hello, errors!
-[19-May-2021 15:53:30 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:53:30 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:30 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:30 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:53:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listUsuarios, url => admin
-[19-May-2021 15:53:30 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:53:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listUsuarios, url => admin
-[19-May-2021 15:53:30 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:53:30 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:30 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:30 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:33 Europe/Berlin] Hello, errors!
-[19-May-2021 15:53:33 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:53:33 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:33 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:53:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:53:33 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:53:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:53:33 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:53:33 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:33 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:33 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:33 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:53:33 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
-[19-May-2021 15:53:34 Europe/Berlin] Hello, errors!
-[19-May-2021 15:53:34 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:53:34 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:34 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:34 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:53:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listDependencias, url => admin
-[19-May-2021 15:53:34 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:53:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listDependencias, url => admin
-[19-May-2021 15:53:34 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:53:34 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:34 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:34 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:36 Europe/Berlin] Hello, errors!
-[19-May-2021 15:53:36 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:53:36 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/perfil, url => admin
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/perfil, url => admin
-[19-May-2021 15:53:36 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:53:36 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:36 Europe/Berlin] Hello, errors!
-[19-May-2021 15:53:36 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:53:36 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listUsuarios, url => admin
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listUsuarios, url => admin
-[19-May-2021 15:53:36 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:53:36 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:36 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:36 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:41 Europe/Berlin] Hello, errors!
-[19-May-2021 15:53:41 Europe/Berlin] SessionController::validateSession()
-[19-May-2021 15:53:41 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:41 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:41 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
-[19-May-2021 15:53:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:53:41 Europe/Berlin] sessionController::isPublic(): currentURL => admin
-[19-May-2021 15:53:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
-[19-May-2021 15:53:41 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
-[19-May-2021 15:53:41 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:41 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
-[19-May-2021 15:53:41 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:41 Europe/Berlin] Conexión a BD exitosa
-[19-May-2021 15:53:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
-[19-May-2021 15:53:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[20-May-2021 18:51:56 Europe/Berlin] Hello, errors!
+[20-May-2021 18:51:56 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 18:51:56 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:51:56 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:51:56 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 18:51:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleActa, url => admin
+[20-May-2021 18:51:56 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[20-May-2021 18:51:56 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleActa, url => admin
+[20-May-2021 18:51:56 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-May-2021 18:51:56 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:51:56 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:51:56 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:52:04 Europe/Berlin] Hello, errors!
+[20-May-2021 18:52:04 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 18:52:04 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/acta/newActa, url => acta
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::isPublic(): currentURL => acta
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/acta/newActa, url => acta
+[20-May-2021 18:52:04 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[20-May-2021 18:52:04 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[20-May-2021 18:52:04 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[20-May-2021 18:52:04 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:52:04 Europe/Berlin] Admin::newDependencia() => new dependencia createdprevios 2021
+[20-May-2021 18:52:04 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:52:04 Europe/Berlin] Hello, errors!
+[20-May-2021 18:52:04 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 18:52:04 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 18:52:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-May-2021 18:52:04 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:52:04 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:52:04 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:52:04 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:52:04 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[20-May-2021 18:52:04 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[20-May-2021 18:52:04 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:52:04 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 18:52:04 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0
+[20-May-2021 18:53:12 Europe/Berlin] Hello, errors!
+[20-May-2021 18:53:12 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 18:53:12 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:53:12 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 18:53:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 18:53:12 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[20-May-2021 18:53:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 18:53:12 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-May-2021 18:53:12 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:53:12 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:12 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:12 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[20-May-2021 18:53:12 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[20-May-2021 18:53:12 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:12 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 18:53:12 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0
+[20-May-2021 18:53:16 Europe/Berlin] Hello, errors!
+[20-May-2021 18:53:16 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 18:53:16 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:16 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:53:16 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 18:53:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleActa, url => admin
+[20-May-2021 18:53:16 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[20-May-2021 18:53:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleActa, url => admin
+[20-May-2021 18:53:16 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-May-2021 18:53:16 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:16 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:53:16 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:21 Europe/Berlin] Hello, errors!
+[20-May-2021 18:53:21 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 18:53:21 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/acta/newActa, url => acta
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::isPublic(): currentURL => acta
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/acta/newActa, url => acta
+[20-May-2021 18:53:21 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[20-May-2021 18:53:21 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[20-May-2021 18:53:21 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[20-May-2021 18:53:21 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:53:21 Europe/Berlin] Admin::newDependencia() => new dependencia createdprevios 2021
+[20-May-2021 18:53:21 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:21 Europe/Berlin] Hello, errors!
+[20-May-2021 18:53:21 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 18:53:21 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 18:53:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-May-2021 18:53:21 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 18:53:21 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:21 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[20-May-2021 18:53:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[20-May-2021 18:53:21 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 18:53:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0
+[20-May-2021 18:53:21 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 18:53:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 18:53:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0
+[20-May-2021 19:02:02 Europe/Berlin] Hello, errors!
+[20-May-2021 19:02:02 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 19:02:02 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 19:02:02 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 19:02:02 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 19:02:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 19:02:02 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[20-May-2021 19:02:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 19:02:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-May-2021 19:02:02 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 19:02:02 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 19:02:02 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 19:02:02 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 19:02:02 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[20-May-2021 19:02:02 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[20-May-2021 19:02:02 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 19:02:02 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 19:02:02 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0
+[20-May-2021 19:02:02 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 19:02:02 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 19:02:02 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0
+[20-May-2021 21:18:48 Europe/Berlin] Hello, errors!
+[20-May-2021 21:18:48 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 21:18:48 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:18:48 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 21:18:48 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 21:18:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 21:18:48 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[20-May-2021 21:18:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 21:18:48 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-May-2021 21:18:48 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:18:48 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 21:18:48 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:18:48 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:18:48 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[20-May-2021 21:18:48 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[20-May-2021 21:18:48 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:18:48 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 21:18:48 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0
+[20-May-2021 21:18:48 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:18:48 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 21:18:48 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0
+[20-May-2021 21:18:51 Europe/Berlin] Hello, errors!
+[20-May-2021 21:18:51 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 21:18:51 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:18:51 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 21:18:51 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 21:18:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleActa, url => admin
+[20-May-2021 21:18:51 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[20-May-2021 21:18:51 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleActa, url => admin
+[20-May-2021 21:18:51 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-May-2021 21:18:51 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:18:51 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 21:18:51 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:07 Europe/Berlin] Hello, errors!
+[20-May-2021 21:19:07 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 21:19:07 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:07 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 21:19:07 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 21:19:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/acta/newActa, url => acta
+[20-May-2021 21:19:07 Europe/Berlin] sessionController::isPublic(): currentURL => acta
+[20-May-2021 21:19:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/acta/newActa, url => acta
+[20-May-2021 21:19:07 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[20-May-2021 21:19:07 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[20-May-2021 21:19:07 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[20-May-2021 21:19:07 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:07 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 21:19:07 Europe/Berlin] Admin::newDependencia() => new dependencia createdCancelaciones
+[20-May-2021 21:19:07 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:08 Europe/Berlin] Hello, errors!
+[20-May-2021 21:19:08 Europe/Berlin] SessionController::validateSession()
+[20-May-2021 21:19:08 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 21:19:08 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[20-May-2021 21:19:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 21:19:08 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[20-May-2021 21:19:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas?success=ab25333de7e87679a13981cb9689a7e1, url => admin
+[20-May-2021 21:19:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-May-2021 21:19:08 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[20-May-2021 21:19:08 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:08 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[20-May-2021 21:19:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[20-May-2021 21:19:08 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 21:19:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0
+[20-May-2021 21:19:08 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 21:19:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0
+[20-May-2021 21:19:08 Europe/Berlin] Conexión a BD exitosa
+[20-May-2021 21:19:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 0
+[20-May-2021 21:19:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 0

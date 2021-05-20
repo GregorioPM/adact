@@ -24,36 +24,10 @@ $user = $this->d['user'];
     <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
     <div class="container">
       <button type="button" class="btn btn-registrar" data-toggle="modal" data-target="#newDependencia">
-        Agregar Acta
+       <a class="btn-a" href="<?php echo constant('URL'); ?>/admin/detalleActa">Agregar Acta</a>
+        
       </button>
 
-      <!-- Modal -->
-      <div class="modal fade" id="newDependencia" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header mod-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Registrar Dependencia</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form id="form-expense-container" action="<?php echo constant('URL'); ?>/dependencia/crearDependencia" method="POST">
-                <div class="form-user">
-                  <div class="section">
-                    <label for="amount"><b>Nombre</b></label>
-                    <input type="hidden" name="id">
-                    <input type="text" name="dependenciaa" id="color"" autocomplete=" off" required>
-                  </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-              <button type="submit" name="dependencia" class="btn btn-registrar">Registrar</button>
-            </div>
-            </form>
-          </div>
-        </div>
-      </div>
       <table class="table mt-4 table-striped table-bordered width=" 80%"">
         <thead>
           <tr class="text-center">

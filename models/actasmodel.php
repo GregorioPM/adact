@@ -46,6 +46,7 @@
                              'fecha' => $this->fecha,
                              'horaInicio' => $this->horaInicio,
                              'horaFinal' => $this->horaFinal,
+                             'lugar' => $this->lugar,
                              'idDependencia' => $this->idDependencia,
                              'orden' => $this->orden,
                              'conclusiones' => $this->conclusiones,

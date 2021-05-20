@@ -57,5 +57,14 @@ class Admin extends SessionController{
     function perfil(){
         $this->view->render('admin/perfil', ["user"=>$this->user]);
     }
+
+    function detalleActa(){
+        $dependenciaModel = new DependenciaModel();
+        $dependencias = $dependenciaModel->getAll();
+        $this->view->render('admin/detalle-acta', [
+            "user"=>$this->user,
+            'dependencias' => $dependencias
+            ]);
+    }
 }
 ?>

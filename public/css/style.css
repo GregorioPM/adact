@@ -258,3 +258,44 @@ nav b{
   width: 80%;
   padding: 15px;
 }
+
+.btn-a{
+  color: white;
+}
+
+.acta label{
+  margin: 0;
+  padding: 0;
+}
+.acta input{
+  border: 1px solid red;
+}
+
+.acta select{
+  border: 1px solid red;
+}
+.form-group{
+  margin-bottom: 0.5rem;
+}
+
+#conclu{
+  width: 100%;
+  border: 1px solid red;
+}
+.titulo{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.btn-form{
+  color: #fff;
+  background-color: #ff0000;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#bus{
+  width: 80%;
+}

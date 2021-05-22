@@ -67,10 +67,11 @@ class Admin extends SessionController
     {
         $this->view->render('admin/perfil', ["user" => $this->user]);
     }
-
+    function detalleActas(){
+        
+    }
     function detalleActa()
     {
-        error_log('EL IDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD ' . $_GET['id']); 
         if (isset($_GET['id'])) {
             $id = $_GET['id'];
 

@@ -3,6 +3,11 @@
 $user = $this->d['user'];
 $dependencias = $this->d['dependencias'];
 $usuarios = $this->d['usuarios'];
+$temas = $this->d['temas'];
+$acta = $this->d['acta'];
+
+
+
 
 ?>
 <?php require_once 'header.php'; ?>
@@ -28,7 +33,7 @@ $usuarios = $this->d['usuarios'];
         <div class="form-row">
           <div class="form-group col-md-8">
             <label for="actaLugar"><b>Lugar</b></label>
-            <input type="text" name="lugar" class="form-control" id="actaLugar" value="">
+            <input type="text" name="lugar" class="form-control" id="actaLugar" value="<?php echo $acta->getLugar(); ?>">
           </div>
           <div class="form-group col-md-4">
             <label for="inputAddress"><b>Fecha</b></label>

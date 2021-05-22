@@ -54,12 +54,29 @@
                              'aprobo' => $this->aprobo,
                              'estado' => $this->estado,   
                         ]);
+                        error_log('OBTENER ULTIMO ID DE ACTA ' . $this->pdo->lastInsertId()); 
                         return true;
                 } catch (PDOException $e) {
                         error_log('USERMODEL::save->PDOException ' . $e); 
                         return false;
                 }
         }
+
+        public function obtenerUltimoId(){
+                $id="";
+                $query = $this->db->connect()->prepare('SELECT MAX(id) AS id FROM acta');
+                try{
+                    $query->execute();
+        
+                    while($row = $query->fetch()){
+                        $id = $row['id'];
+                    }
+                    return $id;
+                }catch(PDOException $e){
+                    return null;
+                }
+            }
+
         public function getAll(){
                 $items = [];
                 try {
@@ -104,7 +121,35 @@
                         return false;
                     }
         }
-        public function get($id){}
+        public function get($id){
+               
+                        try {
+                                $query = $this->prepare('SELECT * FROM acta WHERE id= :id');
+                                $query->execute([
+                                        'id' =>$id
+                                ]); 
+                                $acta = $query->fetch(PDO::FETCH_ASSOC);
+                                        
+                                        $this->id = $acta['id'];
+                                        $this->asunto = $acta['asunto'];
+                                        $this->fecha = $acta['fecha'];
+                                        $this->horaInicio = $acta['hora_inicio'];
+                                        $this->horaFinal = $acta['hora_final'];
+                                        $this->lugar = $acta['lugar'];
+                                        $this->idDependencia = $acta['id_dependencia'];
+                                        $this->orden=$acta['orden_dia'];
+                                        $this->conclusiones=$acta['conclusiones'];
+                                        $this->elaboro=$acta['elaboro'];
+                                        $this->aprobo=$acta['reviso_aprobo'];
+                                        $this->estado=$acta['estado'];
+        
+                                     
+                                return $this;
+                        } catch (PDOException $e) {
+                                error_log('USERMODEL::getAll->PDOException ' . $e); 
+                        }
+                
+        }
         public function delete($id){}
         public function update($id){}
         public function from($array){}

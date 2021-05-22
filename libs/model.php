@@ -5,6 +5,7 @@ include_once 'libs/imodel.php';
 
         function __construct(){
             $this->db = new Database();
+            $this->pdo = $this->db->connect();
         }
 
         function query($query){

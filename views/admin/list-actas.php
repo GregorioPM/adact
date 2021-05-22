@@ -24,8 +24,8 @@ $user = $this->d['user'];
     <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
     <div class="container">
       <button type="button" class="btn btn-registrar" data-toggle="modal" data-target="#newDependencia">
-       <a class="btn-a" href="<?php echo constant('URL'); ?>/admin/detalleActa">Agregar Acta</a>
-        
+        <a class="btn-a" href="<?php echo constant('URL'); ?>/admin/detalleActa">Agregar Acta</a>
+
       </button>
 
       <table class="table mt-4 table-striped table-bordered width=" 80%"">
@@ -55,12 +55,15 @@ $user = $this->d['user'];
               <td class="text-center">
 
                 <!--<a href="<?= URL ?>/admin/editDependencia?id=<?= $acta->getId() ?>"><span class="material-icons action-update" data-toggle="modal" data-target="#exampleModalCenter">mode_edit</span></a>-->
-                <button type="button" class="btn action-update" data-toggle="modal" data-target="#editDependencia<?php echo $acta->getId(); ?>"><i class="fas fa-edit"></i></button>
+
+                <a href="<?= URL ?>/admin/detalleActa?id=<?= $acta->getId() ?>"><span class="material-icons action-edit">
+                    edit
+                  </span></a>
                 <a href="<?= URL ?>/dependencia/deleteDependencias?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
               </td>
 
             </tr>
-            
+
           <?php } ?>
         </tbody>
       </table>

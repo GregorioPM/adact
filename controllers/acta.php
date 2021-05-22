@@ -1,6 +1,8 @@
 <?php
 
 require_once "models/actasmodel.php";
+require_once "models/temasmodel.php";
+
 
 class Acta extends SessionController{
     
@@ -14,7 +16,11 @@ class Acta extends SessionController{
         if($this->existPOST(['lugar'])){
             $asunto = $this->getPost('asunto');
             $lugar = $this->getPost('lugar');
-            error_log('Admin::newDependencia() => new dependencia created' . $asunto);
+            $temas = $this->getPost('temas');
+            foreach($temas as $tema){
+                error_log('Admin::newDependencia() => new dependencia created' . $tema);
+
+            }
             $fecha = $this->getPost('fecha');
             $dependencia=$this->getPost('dependencia');
 
@@ -25,7 +31,14 @@ class Acta extends SessionController{
                 $actasModel->setEstado("Creada");
                 $actasModel->setIdDependencia($dependencia);
                 $actasModel->save();
-                //$this->view->render('admin/list-dependencia', []);
+                
+                $ultimoId = $actasModel->obtenerUltimoId();
+                foreach($temas as $tema){
+                     $temasmodel = new TemasModel();
+                     $temasmodel->setIdActa($ultimoId);
+                     $temasmodel->setDescripcion($tema);
+                     $temasmodel->save();
+                }
                 $this->redirect('admin/listActas', ['success' => SuccessMessages::SUCCESS_ADMIN_NEWDEPENDENCY]);
             
         }

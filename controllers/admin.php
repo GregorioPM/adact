@@ -2,69 +2,110 @@
 
 require_once "models/dependenciamodel.php";
 require_once "models/actasmodel.php";
+require_once "models/temasmodel.php";
 
-class Admin extends SessionController{
+
+class Admin extends SessionController
+{
 
     private $user;
-    function __construct(){
+    private $datos = [];
+    function __construct()
+    {
         parent::__construct();
         $this->user = $this->getUserSessionData();
     }
 
-    function render(){
-        $this->view->render('admin/index', ["user"=>$this->user]);
+    function render()
+    {
+        $this->view->render('admin/index', ["user" => $this->user]);
     }
-    function listDependencias(){
+    function listDependencias()
+    {
         /*$dependencias = [
             "dependencia" => "gregorio",
         ];*/
-       $dependencias= [];
-       $dependenciaModel = new DependenciaModel();
-       $dependencias = $dependenciaModel->getAll();
-       /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
-       
-       $this->view->render('admin/list-dependencia', [
-           'dependencias' => $dependencias,
-           'user'=>$this->user
-           ]);
-    }
- 
-    
-    function listUsuarios(){
-       $usuarios= [];
-       $userModel = new userModel();
-       $usuarios = $userModel->getAll();
-       /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
-       
-       $this->view->render('admin/list-usuarios', [
-           'usuarios' => $usuarios,
-           'user'=>$this->user
-           ]);
+        $dependencias = [];
+        $dependenciaModel = new DependenciaModel();
+        $dependencias = $dependenciaModel->getAll();
+        /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
+
+        $this->view->render('admin/list-dependencia', [
+            'dependencias' => $dependencias,
+            'user' => $this->user
+        ]);
     }
 
-    function listActas(){
-        $actas= [];
+
+    function listUsuarios()
+    {
+        $usuarios = [];
+        $userModel = new userModel();
+        $usuarios = $userModel->getAll();
+        /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
+
+        $this->view->render('admin/list-usuarios', [
+            'usuarios' => $usuarios,
+            'user' => $this->user
+        ]);
+    }
+
+    function listActas()
+    {
+        $actas = [];
         $actasModel = new ActasModel();
         $actas = $actasModel->getAll();
         /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
-        
+
         $this->view->render('admin/list-actas', [
             'actas' => $actas,
-            'user'=>$this->user
-            ]);
-     }
-
-    function perfil(){
-        $this->view->render('admin/perfil', ["user"=>$this->user]);
+            'user' => $this->user
+        ]);
     }
 
-    function detalleActa(){
-        $dependenciaModel = new DependenciaModel();
-        $dependencias = $dependenciaModel->getAll();
-        $this->view->render('admin/detalle-acta', [
-            "user"=>$this->user,
-            'dependencias' => $dependencias
+    function perfil()
+    {
+        $this->view->render('admin/perfil', ["user" => $this->user]);
+    }
+
+    function detalleActa()
+    {
+        error_log('EL IDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD ' . $_GET['id']); 
+        if (isset($_GET['id'])) {
+            $id = $_GET['id'];
+
+            $dependenciaModel = new DependenciaModel();
+            $dependencias = $dependenciaModel->getAll();
+            $userModel = new userModel();
+            $usuarios = $userModel->getAll();
+            $temasModel = new TemasModel();
+            $temas = $temasModel->getAll($id);
+            $actasModel = new ActasModel();
+            $acta = $actasModel->get($id);
+            $this->view->render('admin/detalle-acta', [
+                "user" => $this->user,
+                'dependencias' => $dependencias,
+                'usuarios' => $usuarios,
+                'temas' => $temas,
+                'acta'=> $acta
             ]);
+        } else {
+            $dependenciaModel = new DependenciaModel();
+            $dependencias = $dependenciaModel->getAll();
+            $userModel = new userModel();
+            $usuarios = $userModel->getAll();
+            $this->view->render('admin/detalle-acta', [
+                "user" => $this->user,
+                'dependencias' => $dependencias,
+                'usuarios' => $usuarios
+            ]);
+        }
+    }
+    function datosTemas()
+    {
+        $temas = $_POST['temas'];
+        $datos[] = [$temas];
+        error_log('Admin::newDependencia() => SI ENTRA A DAROS' . $temas);
+        echo json_encode($datos);
     }
 }
-?>

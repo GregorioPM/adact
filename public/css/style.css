@@ -12,6 +12,10 @@ body{
 .action-delete{
     color: red;
 }
+
+.action-edit{
+  color: black;
+}
 .table{
     margin: 0 auto;
     width: 80%;
@@ -298,4 +302,18 @@ nav b{
 
 #bus{
   width: 80%;
+}
+
+.tem{
+  width: 80%;
+}
+
+.abajoInput{
+  width: 100%;
+  display: flex;
+}
+
+.tablelist{
+  margin: 0;
+  width: 100%;
 }

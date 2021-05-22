@@ -2,6 +2,11 @@
 <?php
 $user = $this->d['user'];
 $dependencias = $this->d['dependencias'];
+$usuarios = $this->d['usuarios'];
+$temas = $this->d['temas'];
+$acta = $this->d['acta'];
+
+
 
 
 ?>
@@ -28,7 +33,7 @@ $dependencias = $this->d['dependencias'];
         <div class="form-row">
           <div class="form-group col-md-8">
             <label for="actaLugar"><b>Lugar</b></label>
-            <input type="text" name="lugar" class="form-control" id="actaLugar">
+            <input type="text" name="lugar" class="form-control" id="actaLugar" value="<?php echo $acta->getLugar(); ?>">
           </div>
           <div class="form-group col-md-4">
             <label for="inputAddress"><b>Fecha</b></label>
@@ -64,20 +69,51 @@ $dependencias = $this->d['dependencias'];
         <div class="form-group">
           <label for="inputPassword4"><b>Conclusiones</b></label>
           <br>
-          <textarea name="conclusiones" id="conclu" cols="100" rows="10"></textarea>
+          <textarea class="rounded" name="conclusiones" id="conclu" cols="100" rows="10"></textarea>
         </div>
         <div class="form-group">
           <div class="input-group mt-4">
-            <label for="inputPassword4"><b>Agregar Participantes</b></label>
-            <br>
-            <input type="search" class="form-control mt-1 rounded " id="bus" placeholder="Añadir Participante" aria-label="Search" aria-describedby="search-addon" />
-            <button type="button" class="btn ml-2 btn-form">Agregar</button>
+            <label for="inputPassword4"><b>Agregar Temas</b></label>
+            <div class="abajoInput">
+              <input type="text" name="temas" class="form-control rounded" id="temas" placeholder="Agregar Temas">
+              <button type="button" id="enviarTemas" class="btn ml-2 btn-form">Agregar</button>
+            </div>
           </div>
         </div>
+        <div class="form-group">
+          <table id="tablaTemas" class="table mt-4 table-striped table-bordered tablelist" style="display: none;">
+            <thead>
+              <tr class="text-center">
+                <th scope="col">Temas</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="salida">
 
+            </tbody>
+          </table>
+        </div>
+        <div class="form-group">
+          <div class="input-group mt-4">
+            <label for="exampleDataList"><b>Agregar Participantes</b></label>
+            <div class="abajoInput">
+              <input class="form-control rounded" list="datalistOptions" id="exampleDataList" placeholder="Buscar participantes">
+              <datalist id="datalistOptions">
+                <?php
 
+                foreach ($usuarios as $usuario) {
+                ?>
+                  
+                  <option data-id="<?php echo $usuario->getId(); ?>" value="<?php echo $usuario->getNombres() . " " . $usuario->getApellidos() ?>"> 
 
-
+                  <?php
+                }
+                  ?>
+              </datalist>
+              <button type="button" id="enviarParticipantes" class="btn ml-2 btn-form">Agregar</button>
+            </div>
+          </div>
+        </div>
         <button type="submit" class="btn mt-4 btn-registrar float-right">Guardar</button>
       </form>
 
@@ -86,8 +122,10 @@ $dependencias = $this->d['dependencias'];
   </div>
 
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <?php require_once 'views/footer.php'; ?>
 <script src="<?php echo constant('URL'); ?>/public/js/sidebar.js"></script>
+<script src="<?php echo constant('URL'); ?>/public/js/ajax.js"></script>
 
 
 </body>

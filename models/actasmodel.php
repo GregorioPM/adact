@@ -150,7 +150,18 @@
                         }
                 
         }
-        public function delete($id){}
+        public function delete($id){
+                try {
+                        $query = $this->prepare('DELETE FROM acta WHERE id = :id');
+                        $query->execute([
+                                'id' =>$id
+                        ]);
+                        return true;
+                    } catch (PDOException $e) {
+                        error_log('DEPENDENCIAMODEL::DELETE->PDOException ' . $e); 
+                        return false;
+                    }
+        }
         public function update($id){}
         public function from($array){}
 

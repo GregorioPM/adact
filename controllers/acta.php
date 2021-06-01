@@ -44,7 +44,15 @@ class Acta extends SessionController{
         }
     }
 
-    function delete($id){
+    function deleteActa(){
+        $id = $_GET['id'];
+        $actasModel = new ActasModel();
+        if($actasModel->delete($id)){
+            $this->redirect('admin/listActas', ['success' => SuccessMessages::SUCCESS_ADMIN_DELETEACTA]);
+        }else{
+            $this->redirect('admin/listActas', ['error' => ErrorMessages::ERROR_ADMIN_ACTAPARTICIPANTE]);
+        }
+        
         
     }
 }

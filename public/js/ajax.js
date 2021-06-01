@@ -3,7 +3,7 @@ $('#enviarTemas').click(agregarTemas);
 function agregarTemas(){
     document.getElementById("tablaTemas").style.display = "table";
     $.ajax({
-        url: '../../adact/admin/datosTemas',
+        url: '../admin/datosTemas',
         type:'post',
         dataType: 'json',
         data:{

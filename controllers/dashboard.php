@@ -14,6 +14,11 @@
             error_log('Dashboard::render -> carga Index usuario');
         }
         
+        function perfil()
+    {
+        $this->view->render('dashboard/perfil', ["user" => $this->user]);
+    }
+
         public function getActas(){
 
         }

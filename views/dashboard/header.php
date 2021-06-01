@@ -64,27 +64,21 @@
         </a>
       </li>
       <li class="nav-item">
-        <a href="<?= URL ?>/admin/perfil" class="nav-link text-dark">
+        <a href="<?= URL ?>/dashboard/perfil" class="nav-link text-dark">
           <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
           Perfil
         </a>
       </li>
       <li class="nav-item">
-        <a href="<?= URL ?>/admin/listDependencias" class="nav-link text-dark">
-          <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
-          Dependencias
-        </a>
-      </li>
-      <li class="nav-item">
         <a href="<?= URL ?>/admin/listUsuarios" class="nav-link text-dark">
           <i class="fas fa-user mr-3 text-primary fa-fw"></i>
-          Usuarios
+          Mis Participaciones
         </a>
       </li>
       <li class="nav-item">
         <a href="#" class="nav-link text-dark">
           <i class="fas fa-book-open mr-3 text-primary fa-fw"></i>
-          Actas
+          Mis Compromisos
         </a>
       </li>
     </ul>

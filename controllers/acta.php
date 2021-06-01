@@ -39,8 +39,12 @@ class Acta extends SessionController{
                      $temasmodel->setDescripcion($tema);
                      $temasmodel->save();
                 }
-                $this->redirect('admin/listActas', ['success' => SuccessMessages::SUCCESS_ADMIN_NEWDEPENDENCY]);
+                $this->redirect('admin/listActas', ['success' => SuccessMessages::SUCCESS_ADMIN_NEWACTA]);
             
         }
+    }
+
+    function delete($id){
+        
     }
 }

@@ -106,7 +106,14 @@ class Admin extends SessionController
     {
         $temas = $_POST['temas'];
         $datos[] = [$temas];
-        error_log('Admin::newDependencia() => SI ENTRA A DAROS' . $temas);
+        echo json_encode($datos);
+    }
+    function datosParticipantes()
+    {
+        $participantes = $_POST['id'];
+        $nombres = $_POST['nombre'];
+        $datos[]=[$participantes , $nombres];
+        error_log('Admin::newDependencia() => SI ENTRA A PARTICIPANTES ' . $participantes." " .$nombres);
         echo json_encode($datos);
     }
 }

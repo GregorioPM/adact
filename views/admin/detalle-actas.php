@@ -67,6 +67,7 @@ $acta = $this->d['acta'];
           <input type="text" name="orden" class="form-control" id="inputPassword4">
         </div>
         <div class="form-group">
+        
           <label for="inputPassword4"><b>Conclusiones</b></label>
           <br>
           <textarea class="rounded" name="conclusiones" id="conclu" cols="100" rows="10"></textarea>
@@ -94,25 +95,43 @@ $acta = $this->d['acta'];
           </table>
         </div>
         <div class="form-group">
+        
           <div class="input-group mt-4">
             <label for="exampleDataList"><b>Agregar Participantes</b></label>
             <div class="abajoInput">
+              
+              <form action="">
               <input class="form-control rounded" list="datalistOptions" id="exampleDataList" placeholder="Buscar participantes">
-              <datalist id="datalistOptions">
-                <?php
-
-                foreach ($usuarios as $usuario) {
-                ?>
-                  
-                  <option data-id="<?php echo $usuario->getId(); ?>" value="<?php echo $usuario->getNombres() . " " . $usuario->getApellidos() ?>"> 
-
+                <datalist id="datalistOptions">
                   <?php
-                }
+
+                  foreach ($usuarios as $usuario) {
                   ?>
-              </datalist>
-              <button type="button" id="enviarParticipantes" class="btn ml-2 btn-form">Agregar</button>
+
+                    <option  data-id="<?php echo $usuario->getId(); ?>" value="<?php echo $usuario->getNombres() . " " . $usuario->getApellidos() ?>">
+
+                    <?php
+                  }
+                    ?>
+                </datalist>
+                <button type="button" id="enviarParticipantes" class="btn ml-2 btn-form">Agregar</button>
+              </form>
+              
             </div>
           </div>
+        </div>
+        <div class="form-group">
+          <table id="tablaParticipantes" class="table mt-4 table-striped table-bordered tablelist" style="display: none;">
+            <thead>
+              <tr class="text-center">
+                <th scope="col">Participantes</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="salidaP">
+
+            </tbody>
+          </table>
         </div>
         <button type="submit" class="btn mt-4 btn-registrar float-right">Guardar</button>
       </form>

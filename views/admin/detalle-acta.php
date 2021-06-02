@@ -98,8 +98,8 @@ $usuarios = $this->d['usuarios'];
 
                 foreach ($usuarios as $usuario) {
                 ?>
-                  
-                  <option data-id="<?php echo $usuario->getId(); ?>" value="<?php echo $usuario->getNombres() . " " . $usuario->getApellidos() ?>"> 
+
+                  <option data-id="<?php echo $usuario->getId(); ?>" value="<?php echo $usuario->getNombres() . " " . $usuario->getApellidos() ?>">
 
                   <?php
                 }
@@ -108,6 +108,20 @@ $usuarios = $this->d['usuarios'];
               <button type="button" id="enviarParticipantes" class="btn ml-2 btn-form">Agregar</button>
             </div>
           </div>
+        </div>
+        <div class="form-group">
+          <table id="tablaParticipantes" class="table mt-4 table-striped table-bordered tablelist" style="display: none;">
+            <thead>
+              <tr class="text-center">
+                <th scope="col">ID</th>
+                <th scope="col">Participantes</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="salidaP">
+
+            </tbody>
+          </table>
         </div>
         <button type="submit" class="btn mt-4 btn-registrar float-right">Guardar</button>
       </form>

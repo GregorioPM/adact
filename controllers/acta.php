@@ -17,12 +17,13 @@ class Acta extends SessionController{
             $asunto = $this->getPost('asunto');
             $lugar = $this->getPost('lugar');
             $temas = $this->getPost('temas');
-            foreach($temas as $tema){
-                error_log('Admin::newDependencia() => new dependencia created' . $tema);
-
-            }
             $fecha = $this->getPost('fecha');
+            $horaInicio = $this->getPost('horaInicio');
+            $horaFinal = $this->getPost('horaFinal');
             $dependencia=$this->getPost('dependencia');
+            $orden= $this->getPost('orden');
+            $conclusiones = $this->getPost('conclusiones');
+            error_log('HORAAAAAA' . $horaInicio);
 
     
             $actasModel = new ActasModel();
@@ -30,6 +31,11 @@ class Acta extends SessionController{
                 $actasModel->setLugar($lugar);
                 $actasModel->setEstado("Creada");
                 $actasModel->setIdDependencia($dependencia);
+                $actasModel->setFecha($fecha);
+                $actasModel->setHoraInicio($horaInicio);
+                $actasModel->setHoraFinal($horaFinal);
+                $actasModel->setOrden($orden);
+                $actasModel->setConclusiones($conclusiones);
                 $actasModel->save();
                 
                 $ultimoId = $actasModel->obtenerUltimoId();

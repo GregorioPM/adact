@@ -40,7 +40,7 @@ function agregarParticipantes(){
         function(data){
             console.log(data);
             $('#salidaP').append(
-                '<tr><td class="text-center">'+data[0][0]+'</td><td class="text-center">'+ data[0][1] +'</td>' + 
+                '<tr><td class="text-center">'+data[0][0]+'<input type="hidden" name="participantes[]" value =" '+ data[0][0] +'"> </td><td class="text-center">'+ data[0][1] +'</td>' + 
                 '<td class="text-center"><button type="button" class="btn ml-2 btn-form">Borrar</button></td></tr>'
                 );
             $('#exampleDataList').val('');

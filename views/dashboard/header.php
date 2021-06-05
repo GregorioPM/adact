@@ -70,7 +70,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a href="<?= URL ?>/admin/listUsuarios" class="nav-link text-dark">
+        <a href="<?= URL ?>/dashboard/listParticipaciones" class="nav-link text-dark">
           <i class="fas fa-user mr-3 text-primary fa-fw"></i>
           Mis Participaciones
         </a>

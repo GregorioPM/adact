@@ -24,6 +24,8 @@ $user = $this->d['user'];
       <button type="button" class="btn btn-registrar" data-toggle="modal" data-target="#newDependencia">
         Registrar Usuario
       </button>
+      <h2 class="titulo" style="text-align: center;">Listado de Usuarios</h2>
+
 
       <!-- Modal -->
       <div class="modal fade" id="newDependencia" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

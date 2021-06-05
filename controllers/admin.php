@@ -68,13 +68,15 @@ class Admin extends SessionController
         $this->view->render('admin/perfil', ["user" => $this->user]);
     }
     function detalleActas(){
+        $id = $_GET['id'];
+        $actasModel = new ActasModel();
+        $acta= $actasModel->get($id);
         
     }
     function detalleActa()
     {
         if (isset($_GET['id'])) {
             $id = $_GET['id'];
-
             $dependenciaModel = new DependenciaModel();
             $dependencias = $dependenciaModel->getAll();
             $userModel = new userModel();

@@ -3,6 +3,8 @@
 $user = $this->d['user'];
 $dependencias = $this->d['dependencias'];
 $usuarios = $this->d['usuarios'];
+$acta = $this->d['acta'];
+$temas = $this->d['temas'];
 
 ?>
 <?php require_once 'header.php'; ?>
@@ -17,32 +19,55 @@ $usuarios = $this->d['usuarios'];
 
   <div class="container">
     <div class="row justify-content-md-center mx-auto col-md-10">
-      <h2 class="titulo">Registrar Información Del Acta</h2>
+      <h2 class="titulo">
+      <?php if(isset($acta)){
+            echo 'Actualizar Información Del Acta';
+          }else{
+            echo 'Registrar Información Del Acta';
+          } ?>
+      </h2>
 
       <form class="col-md-10 acta" action="<?php echo constant('URL') ?>/acta/newActa" method="POST" enctype="multipart/form-data">
         <div class="form-group">
           <input type="hidden" name="id" value="<?php echo $user->getId(); ?>">
           <label for="inputPassword4"><b>Asunto</b></label>
-          <input type="text" name="asunto" class="form-control" id="inputPassword4">
+          <input type="text" name="asunto" class="form-control" id="inputPassword4" 
+          <?php if(isset($acta)){
+            echo 'value="'.$acta->getAsunto().'"';
+          } ?>>
         </div>
         <div class="form-row">
           <div class="form-group col-md-8">
             <label for="actaLugar"><b>Lugar</b></label>
-            <input type="text" name="lugar" class="form-control" id="actaLugar" value="">
+            <input type="text" name="lugar" class="form-control" id="actaLugar" 
+            <?php if(isset($acta)){
+            echo 'value="'.$acta->getLugar().'"';
+          } ?>
+            >
           </div>
           <div class="form-group col-md-4">
             <label for="inputAddress"><b>Fecha</b></label>
-            <input type="date" name="fecha" class="form-control" min="2014-01-01" max="2100-12-31" id="inputAddress" value="<?php echo $user->getApellidos(); ?>">
+            <input type="date" name="fecha" class="form-control" min="2014-01-01" max="2100-12-31" id="inputAddress" <?php if(isset($acta)){
+            echo 'value="'.$acta->getFecha().'"';
+          } ?>>
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-3">
             <label for="inputPassword4"><b>Hora Inicio</b></label>
-            <input type="time" name="horaInicio" class="form-control" id="inputPassword4" value="<?php echo $user->getNombres(); ?>">
+            <input type="time" name="horaInicio" class="form-control" id="inputPassword4"
+            <?php if(isset($acta)){
+            echo 'value="'.$acta->getHoraInicio().'"';
+          } ?>
+            >
           </div>
           <div class="form-group col-md-3">
             <label for="inputAddress"><b>Hora Final</b></label>
-            <input type="time" name="horaFinal" class="form-control" id="inputAddress" value="<?php echo $user->getApellidos(); ?>">
+            <input type="time" name="horaFinal" class="form-control" id="inputAddress"
+            <?php if(isset($acta)){
+            echo 'value="'.$acta->getHoraFinal().'"';
+          } ?>
+            >
           </div>
           <div class="form-group col-md-6">
             <label for="inputAddress"><b>Dependencia</b></label>
@@ -59,12 +84,22 @@ $usuarios = $this->d['usuarios'];
         </div>
         <div class="form-group">
           <label for="inputPassword4"><b>Orden del dia</b></label>
-          <input type="text" name="orden" class="form-control" id="inputPassword4">
+          <input type="text" name="orden" class="form-control" id="inputPassword4"
+          <?php if(isset($acta)){
+            echo 'value="'.$acta->getOrden().'"';
+          } ?>
+          >
         </div>
         <div class="form-group">
           <label for="inputPassword4"><b>Conclusiones</b></label>
           <br>
-          <textarea class="rounded" name="conclusiones" id="conclu" cols="100" rows="10"></textarea>
+          <textarea class="rounded" name="conclusiones" id="conclu" cols="100" rows="10"
+         
+          >
+          <?php if(isset($acta)){
+            echo $acta->getConclusiones();
+          } ?>
+          </textarea>
         </div>
         <div class="form-group">
           <div class="input-group mt-4">

@@ -77,12 +77,14 @@ class Admin extends SessionController
     {
         if (isset($_GET['id'])) {
             $id = $_GET['id'];
+            $temas = [];
             $dependenciaModel = new DependenciaModel();
             $dependencias = $dependenciaModel->getAll();
             $userModel = new userModel();
             $usuarios = $userModel->getAll();
             $temasModel = new TemasModel();
             $temas = $temasModel->getAll($id);
+            error_log(print($temas));
             $actasModel = new ActasModel();
             $acta = $actasModel->get($id);
             $this->view->render('admin/detalle-acta', [

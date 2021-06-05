@@ -76,7 +76,17 @@ $temas = $this->d['temas'];
               <?php
 
               foreach ($dependencias as $dependencia) :
-                echo '<option value="' . $dependencia->getId() . '">' . $dependencia->getDependencia() . '</option>';
+                if(isset($acta)){
+                  if($acta->getIdDependencia() == $dependencia->getId()){
+                    echo '<option selected="selected" value="' . $dependencia->getId() . '">' . $dependencia->getDependencia() . '</option>';
+                  }else{
+                    echo '<option value="' . $dependencia->getId() . '">' . $dependencia->getDependencia() . '</option>';
+                  }
+                }else{
+                  echo '<option value="' . $dependencia->getId() . '">' . $dependencia->getDependencia() . '</option>';
+                }
+                
+                
               endforeach;
               ?>
             </select>
@@ -123,6 +133,39 @@ $temas = $this->d['temas'];
             </tbody>
           </table>
         </div>
+        <div class="form-group">
+        <?php 
+            if(isset($acta)){
+              echo '<table class="table mt-4 table-striped table-bordered width=" 100%"">
+              <thead>
+                <tr class="text-center">
+                  <th scope="col">Descripción</th>
+                  <th scope="col">Acciones</th>
+      
+                </tr>
+              </thead>
+              <tbody>';
+              foreach ($temas as $tema) {
+                
+                  echo '<tr>
+      
+                    <td class="text-center">'.$tema->getDescripcion() .'</td>
+                    <td class="text-center">
+      
+                   
+                      <a href="<?= URL ?>/acta/deleteActa?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
+                    </td>
+      
+                  </tr>
+               </tbody>
+              </table>
+            ';
+              
+            }}
+          ?>
+        </div>
+        
+        
         <div class="form-group">
           <div class="input-group mt-4">
             <label for="exampleDataList"><b>Agregar Participantes</b></label>

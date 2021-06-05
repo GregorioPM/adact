@@ -33,8 +33,8 @@
                         while($p = $query->fetch(PDO::FETCH_ASSOC)){
                                 $item= new TemasModel();
                                 $item->setId($p['id']);
-                                $item->setIdActa($p['asunto']);
-                                $item->setDescripcion($p['fecha']);
+                                $item->setIdActa($p['id_acta']);
+                                $item->setDescripcion($p['descripcion']);
 
                                 error_log('ACTASMODEL::GETParticipantes->ENTRO A GETALL TEMAS '); 
                                 array_push($items, $item);

@@ -3,6 +3,8 @@
 require_once "models/dependenciamodel.php";
 require_once "models/actasmodel.php";
 require_once "models/temasmodel.php";
+require_once "models/participantemodel.php";
+
 
 
 class Admin extends SessionController
@@ -78,21 +80,25 @@ class Admin extends SessionController
         if (isset($_GET['id'])) {
             $id = $_GET['id'];
             $temas = [];
+            $Userparti=[];
+            $participantes=[];
             $dependenciaModel = new DependenciaModel();
             $dependencias = $dependenciaModel->getAll();
             $userModel = new userModel();
             $usuarios = $userModel->getAll();
             $temasModel = new TemasModel();
             $temas = $temasModel->getAll($id);
-            error_log(print($temas));
             $actasModel = new ActasModel();
+            $participantesModel = new ParticipanteModel();
+            $participantes = $participantesModel->getAll($id);
             $acta = $actasModel->get($id);
             $this->view->render('admin/detalle-acta', [
                 "user" => $this->user,
                 'dependencias' => $dependencias,
                 'usuarios' => $usuarios,
                 'temas' => $temas,
-                'acta'=> $acta
+                'acta'=> $acta,
+                'participantes' =>$participantes
             ]);
         } else {
             $dependenciaModel = new DependenciaModel();
@@ -102,7 +108,7 @@ class Admin extends SessionController
             $this->view->render('admin/detalle-acta', [
                 "user" => $this->user,
                 'dependencias' => $dependencias,
-                'usuarios' => $usuarios
+                'usuarios' => $usuarios,
             ]);
         }
     }

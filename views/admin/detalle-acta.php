@@ -5,9 +5,11 @@ $dependencias = $this->d['dependencias'];
 $usuarios = $this->d['usuarios'];
 $acta = $this->d['acta'];
 $temas = $this->d['temas'];
+$participantes = $this->d['participantes'];
 
 ?>
 <?php require_once 'header.php'; ?>
+
 <div id="probar">
   <?php $this->showMessages(); ?>
 
@@ -122,6 +124,7 @@ $temas = $this->d['temas'];
         </div>
         <div class="form-group">
           <table id="tablaTemas" class="table mt-4 table-striped table-bordered tablelist" style="display: none;">
+          <caption>Listado temas para agregar</caption>
             <thead>
               <tr class="text-center">
                 <th scope="col">Temas</th>
@@ -137,6 +140,7 @@ $temas = $this->d['temas'];
         <?php 
             if(isset($acta)){
               echo '<table class="table mt-4 table-striped table-bordered width=" 100%"">
+              <caption>Listado Temas Guardados</caption>
               <thead>
                 <tr class="text-center">
                   <th scope="col">Descripción</th>
@@ -156,12 +160,13 @@ $temas = $this->d['temas'];
                       <a href="<?= URL ?>/acta/deleteActa?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
                     </td>
       
-                  </tr>
+                  </tr>';}
+                  echo '
                </tbody>
               </table>
             ';
               
-            }}
+            }
           ?>
         </div>
         
@@ -189,6 +194,7 @@ $temas = $this->d['temas'];
         </div>
         <div class="form-group">
           <table id="tablaParticipantes" class="table mt-4 table-striped table-bordered tablelist" style="display: none;">
+          <caption>Listado Participantes para Agregar</caption>
             <thead>
               <tr class="text-center">
                 <th scope="col">ID</th>
@@ -201,7 +207,52 @@ $temas = $this->d['temas'];
             </tbody>
           </table>
         </div>
-        <button type="submit" class="btn mt-4 btn-registrar float-right">Guardar</button>
+        <div class="form-group">
+        <?php 
+            if(isset($acta)){
+              echo '<table class="table mt-4 table-striped table-bordered width=" 100%"">
+              <caption>Listado Participantes Guardados</caption>
+
+              <thead>
+                <tr class="text-center">
+                  <th scope="col">Id</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Estado</th>
+                  <th scope="col">Acciones</th>
+      
+                </tr>
+              </thead>
+              <tbody>';
+              foreach ($participantes as $participante) {
+                  
+                
+                  echo '<tr>
+      
+                    <td class="text-center">'.$participante->getId() .'</td>
+                    <td class="text-center">'.$participante->getNombres() .'</td>
+                    <td class="text-center">'.$participante->getEstado() .'</td>
+                    <td class="text-center">
+      
+                   
+                      <a href="<?= URL ?>/acta/deleteActa?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
+                    </td>
+      
+                  </tr>';}
+                  echo '
+               </tbody>
+              </table>
+            ';
+              
+            }
+          ?>
+        </div>
+        
+        <?php if(!isset($acta)){
+            echo '<button type="submit" class="btn mt-4 btn-registrar float-right">Guardar</button>';
+          }else{
+            echo '<button type="submit" class="btn mt-4 btn-registrar float-right">Actualizar</button>';
+          } ?>
+        
       </form>
 
 

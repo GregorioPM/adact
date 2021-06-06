@@ -58,6 +58,7 @@ class Acta extends SessionController
                 $participantemodel = new ParticipanteModel();
                 $participantemodel->setIdActa($ultimoId);
                 $participantemodel->setIdUsuario($participante);
+                $participantemodel->setEstado("Revisión");
                 $participantemodel->save();
             }
 

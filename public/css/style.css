@@ -208,20 +208,28 @@ nav b{
   }
 
   .modal-footer{
-    background-color: #d2d2d2;
+    background-color: #f1f1f18a;
   }
 
   .btn-registrar{
     color: #fff;
-    background-color: #ff0000;
+    background-color: #17b872;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .btn-add{
+    color: #fff;
+    background-color: #3e9afc;
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
   }
 
   .mod-header{
-    background-color: red;
-    color: white;
+    background-color: #f1f1f18a;
+    color: black;
     font-weight: bold;
   }
 
@@ -274,11 +282,11 @@ nav b{
   padding: 0;
 }
 .acta input{
-  border: 1px solid red;
+  border: 1px solid #b3d7ff;
 }
 
 .acta select{
-  border: 1px solid red;
+  border: 1px solid #b3d7ff;
 }
 .form-group{
   margin-bottom: 0.5rem;
@@ -286,7 +294,7 @@ nav b{
 
 #conclu{
   width: 100%;
-  border: 1px solid red;
+  border: 1px solid #b3d7ff;
 }
 .titulo{
   margin: 0;
@@ -296,7 +304,7 @@ nav b{
 
 .btn-form{
   color: #fff;
-  background-color: #ff0000;
+  background-color: #3e9afc;
   padding: 2px 10px;
   border-radius: 5px;
   font-weight: bold;
@@ -318,4 +326,10 @@ nav b{
 .tablelist{
   margin: 0;
   width: 100%;
+}
+
+caption {
+  font-weight: bold;
+  text-align: center;
+  caption-side: top;
 }

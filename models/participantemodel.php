@@ -1,10 +1,14 @@
 <?php
+
+require_once "userModel.php";
+
     class ParticipanteModel extends Model{
 
         private $id;
         private $idActa;
         private $idUsuario;
         private $estado;
+        private $nombres;
 
         function __construct(){
             parent::__construct();
@@ -12,6 +16,8 @@
             $this->idActa='';
             $this->idUsuario='';
             $this->estado='';
+            $this->nombres='';
+
         }
 
         public function save(){
@@ -30,6 +36,30 @@
         }
 
         public function getAll($idacta){
+                $items = [];
+                try {
+                        $query = $this->query('SELECT  CONCAT_WS(" ",u.nombres, u.apellidos) as nombres,p.id_usuario,p.id_acta,p.estado,p.id FROM participante p
+                        INNER JOIN usuario u ON p.id_usuario=u.id
+                        WHERE id_acta='. $idacta);
+                        while($p = $query->fetch(PDO::FETCH_ASSOC)){
+                                $item= new ParticipanteModel();
+                                $item->setId($p['id']);
+                                $item->setIdUsuario($p['id_usuario']);
+                                $item->setIdActa($p['id_acta']);
+                                $item->setEstado($p['estado']);
+                                $item->setNombres($p['nombres']);
+                                //$user->setApellidos($p['apellidos']);
+                                //$user->setNombres($p['nombres']);
+
+                                array_push($items, $item);
+                        }
+                        return $items;
+                } catch (PDOException $e) {
+                        error_log('ACTAMODEL::getAll->PDOException ' . $e); 
+                }  
+        }
+
+        public function getAllParticipantes($idacta){
                 $items = [];
                 try {
                         $query = $this->query('SELECT * FROM participante WHERE id_acta='. $idacta);
@@ -126,6 +156,26 @@
         public function setEstado($estado)
         {
                 $this->estado = $estado;
+
+                return $this;
+        }
+
+        /**
+         * Get the value of nombres
+         */ 
+        public function getNombres()
+        {
+                return $this->nombres;
+        }
+
+        /**
+         * Set the value of nombres
+         *
+         * @return  self
+         */ 
+        public function setNombres($nombres)
+        {
+                $this->nombres = $nombres;
 
                 return $this;
         }

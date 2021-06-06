@@ -21,7 +21,7 @@ $user = $this->d['user'];
   <div class="page-content p-5 tama" id="content">
     <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
     <div class="container">
-      <button type="button" class="btn btn-registrar" data-toggle="modal" data-target="#newDependencia">
+      <button type="button" class="btn btn-add" data-toggle="modal" data-target="#newDependencia">
         Registrar Usuario
       </button>
       <h2 class="titulo" style="text-align: center;">Listado de Usuarios</h2>
@@ -32,7 +32,7 @@ $user = $this->d['user'];
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header mod-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Registrar Usuario</h5>
+              <h5 class="modal-title" id="exampleModalLongTitle"><b>Registrar Usuario</b></h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>

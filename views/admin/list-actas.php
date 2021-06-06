@@ -24,7 +24,7 @@ $user = $this->d['user'];
     <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
     <div class="container">
 
-      <button type="button" class="btn btn-registrar" data-toggle="modal" data-target="#newDependencia">
+      <button type="button" class="btn btn-add" data-toggle="modal" data-target="#newDependencia">
         <a class="btn-a" href="<?php echo constant('URL'); ?>/admin/detalleActa">Agregar Acta</a>
 
       </button>

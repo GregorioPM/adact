@@ -1,6 +1,12 @@
 <?php
 
 require_once "models/actasmodel.php";
+require_once "models/dependenciamodel.php";
+require_once "models/temasmodel.php";
+require_once "models/participantemodel.php";
+
+
+
 class Dashboard extends SessionController
 {
 
@@ -44,5 +50,55 @@ class Dashboard extends SessionController
                 'user' => $this->user
             ]);
         
+    }
+    function detalleActa()
+    {
+
+        if(isset($_POST['estado'])){
+            error_log('EEEEEEEEEEEE' .$_POST['estado']);
+            $a = $_POST['idacta'];
+            $u = $_POST['idusuario'];
+            $participanteModel=new ParticipanteModel();
+            $participante=$participanteModel->getParticipante($a,$u);
+            $participanteModel->setid($participante);
+            $participanteModel->setEstado("Aprovado");
+            $participanteModel->update($participanteModel);
+
+            //error_log('Dashboard::render -> carga Index usuario' .print_r($participante));
+
+        }
+        if (isset($_GET['id'])) {
+            $id = $_GET['id'];
+            $temas = [];
+            $participantes=[];
+            $dependenciaModel = new DependenciaModel();
+            $dependencias = $dependenciaModel->getAll();
+            $userModel = new userModel();
+            $usuarios = $userModel->getAll();
+            $temasModel = new TemasModel();
+            $temas = $temasModel->getAll($id);
+            $actasModel = new ActasModel();
+            $participantesModel = new ParticipanteModel();
+            $participantes = $participantesModel->getAll($id);
+            $acta = $actasModel->get($id);
+            $this->view->render('dashboard/detalle-acta', [
+                "user" => $this->user,
+                'dependencias' => $dependencias,
+                'usuarios' => $usuarios,
+                'temas' => $temas,
+                'acta'=> $acta,
+                'participantes' =>$participantes
+            ]);
+        } else {
+            $dependenciaModel = new DependenciaModel();
+            $dependencias = $dependenciaModel->getAll();
+            $userModel = new userModel();
+            $usuarios = $userModel->getAll();
+            $this->view->render('admin/detalle-acta', [
+                "user" => $this->user,
+                'dependencias' => $dependencias,
+                'usuarios' => $usuarios,
+            ]);
+        }
     }
 }

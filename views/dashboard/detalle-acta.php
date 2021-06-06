@@ -102,7 +102,8 @@ $participantes = $this->d['participantes'];
           } ?>
           </textarea>
         </div>
-        <div class="form-group">
+        <?php if($user->getRol()=="admin") {
+          echo '<div class="form-group">
           <div class="input-group mt-4">
             <label for="inputPassword4"><b>Agregar Temas</b></label>
             <div class="abajoInput">
@@ -110,21 +111,10 @@ $participantes = $this->d['participantes'];
               <button type="button" id="enviarTemas" class="btn ml-2 btn-form">Agregar</button>
             </div>
           </div>
-        </div>
-        <div class="form-group">
-          <table id="tablaTemas" class="table mt-4 table-striped table-bordered tablelist" style="display: none;">
-            <caption>Listado temas para agregar</caption>
-            <thead>
-              <tr class="text-center">
-                <th scope="col">Temas</th>
-                <th scope="col">Acciones</th>
-              </tr>
-            </thead>
-            <tbody id="salida">
-
-            </tbody>
-          </table>
-        </div>
+        </div>';
+        }?>
+        
+     
         <div class="form-group">
           <?php
           if (isset($acta)) {
@@ -133,7 +123,7 @@ $participantes = $this->d['participantes'];
               <thead>
                 <tr class="text-center">
                   <th scope="col">Descripción</th>
-                  <th scope="col">Acciones</th>
+                
       
                 </tr>
               </thead>
@@ -143,11 +133,7 @@ $participantes = $this->d['participantes'];
               echo '<tr>
       
                     <td class="text-center">' . $tema->getDescripcion() . '</td>
-                    <td class="text-center">
-      
-                   
-                      <a href="<?= URL ?>/acta/deleteActa?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
-                    </td>
+                 
       
                   </tr>';
             }
@@ -160,27 +146,7 @@ $participantes = $this->d['participantes'];
         </div>
 
 
-        <div class="form-group">
-          <div class="input-group mt-4">
-            <label for="exampleDataList"><b>Agregar Participantes</b></label>
-            <div class="abajoInput">
-              <input class="form-control rounded" list="datalistOptions" id="exampleDataList" placeholder="Buscar participantes">
-              <datalist id="datalistOptions">
-                <?php
-
-                foreach ($usuarios as $usuario) {
-                ?>
-
-                  <option data-id="<?php echo $usuario->getId(); ?>" value="<?php echo $usuario->getNombres() . " " . $usuario->getApellidos() ?>">
-
-                  <?php
-                }
-                  ?>
-              </datalist>
-              <button type="button" id="enviarParticipantes" class="btn ml-2 btn-form">Agregar</button>
-            </div>
-          </div>
-        </div>
+        
         <div class="form-group">
           <table id="tablaParticipantes" class="table mt-4 table-striped table-bordered tablelist" style="display: none;">
             <caption>Listado Participantes para Agregar</caption>
@@ -207,7 +173,6 @@ $participantes = $this->d['participantes'];
                   <th scope="col">Id</th>
                   <th scope="col">Nombre</th>
                   <th scope="col">Estado</th>
-                  <th scope="col">Acciones</th>
       
                 </tr>
               </thead>
@@ -220,11 +185,7 @@ $participantes = $this->d['participantes'];
                     <td class="text-center">' . $participante->getId() . '</td>
                     <td class="text-center">' . $participante->getNombres() . '</td>
                     <td class="text-center">' . $participante->getEstado() . '</td>
-                    <td class="text-center">
-      
                    
-                      <a href="<?= URL ?>/acta/deleteActa?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
-                    </td>
       
                   </tr>';
             }
@@ -236,17 +197,13 @@ $participantes = $this->d['participantes'];
           ?>
         </div>
 
-        <?php if (!isset($acta)) {
-          echo '<button type="submit" class="btn mt-4 btn-registrar float-right">Guardar</button>';
-        } else {
-          echo '<button type="submit" class="btn mt-4 btn-registrar float-right">Actualizar</button>';
-        } ?>
+      
       
       </form>
       <?php if (isset($acta)) {
           echo '<hr class="someClass mt-5">
           <h3>Cambiar estado del Acta</h3>
-          <form class="col-md-10 acta  mt-4" action="'.constant('URL').'/admin/detalleActa?id='.$acta->getId().'" method="POST" enctype="multipart/form-data">
+          <form class="col-md-10 acta  mt-4" action="'.constant('URL').'/dashboard/detalleActa?id='.$acta->getId().'" method="POST" enctype="multipart/form-data">
             <!-- Rounded switch -->
             <div class="estadoActa mb-4">
             <input type="hidden" name="idacta" value="'.$acta->getid().'">
@@ -263,8 +220,7 @@ $participantes = $this->d['participantes'];
           </form>';
         }?>
       
-
-
+   
     </div>
   </div>
 

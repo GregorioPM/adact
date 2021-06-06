@@ -35,6 +35,22 @@ require_once "userModel.php";
             }
         }
 
+        public function update($participante){
+                try {
+                    
+                    $query = $this->prepare('UPDATE participante SET estado =:estado WHERE id=:id');
+                    $query->execute([                   
+                            'id'=>$participante->getID(),
+                            'estado' =>$participante->getEstado()
+                    ]); 
+                    //error_log('DEPENDENCIAMODEL::UPDATE->PDOException  ENTRAAA' );      
+                    return true;
+                } catch (PDOException $e) {
+                    error_log('PARTICIPANTEMODEL::UPDATE->PDOException ' . $e); 
+                    return false;
+                }
+            }
+
         public function getAll($idacta){
                 $items = [];
                 try {
@@ -78,6 +94,26 @@ require_once "userModel.php";
                         error_log('ACTAMODEL::getAll->PDOException ' . $e); 
                 }  
         }
+
+        public function getParticipante($idActa,$idUsuario){
+                try {
+
+                        $query = $this->prepare('SELECT p.id FROM acta a
+                        INNER JOIN participante p ON a.id=p.id_acta
+                        INNER JOIN usuario u ON p.id_usuario=u.id
+                        WHERE a.id=:idActa AND u.id=:idUsuario');
+                        $query->execute(['idActa' => $idActa,'idUsuario' => $idUsuario]);
+                        $participantes = $query->fetch(PDO::FETCH_ASSOC);
+                        $idparti = $participantes['id'];
+                        error_log('ACTASMODEL::GETParticipantes->ENTRO A OBTENRE ' .$idparti);
+                        return $idparti;
+                } catch (PDOException $e) {
+                        error_log('ACTASMODEL::GETParticipantes->PDOException ' . $e);
+                        return false;
+                }
+
+
+            }
     
 
         /**
@@ -180,5 +216,3 @@ require_once "userModel.php";
                 return $this;
         }
     }
-
-?>

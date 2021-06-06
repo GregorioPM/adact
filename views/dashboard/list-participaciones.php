@@ -57,10 +57,10 @@ $user = $this->d['user'];
 
                 <!--<a href="<?= URL ?>/admin/editDependencia?id=<?= $acta->getId() ?>"><span class="material-icons action-update" data-toggle="modal" data-target="#exampleModalCenter">mode_edit</span></a>-->
 
-                <a href="<?= URL ?>/admin/detalleActa?id=<?= $acta->getId() ?>"><span class="material-icons action-edit">
+                <a href="<?= URL ?>/dashboard/detalleActa?id=<?= $acta->getId() ?>"><span class="material-icons action-edit">
                     edit
                   </span></a>
-                <a href="<?= URL ?>/acta/deleteActa?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
+              
               </td>
 
             </tr>

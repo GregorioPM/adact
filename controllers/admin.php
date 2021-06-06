@@ -77,10 +77,21 @@ class Admin extends SessionController
     }
     function detalleActa()
     {
+        if(isset($_POST['estado'])){
+            error_log('EEEEEEEEEEEE' .$_POST['estado']);
+            $a = $_POST['idacta'];
+            $u = $_POST['idusuario'];
+            $participanteModel=new ParticipanteModel();
+            $participante=$participanteModel->getParticipante($a,$u);
+            $participanteModel->setid($participante);
+            $participanteModel->setEstado("Aprovado");
+            $participanteModel->update($participanteModel);
+
+            //error_log('Dashboard::render -> carga Index usuario' .print_r($participante));
+        }
         if (isset($_GET['id'])) {
             $id = $_GET['id'];
             $temas = [];
-            $Userparti=[];
             $participantes=[];
             $dependenciaModel = new DependenciaModel();
             $dependencias = $dependenciaModel->getAll();

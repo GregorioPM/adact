@@ -108,22 +108,49 @@ class Signup extends SessionController
 
                     if ($uploadOk == FALSE) {
                         //echo "Sorry, your file was not uploaded.";
-                        $this->redirect('admin/perfil', []);
-                        // if everything is ok, try to upload file
+                        if($userActual->getRol()=="admin"){
+                            $this->redirect('admin/perfil', []);
+                            error_log('Admin::newDependencia() => SI ENTRA A ADMIN ACTUALIZAR 2');
+                        }else{
+                            $this->redirect('dashboard/perfil', []);
+                        }
                     } else {
                         if (move_uploaded_file($photo["tmp_name"], $target_file)) {
                             $userModel = new UserModel();
                             $userModel->updatePhoto($hash, $this->user->getId());
-                            $this->redirect('admin/perfil', []);
+                            if($userActual->getRol()=="admin"){
+                                $this->redirect('admin/perfil', []);
+                                error_log('Admin::newDependencia() => SI ENTRA A ADMIN ACTUALIZAR ');
+                            }else{
+                                $this->redirect('dashboard/perfil', []);
+                            }
+                           
                         } else {
-                            $this->redirect('admin/perfil', []);
+                            if($userActual->getRol()=="admin"){
+                                $this->redirect('admin/perfil', []);
+                                error_log('Admin::newDependencia() => SI ENTRA A ADMIN ACTUALIZAR 2');
+                            }else{
+                                $this->redirect('dashboard/perfil', []);
+                            }
                         }
                     }
                 }
+                if($userActual->getRol()=="admin"){
+                    $this->redirect('admin/perfil', ['success' => SuccessMessages::SUCCESS_PERFIL_UPDATE]);  
+                    error_log('Admin::newDependencia() => SI ENTRA A ADMIN ACTUALIZAR 2');
+                }else{
+                    $this->redirect('dashboard/perfil', ['success' => SuccessMessages::SUCCESS_PERFIL_UPDATE]);
+                }
                 //error_log('SIGNUP::UPDATE() => ENTRA A UPDATE' . $userModel->getNombres());
-                $this->redirect('admin/perfil', ['success' => SuccessMessages::SUCCESS_PERFIL_UPDATE]);            
+                        
             } else {
-                $this->redirect('admin/perfil', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EXISTS]);
+                if($userActual->getRol()=="admin"){
+                    $this->redirect('admin/perfil', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EXISTS]);  
+                    error_log('Admin::newDependencia() => SI ENTRA A ADMIN ACTUALIZAR 2');
+                }else{
+                    $this->redirect('dashboard/perfil', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EXISTS]);
+                }
+               
             }
         }
     }

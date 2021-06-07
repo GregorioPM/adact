@@ -6,6 +6,8 @@ $usuarios = $this->d['usuarios'];
 $acta = $this->d['acta'];
 $temas = $this->d['temas'];
 $participantes = $this->d['participantes'];
+$compromisos = $this->d['compromisos'];
+
 
 ?>
 <?php require_once 'header.php'; ?>
@@ -29,15 +31,15 @@ $participantes = $this->d['participantes'];
         } ?>
       </h2>
       <?php if (isset($acta)) {
-            echo '<input type="hidden" name="idacta" value="'.$acta->getId().'">';
-      }else{
-       echo '<form class="col-md-10 acta  mt-4" action="'.constant('URL').'/acta/newActa" method="POST" enctype="multipart/form-data">';
+        echo '<input type="hidden" name="idacta" value="' . $acta->getId() . '">';
+      } else {
+        echo '<form class="col-md-10 acta  mt-4" action="' . constant('URL') . '/acta/newActa" method="POST" enctype="multipart/form-data">';
       } ?>
       <form class="col-md-10 acta" action="<?php echo constant('URL') ?>/acta/updateActa" method="POST" enctype="multipart/form-data">
         <div class="form-group">
           <input type="hidden" name="id" value="<?php echo $user->getId(); ?>">
           <?php if (isset($acta)) {
-            echo '<input type="hidden" name="idacta" value="'.$acta->getId().'">';
+            echo '<input type="hidden" name="idacta" value="' . $acta->getId() . '">';
           } ?>
 
           <label for="inputPassword4"><b>Asunto</b></label>
@@ -172,8 +174,8 @@ $participantes = $this->d['participantes'];
           <div class="input-group mt-4">
             <label for="exampleDataList"><b>Agregar Participantes</b></label>
             <div class="abajoInput">
-              <input class="form-control rounded" list="datalistOptions" id="exampleDataList" placeholder="Buscar participantes">
-              <datalist id="datalistOptions">
+              <input class="form-control rounded" list="datalistOptions" id="exampleDataList" placeholder="Buscar participantes" autocomplete="off">
+              <datalist id="datalistOptions" autocomplete="off">
                 <?php
 
                 foreach ($usuarios as $usuario) {
@@ -249,16 +251,112 @@ $participantes = $this->d['participantes'];
         } else {
           echo '<button type="submit" class="btn mt-4 btn-registrar float-right">Actualizar</button>';
         } ?>
-      
+
       </form>
+
+      <?php if (isset($acta)) { ?>
+
+        <hr class="someClass mt-5">
+        <h3>Añadir Compromisos a Participantes</h3>
+
+        <form class="col-md-10 acta  mt-4" action="<?php echo constant('URL') ?>/compromiso/newCompromiso" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="idacta" value="<?php echo $acta->getId(); ?>">
+          <div class="form-group">
+            <div class="input-group mt-1">
+              <div class="input-group mt-1">
+                <label for="exampleDataList"><b>Agregar compromisos</b></label>
+                <div class="abajoInput">
+                  <input class="form-control rounded" list="listParticipantes" id="exampleDataList2" placeholder="Buscar participantes" autocomplete="off">
+                  <datalist id="listParticipantes" autocomplete="off">
+                    <?php
+
+                    foreach ($participantes as $participante) {
+                    ?>
+
+                      <option data-id="<?php echo $participante->getId(); ?>" value="<?php echo $participante->getNombres() ?>">
+
+                      <?php
+                    }
+                      ?>
+                  </datalist>
+                  <button type="button" id="enviarCompromisos" class="btn ml-2 btn-form">Seleccionar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <table id="tablaCompromisos" class="table mt-4 table-striped table-bordered tablelist" style="display: none; width:120%;margin-left: -10%;">
+              <caption>Listado Compromisos</caption>
+              <thead>
+                <tr class="text-center">
+                  <th scope="col">ID</th>
+                  <th scope="col">Participante</th>
+                  <th scope="col">Compromiso</th>
+                  <th scope="col">Fecha</th>
+                  <th scope="col">Acciones</th>
+                </tr>
+              </thead>
+              <tbody id="salidaC">
+
+              </tbody>
+            </table>
+          </div>
+          <div class="form-group">
+            <?php
+            if (isset($acta)) {
+              echo '<table class="table mt-4 table-striped table-bordered width=" 100%"">
+              <caption>Listado Compromisos Guardados</caption>
+              <thead>
+                <tr class="text-center">
+                  <th scope="col">id</th>
+                  <th scope="col">Acta</th>
+                  <th scope="col">Participante</th>
+                  <th scope="col">Compromiso</th>
+                  <th scope="col">Fecha</th>
+                  <th scope="col">Acciones</th>
+
+      
+                </tr>
+              </thead>
+              <tbody>';
+              foreach ($compromisos as $c) {
+
+                echo '<tr>
+                    <td class="text-center">' . $c->getId() . '</td>
+                    <td class="text-center">' . $c->getIdActa() . '</td>
+                    <td class="text-center">' . $c->nombresParticipante($c->getIdParticipante()). '</td>
+                    <td class="text-center">' . $c->getCompromiso() . '</td>
+                    <td class="text-center">' . $c->getFecha() . '</td>
+
+
+                    <td class="text-center">
+      
+                   
+                      <a href="<?= URL ?>/acta/deleteActa?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
+                    </td>
+      
+                  </tr>';
+              }
+              echo '
+               </tbody>
+              </table>
+            ';
+            }
+            ?>
+          </div>
+          <button type="submit" class="btn mt-14 btn-registrar float-right">Guardar</button>
+        </form>
+
+      <?php } ?>
+
       <?php if (isset($acta)) {
-          echo '<hr class="someClass mt-5">
+        echo '<hr class="someClass mt-5">
           <h3>Cambiar estado del Acta</h3>
-          <form class="col-md-10 acta  mt-4" action="'.constant('URL').'/admin/detalleActa?id='.$acta->getId().'" method="POST" enctype="multipart/form-data">
+          <form class="col-md-10 acta  mt-4" action="' . constant('URL') . '/admin/detalleActa?id=' . $acta->getId() . '" method="POST" enctype="multipart/form-data">
             <!-- Rounded switch -->
             <div class="estadoActa mb-4">
-            <input type="hidden" name="idacta" value="'.$acta->getid().'">
-            <input type="hidden" name="idusuario" value="'.$user->getid().'">
+            <input type="hidden" name="idacta" value="' . $acta->getid() . '">
+            <input type="hidden" name="idusuario" value="' . $user->getid() . '">
 
 
             <b>Estado Del acta</b>
@@ -269,8 +367,8 @@ $participantes = $this->d['participantes'];
             </div>
             <button  type="submit" class="btn mt-14 btn-registrar float-right">Guardar</button>
           </form>';
-        }?>
-      
+      } ?>
+
 
 
     </div>

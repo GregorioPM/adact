@@ -4,6 +4,7 @@ require_once "models/dependenciamodel.php";
 require_once "models/actasmodel.php";
 require_once "models/temasmodel.php";
 require_once "models/userModel.php";
+require_once "models/compromisosmodel.php";
 require_once "models/participantemodel.php";
 
 
@@ -136,6 +137,8 @@ class Admin extends SessionController
             $actasModel = new ActasModel();
             $participantesModel = new ParticipanteModel();
             $participantes = $participantesModel->getAll($id);
+            $compromisosModel = new CompromisosModel();
+            $compromisos = $compromisosModel->getAll($id);
             $acta = $actasModel->get($id);
             $this->view->render('admin/detalle-acta', [
                 "user" => $this->user,
@@ -143,7 +146,9 @@ class Admin extends SessionController
                 'usuarios' => $usuarios,
                 'temas' => $temas,
                 'acta'=> $acta,
-                'participantes' =>$participantes
+                'participantes' =>$participantes,
+                'compromisos' =>$compromisos
+
             ]);
         } else {
             $dependenciaModel = new DependenciaModel();
@@ -168,7 +173,13 @@ class Admin extends SessionController
         $participantes = $_POST['id'];
         $nombres = $_POST['nombre'];
         $datos[]=[$participantes , $nombres];
-        error_log('Admin::newDependencia() => SI ENTRA A PARTICIPANTES ' . $participantes." " .$nombres);
+        echo json_encode($datos);
+    }
+    function datosCompromisos()
+    {
+        $participantes = $_POST['id'];
+        $nombres = $_POST['nombre'];
+        $datos[]=[$participantes , $nombres];
         echo json_encode($datos);
     }
 }

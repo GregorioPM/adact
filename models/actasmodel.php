@@ -146,6 +146,64 @@ class ActasModel extends Model  implements IModel
                         return false;
                 }
         }
+
+        public function totalActas()
+        {
+
+                $total = "";
+                $query = $this->db->connect()->prepare('SELECT COUNT(a.id) actas FROM acta a');
+                try {
+                        $query->execute();
+
+                        while ($row = $query->fetch()) {
+                                $total = $row['actas'];
+                        }
+                        return $total;
+                        error_log('ACTASMODEL::GETParticipantes->PDOException ' . $total);
+
+                } catch (PDOException $e) {
+                        return null;
+                }
+               
+        }
+        public function totalActasAprovadas()
+        {
+
+                $aprovado = "";
+                $query = $this->db->connect()->prepare('SELECT COUNT(a.id) actas FROM acta a WHERE a.estado="Aprovado"');
+                try {
+                        $query->execute();
+
+                        while ($row = $query->fetch()) {
+                                $aprovado = $row['actas'];
+                        }
+                        return $aprovado;
+                        error_log('ACTASMODEL::GETParticipantes->PDOException ' . $aprovado);
+
+                } catch (PDOException $e) {
+                        return null;
+                }
+               
+        }
+        public function totalActasRevision()
+        {
+
+                $revision = "";
+                $query = $this->db->connect()->prepare('SELECT COUNT(a.id) actas FROM acta a WHERE a.estado="Revisión"');
+                try {
+                        $query->execute();
+
+                        while ($row = $query->fetch()) {
+                                $revision = $row['actas'];
+                        }
+                        return $revision;
+                        error_log('ACTASMODEL::GETParticipantes->PDOException ' . $revision);
+
+                } catch (PDOException $e) {
+                        return null;
+                }
+               
+        }
         public function get($id)
         {
 

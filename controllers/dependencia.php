@@ -29,7 +29,6 @@ class Dependencia extends SessionController{
     }
     
     
-    
     function deleteDependencias(){
         $id = $_GET['id'];
         $dependenciaModel = new DependenciaModel();

@@ -77,7 +77,25 @@
                 }
         }
 
-        
+        public function totalUsuarios()
+        {
+
+                $usuarios = "";
+                $query = $this->db->connect()->prepare('SELECT COUNT(u.id) usuarios FROM usuario u');
+                try {
+                        $query->execute();
+
+                        while ($row = $query->fetch()) {
+                                $usuarios = $row['usuarios'];
+                        }
+                        return $usuarios;
+                        error_log('ACTASMODEL::GETParticipantes->PDOException ' . $usuarios);
+
+                } catch (PDOException $e) {
+                        return null;
+                }
+               
+        }
 
         public function get($id){
                 try {

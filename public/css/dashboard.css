@@ -6,11 +6,11 @@ h2{
 
 
 
-#expenses-container, #dashboard-container{
+/*#expenses-container, #dashboard-container{
     display: grid;
     grid-template-columns: 65% 35%;
     grid-template-rows: 100%;
-}
+}*/
 
 #columnchart_material{
     padding: 20px 0;
@@ -217,13 +217,13 @@ h2{
 .panel{
     border-radius: 10px;
     padding: 10px;
-    
     margin-right: 10px;
     display: inline-block;
     vertical-align: top;
-
     box-shadow: 0 10px 20px -7px rgba(0,0,0,0.2);
     border: solid 1px #eee;
+    height: 160px;
+    width: 210px;
 
 }
 .panel .title{

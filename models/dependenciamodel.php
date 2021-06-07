@@ -70,6 +70,26 @@
             }
         }
        
+        public function totalDependencias()
+        {
+
+                $dependencia = "";
+                $query = $this->db->connect()->prepare('SELECT COUNT(d.id) dependencias FROM dependencia d');
+                try {
+                        $query->execute();
+
+                        while ($row = $query->fetch()) {
+                                $dependencia = $row['dependencias'];
+                        }
+                        return $dependencia;
+                        error_log('ACTASMODEL::GETParticipantes->PDOException ' . $dependencia);
+
+                } catch (PDOException $e) {
+                        return null;
+                }
+               
+        }
+
         public function update($dependencia){
             try {
                 

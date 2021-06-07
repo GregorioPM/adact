@@ -167,9 +167,9 @@ nav b{
   .nav-link{
       text-transform: capitalize;
   }
-  .nav-link:hover{
-      background:#f3f2f2;
-  }
+  .nav-link a:hover{
+color: red;  
+}
   .text-primary{
     color: rgb(0 0 0 / 90%) !important;
   }
@@ -409,4 +409,12 @@ hr.someClass {
   background-color: #b3d7ff;
   width: 80%;
   height: 4px;
+}
+
+.con-index{
+  display: flex;
+}
+
+.con-index a{
+  color: black;
 }

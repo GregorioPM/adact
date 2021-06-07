@@ -3,6 +3,7 @@
 require_once "models/dependenciamodel.php";
 require_once "models/actasmodel.php";
 require_once "models/temasmodel.php";
+require_once "models/userModel.php";
 require_once "models/participantemodel.php";
 
 
@@ -19,8 +20,23 @@ class Admin extends SessionController
     }
 
     function render()
-    {
-        $this->view->render('admin/index', ["user" => $this->user]);
+    {   $actasModel = new ActasModel();
+        $dependenciaModel = new DependenciaModel();
+        $userModel = new userModel();
+        $totalActas = $actasModel->totalActas();
+        $totalActasAprovadas =$actasModel->totalActasAprovadas();
+        $totalActasRevision =$actasModel->totalActasRevision();
+        $totalDependencias= $dependenciaModel->totalDependencias();
+        $totalUsers=$userModel->totalUsuarios();
+
+        $this->view->render('admin/index', [
+            "user" => $this->user,
+            "totalActas"=>$totalActas,
+            "totalActasAprovadas"=>$totalActasAprovadas,
+            "totalActasRevision"=>$totalActasRevision,
+            "totalDependencias"=>$totalDependencias,
+            "totalUsers"=>$totalUsers
+            ]);
     }
     function listDependencias()
     {

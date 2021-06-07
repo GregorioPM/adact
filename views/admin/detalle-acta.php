@@ -303,8 +303,8 @@ $compromisos = $this->d['compromisos'];
           </div>
           <div class="form-group">
             <?php
-            if (isset($acta)) {
-              echo '<table class="table mt-4 table-striped table-bordered width=" 100%"">
+            if (!$compromisos==null) {
+              echo '<table class="tableG table mt-4 table-striped table-bordered" width=" 100%" >
               <caption>Listado Compromisos Guardados</caption>
               <thead>
                 <tr class="text-center">

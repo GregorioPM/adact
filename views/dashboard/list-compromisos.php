@@ -1,5 +1,5 @@
 <?php
-$actas = $this->d['actas'];
+$compromisos = $this->d['compromisos'];
 $user = $this->d['user'];
 ?>
 <!DOCTYPE html>
@@ -24,37 +24,35 @@ $user = $this->d['user'];
     <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
     <div class="container">
 
-    
-      <h2 class="titulo" style="text-align: center;">Listado de mis Participaciones en Actas</h2>
+      <h2 class="titulo" style="text-align: center;">Listado de mis Compromisos en Actas</h2>
 
       <table class="table mt-4 table-striped table-bordered width=" 80%"">
         <thead>
           <tr class="text-center">
             <th scope="col">Id</th>
-            <th scope="col">Asunto</th>
-            <th scope="col">Fecha</th>
-            <th scope="col">Lugar</th>
-            <th scope="col">Estado</th>
+            <th scope="col">Compromiso</th>
+            <th scope="col">Fecha Compromiso</th>
+
+            <th scope="col">Acta</th>
             <th scope="col">Acciones</th>
 
           </tr>
         </thead>
         <tbody>
           <?php
-          foreach ($actas as $acta) {
+          foreach ($compromisos as $c) {
           ?>
             <tr>
-              <td class="text-center"><?php echo $acta->getId(); ?></td>
-              <td class="text-center"><?php echo $acta->getAsunto(); ?></td>
-              <td class="text-center"><?php echo $acta->getFecha(); ?></td>
-              <td class="text-center"><?php echo $acta->getLugar(); ?></td>
-              <td class="text-center"><?php echo $acta->getEstado(); ?></td>
+              <td class="text-center"><?php echo $c->getId(); ?></td>
+              <td class="text-center"><?php echo $c->getCompromiso(); ?></td>
+              <td class="text-center"><?php echo $c->getFecha(); ?></td>
+              <td class="text-center"><?php echo $c->getIdActa(); ?></td>
+
 
               <td class="text-center">
 
-                <!--<a href="<?= URL ?>/admin/editDependencia?id=<?= $acta->getId() ?>"><span class="material-icons action-update" data-toggle="modal" data-target="#exampleModalCenter">mode_edit</span></a>-->
 
-                <a href="<?= URL ?>/dashboard/detalleActa?id=<?= $acta->getId() ?>"><span class="material-icons action-edit">
+                <a href="<?= URL ?>/dashboard/detalleActa?id=<?php echo $c->getIdActa() ?>"><span class="material-icons action-edit">
                     edit
                   </span></a>
               

@@ -76,8 +76,8 @@
         </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link text-dark">
-          <i class="fas fa-book-open mr-3 text-primary fa-fw"></i>
+        <a href="<?= URL ?>/dashboard/listCompromisos" class="nav-link text-dark">
+        <i class="fas fa-thumbtack mr-3 text-primary fa-fw"></i>
           Mis Compromisos
         </a>
       </li>

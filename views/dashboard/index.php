@@ -4,6 +4,7 @@ $user = $this->d['user'];
 $totalParticipaciones= $this->d['totalParticipaciones'];
 $totalActasAprobadas= $this->d['totalActasAprobadas'];
 $totalActasRevision= $this->d['totalActasRevision'];
+$totalCompromisos= $this->d['totalCompromisos'];
 
 ?>
 <?php require_once 'header.php'; ?>
@@ -22,17 +23,24 @@ $totalActasRevision= $this->d['totalActasRevision'];
 
             <div class="panel">
                 <div class="title">Actas Aprobadas</div>
-                <div class="datum"> <i class="fas fa-user mr-3 text-primary fa-fw"></i>
+                <div class="datum"> <i class="fas fa-award mr-3 text-primary fa-fw"></i>
                 <?php echo $totalActasAprobadas; ?></div>
                 <div class="description">Total Actas aprobadas donde participe</div>
             </div>
             <div class="panel">
                 <div class="title">Actas En Revisión</div>
-                <div class="datum"> <i class="fas fa-user mr-3 text-primary fa-fw"></i>
+                <div class="datum"> <i class="fas fa-glasses mr-3 text-primary fa-fw"></i>
                 <?php echo $totalActasRevision; ?></div>
                 <div class="description">Total Actas en Revisión donde participe</div>
             </div>
-     <h2><?php echo $totalParticipaciones; ?></h2>
+            <div class="panel">
+                <div class="title">Mis Compromisos</div>
+                <div class="datum"> 
+                <i class="fas fa-thumbtack mr-3 text-primary fa-fw"></i>
+
+                <?php echo $totalCompromisos; ?></div>
+                <div class="description">Total Compromiso en las Actas donde participe</div>
+            </div>
 
 
     </div>

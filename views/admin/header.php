@@ -87,6 +87,12 @@
           Actas
         </a>
       </li>
+      <li class="nav-item">
+        <a href="<?= URL ?>/admin/listCompromisos" class="nav-link text-dark">
+        <i class="fas fa-thumbtack mr-3 text-primary fa-fw"></i>
+          Mis Compromisos
+        </a>
+      </li>
     </ul>
 
     <!--<p class="text-gray font-weight-bold text-uppercase px-3 small py-4 mb-0">Charts</p>

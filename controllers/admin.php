@@ -24,11 +24,13 @@ class Admin extends SessionController
     {   $actasModel = new ActasModel();
         $dependenciaModel = new DependenciaModel();
         $userModel = new userModel();
+        $compromisosModel = new CompromisosModel();
         $totalActas = $actasModel->totalActas();
         $totalActasAprovadas =$actasModel->totalActasAprovadas();
         $totalActasRevision =$actasModel->totalActasRevision();
         $totalDependencias= $dependenciaModel->totalDependencias();
         $totalUsers=$userModel->totalUsuarios();
+        $totalCompromisos = $compromisosModel->misCompromisos($this->user->getId());
 
         $this->view->render('admin/index', [
             "user" => $this->user,
@@ -36,7 +38,9 @@ class Admin extends SessionController
             "totalActasAprovadas"=>$totalActasAprovadas,
             "totalActasRevision"=>$totalActasRevision,
             "totalDependencias"=>$totalDependencias,
-            "totalUsers"=>$totalUsers
+            "totalUsers"=>$totalUsers,
+            "totalCompromisos"=>$totalCompromisos
+
             ]);
     }
     function listDependencias()
@@ -162,6 +166,19 @@ class Admin extends SessionController
             ]);
         }
     }
+    function listCompromisos()
+    {
+            $compromisos = [];
+            $compromisosModel = new CompromisosModel();
+            $user=$this->getUserSessionData();
+            $compromisos=$compromisosModel->totalCompromisos($user->getId());
+            $this->view->render('admin/list-compromisos', [
+                'compromisos' => $compromisos,
+                'user' => $this->user
+            ]);
+        
+    }
+
     function datosTemas()
     {
         $temas = $_POST['temas'];

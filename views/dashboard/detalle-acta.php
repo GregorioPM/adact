@@ -6,6 +6,7 @@ $usuarios = $this->d['usuarios'];
 $acta = $this->d['acta'];
 $temas = $this->d['temas'];
 $participantes = $this->d['participantes'];
+$compromisos = $this->d['compromisos'];
 
 ?>
 <?php require_once 'header.php'; ?>
@@ -197,9 +198,49 @@ $participantes = $this->d['participantes'];
           ?>
         </div>
 
+        <div class="form-group">
+            <?php
+            if (!$compromisos==null) {
+              echo '<table class="tableG table mt-4 table-striped table-bordered width=" 100%"">
+              <caption>Listado Compromisos Guardados</caption>
+              <thead>
+                <tr class="text-center">
+                  <th scope="col">Id</th>
+                  <th scope="col">Acta</th>
+                  <th scope="col">Participante</th>
+                  <th scope="col">Compromiso</th>
+                  <th scope="col">Fecha</th>
+
       
+                </tr>
+              </thead>
+              <tbody>';
+              foreach ($compromisos as $c) {
+
+                echo '<tr>
+                    <td class="text-center">' . $c->getId() . '</td>
+                    <td class="text-center">' . $c->getIdActa() . '</td>
+                    <td class="text-center">' . $c->nombresParticipante($c->getIdParticipante()). '</td>
+                    <td class="text-center">' . $c->getCompromiso() . '</td>
+                    <td class="text-center">' . $c->getFecha() . '</td>
+
+
+                    
+      
+                  </tr>';
+              }
+              echo '
+               </tbody>
+              </table>
+            ';
+            }
+            ?>
+          </div>
+ 
       
       </form>
+
+      
       <?php if (isset($acta)) {
           echo '<hr class="someClass mt-5">
           <h3>Cambiar estado del Acta</h3>

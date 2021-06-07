@@ -412,9 +412,22 @@ hr.someClass {
 }
 
 .con-index{
-  display: flex;
+  display: contents;
 }
 
 .con-index a{
+  margin: 0;
+  padding: 0;
+}
+
+.con-index .panel{
+  margin-top: 15px;
+}
+.con-index a{
   color: black;
+}
+
+.tableG{
+  width: 120%;
+  margin-left: -10%;
 }

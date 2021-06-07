@@ -4,6 +4,7 @@ require_once "models/actasmodel.php";
 require_once "models/dependenciamodel.php";
 require_once "models/temasmodel.php";
 require_once "models/participantemodel.php";
+require_once "models/compromisosmodel.php";
 
 
 
@@ -22,15 +23,18 @@ class Dashboard extends SessionController
     {
         $participanteModel = new ParticipanteModel();
         $actasModel = new ActasModel();
+        $compromisosModel = new CompromisosModel();
         $totalActasAprobadas= $actasModel->totalActasAprobadaParticipante($this->user->getId());
         $totalActasRevision= $actasModel->totalActasRevisionParticipante($this->user->getId());
         $totalParticipaciones = $participanteModel->misParticipaciones($this->user->getId());
+        $totalCompromisos = $compromisosModel->misCompromisos($this->user->getId());
         
         $this->view->render('dashboard/index', [
             "user" => $this->user,
             "totalParticipaciones"=>$totalParticipaciones,
             "totalActasAprobadas"=>$totalActasAprobadas,
-            "totalActasRevision"=>$totalActasRevision
+            "totalActasRevision"=>$totalActasRevision,
+            "totalCompromisos"=>$totalCompromisos
             ]);
 
         error_log('Dashboard::render -> carga Index usuario');
@@ -58,6 +62,19 @@ class Dashboard extends SessionController
             $actas = $actasModel->misParticipaciones($user->getId());
             $this->view->render('dashboard/list-participaciones', [
                 'actas' => $actas,
+                'user' => $this->user
+            ]);
+        
+    }
+
+    function listCompromisos()
+    {
+            $compromisos = [];
+            $compromisosModel = new CompromisosModel();
+            $user=$this->getUserSessionData();
+            $compromisos=$compromisosModel->totalCompromisos($user->getId());
+            $this->view->render('dashboard/list-compromisos', [
+                'compromisos' => $compromisos,
                 'user' => $this->user
             ]);
         
@@ -91,6 +108,8 @@ class Dashboard extends SessionController
             $actasModel = new ActasModel();
             $participantesModel = new ParticipanteModel();
             $participantes = $participantesModel->getAll($id);
+            $compromisosModel = new CompromisosModel();
+            $compromisos = $compromisosModel->getAll($id);
             $acta = $actasModel->get($id);
             $this->view->render('dashboard/detalle-acta', [
                 "user" => $this->user,
@@ -98,7 +117,9 @@ class Dashboard extends SessionController
                 'usuarios' => $usuarios,
                 'temas' => $temas,
                 'acta'=> $acta,
-                'participantes' =>$participantes
+                'participantes' =>$participantes,
+                'compromisos' =>$compromisos
+
             ]);
         } else {
             $dependenciaModel = new DependenciaModel();

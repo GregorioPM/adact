@@ -6,6 +6,8 @@ $totalActasAprovadas = $this->d['totalActasAprovadas'];
 $totalActasRevision = $this->d['totalActasRevision'];
 $totalDependencias = $this->d['totalDependencias'];
 $totalUsers = $this->d['totalUsers'];
+$totalCompromisos= $this->d['totalCompromisos'];
+
 
 ?>
 <?php require_once 'header.php'; ?>
@@ -51,6 +53,16 @@ $totalUsers = $this->d['totalUsers'];
                 <div class="description">Total Usuarios</div>
             </div>
             </a> 
+            <a href="<?= URL ?>/admin/listCompromisos">
+            <div class="panel">
+                <div class="title">Mis Compromisos</div>
+                <div class="datum"> 
+                <i class="fas fa-thumbtack mr-3 text-primary fa-fw"></i>
+
+                <?php echo $totalCompromisos; ?></div>
+                <div class="description">Total Compromiso en las Actas donde participe</div>
+            </div>
+            </a>
         </div>
 
 

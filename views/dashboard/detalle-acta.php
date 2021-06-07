@@ -35,20 +35,20 @@ $participantes = $this->d['participantes'];
           <label for="inputPassword4"><b>Asunto</b></label>
           <input type="text" name="asunto" class="form-control" id="inputPassword4" <?php if (isset($acta)) {
                                                                                       echo 'value="' . $acta->getAsunto() . '"';
-                                                                                    } ?>>
+                                                                                    } ?> disabled>
         </div>
         <div class="form-row">
           <div class="form-group col-md-8">
             <label for="actaLugar"><b>Lugar</b></label>
             <input type="text" name="lugar" class="form-control" id="actaLugar" <?php if (isset($acta)) {
                                                                                   echo 'value="' . $acta->getLugar() . '"';
-                                                                                } ?>>
+                                                                                } ?>disabled>
           </div>
           <div class="form-group col-md-4">
             <label for="inputAddress"><b>Fecha</b></label>
             <input type="date" name="fecha" class="form-control" min="2014-01-01" max="2100-12-31" id="inputAddress" <?php if (isset($acta)) {
                                                                                                                         echo 'value="' . $acta->getFecha() . '"';
-                                                                                                                      } ?>>
+                                                                                                                      } ?>disabled>
           </div>
         </div>
         <div class="form-row">
@@ -56,13 +56,13 @@ $participantes = $this->d['participantes'];
             <label for="inputPassword4"><b>Hora Inicio</b></label>
             <input type="time" name="horaInicio" class="form-control" id="inputPassword4" <?php if (isset($acta)) {
                                                                                             echo 'value="' . $acta->getHoraInicio() . '"';
-                                                                                          } ?>>
+                                                                                          } ?>disabled>
           </div>
           <div class="form-group col-md-3">
             <label for="inputAddress"><b>Hora Final</b></label>
             <input type="time" name="horaFinal" class="form-control" id="inputAddress" <?php if (isset($acta)) {
                                                                                           echo 'value="' . $acta->getHoraFinal() . '"';
-                                                                                        } ?>>
+                                                                                        } ?>disabled>
           </div>
           <div class="form-group col-md-6">
             <label for="inputAddress"><b>Dependencia</b></label>
@@ -91,12 +91,12 @@ $participantes = $this->d['participantes'];
           <label for="inputPassword4"><b>Orden del dia</b></label>
           <input type="text" name="orden" class="form-control" id="inputPassword4" <?php if (isset($acta)) {
                                                                                       echo 'value="' . $acta->getOrden() . '"';
-                                                                                    } ?>>
+                                                                                    } ?>disabled>
         </div>
         <div class="form-group">
           <label for="inputPassword4"><b>Conclusiones</b></label>
           <br>
-          <textarea class="rounded" name="conclusiones" id="conclu" cols="100" rows="10">
+          <textarea class="rounded" name="conclusiones" id="conclu" cols="100" rows="10" disabled>
           <?php if (isset($acta)) {
             echo $acta->getConclusiones();
           } ?>

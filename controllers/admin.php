@@ -85,7 +85,7 @@ class Admin extends SessionController
             error_log($aprovacion);
 
             if($aprovados>=$aprovacion){
-                $e="Aprovado";
+                $e="Aprobado";
                 $a=$actasModel->updateEstado($acta->getId(),$e);
             }else{
                 $e="Revisión";
@@ -119,7 +119,7 @@ class Admin extends SessionController
             $participanteModel=new ParticipanteModel();
             $participante=$participanteModel->getParticipante($a,$u);
             $participanteModel->setid($participante);
-            $participanteModel->setEstado("Aprovado");
+            $participanteModel->setEstado("Aprobado");
             $participanteModel->update($participanteModel);
 
         }

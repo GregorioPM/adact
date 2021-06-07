@@ -135,7 +135,7 @@ class ActasModel extends Model  implements IModel
 
                         $query = $this->prepare('SELECT COUNT(p.id) aprovados FROM acta a
                         INNER JOIN participante p ON a.id= p.id_acta
-                        WHERE a.id=:id and p.estado="Aprovado"');
+                        WHERE a.id=:id and p.estado="Aprobado"');
                         $query->execute(['id' => $id]);
                         $aprovados = $query->fetch(PDO::FETCH_ASSOC);
                         $totalAprovados= $aprovados['aprovados'];
@@ -166,11 +166,46 @@ class ActasModel extends Model  implements IModel
                 }
                
         }
+
+        public function totalActasAprobadaParticipante($id)
+        {
+
+                try {
+
+                        $query = $this->prepare('SELECT COUNT(p.id) aprobada FROM participante p
+                        INNER JOIN usuario u ON p.id_usuario=u.id
+                        INNER JOIN acta a ON p.id_acta=a.id
+                        WHERE u.id=:id AND a.estado="Aprobado"');
+                        $query->execute(['id' => $id]);
+                        $participantes = $query->fetch(PDO::FETCH_ASSOC);
+                        $aprobada = $participantes['aprobada'];
+                        return $aprobada;
+                } catch (PDOException $e) {
+                        return false;
+                }
+        }
+        public function totalActasRevisionParticipante($id)
+        {
+
+                try {
+
+                        $query = $this->prepare('SELECT COUNT(p.id) revision FROM participante p
+                        INNER JOIN usuario u ON p.id_usuario=u.id
+                        INNER JOIN acta a ON p.id_acta=a.id
+                        WHERE u.id=:id AND a.estado="Revisión"');
+                        $query->execute(['id' => $id]);
+                        $participantes = $query->fetch(PDO::FETCH_ASSOC);
+                        $revision = $participantes['revision'];
+                        return $revision;
+                } catch (PDOException $e) {
+                        return false;
+                }
+        }
         public function totalActasAprovadas()
         {
 
                 $aprovado = "";
-                $query = $this->db->connect()->prepare('SELECT COUNT(a.id) actas FROM acta a WHERE a.estado="Aprovado"');
+                $query = $this->db->connect()->prepare('SELECT COUNT(a.id) actas FROM acta a WHERE a.estado="Aprobado"');
                 try {
                         $query->execute();
 

@@ -35,6 +35,25 @@ require_once "userModel.php";
             }
         }
 
+        public function misParticipaciones($id)
+        {
+
+                try {
+
+                        $query = $this->prepare('SELECT COUNT(p.id) participaciones FROM participante p
+                        INNER JOIN usuario u ON p.id_usuario=u.id
+                        WHERE u.id=:id');
+                        $query->execute(['id' => $id]);
+                        $participantes = $query->fetch(PDO::FETCH_ASSOC);
+                        $participaciones = $participantes['participaciones'];
+                        error_log('ACTASMODEL::GETParticipantes->ENTRO A OBTENRE ' .$participaciones);
+                        return $participaciones;
+                } catch (PDOException $e) {
+                        error_log('ACTASMODEL::GETParticipantes->PDOException ' . $e);
+                        return false;
+                }
+        }
+
         public function update($participante){
                 try {
                     

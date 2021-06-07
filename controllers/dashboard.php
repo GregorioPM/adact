@@ -20,7 +20,18 @@ class Dashboard extends SessionController
     }
     function render()
     {
-        $this->view->render('dashboard/index', ["user" => $this->user]);
+        $participanteModel = new ParticipanteModel();
+        $actasModel = new ActasModel();
+        $totalActasAprobadas= $actasModel->totalActasAprobadaParticipante($this->user->getId());
+        $totalActasRevision= $actasModel->totalActasRevisionParticipante($this->user->getId());
+        $totalParticipaciones = $participanteModel->misParticipaciones($this->user->getId());
+        
+        $this->view->render('dashboard/index', [
+            "user" => $this->user,
+            "totalParticipaciones"=>$totalParticipaciones,
+            "totalActasAprobadas"=>$totalActasAprobadas,
+            "totalActasRevision"=>$totalActasRevision
+            ]);
 
         error_log('Dashboard::render -> carga Index usuario');
     }

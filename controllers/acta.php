@@ -102,7 +102,21 @@ class Acta extends SessionController
             $actasModel->setHoraFinal($horaFinal);
             $actasModel->setOrden($orden);
             $actasModel->setConclusiones($conclusiones);
-            $actasModel->update($actasModel);
+            if($actasModel->update($actasModel)){
+                foreach ($temas as $tema) {
+                    $temasmodel = new TemasModel();
+                    $temasmodel->setIdActa($id);
+                    $temasmodel->setDescripcion($tema);
+                    $temasmodel->save();
+                }
+                foreach ($participantes as $participante) {
+                    $participantemodel = new ParticipanteModel();
+                    $participantemodel->setIdActa($id);
+                    $participantemodel->setIdUsuario($participante);
+                    $participantemodel->setEstado("Revisión");
+                    $participantemodel->save();
+                }
+            }
             $this->redirect('admin/detalleActa?id='.$id, []);
         }
     }

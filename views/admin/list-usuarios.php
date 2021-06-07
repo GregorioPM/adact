@@ -45,8 +45,8 @@ $user = $this->d['user'];
                     <input type="email" name="correo" id="correo">
                   </p>
                   <p>
-                    <label for="password"><b>Contraseña</b></label>
-                    <input type="text" name="password" id="password">
+                    <label for="pass"><b>Contraseña</b></label>
+                    <input type="text" name="pass" id="password">
                   </p>
                   <p>
                     <label for="nombres"><b>Nombres</b></label>

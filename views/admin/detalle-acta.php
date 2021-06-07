@@ -29,9 +29,11 @@ $participantes = $this->d['participantes'];
         } ?>
       </h2>
 
-      <form class="col-md-10 acta" action="<?php echo constant('URL') ?>/acta/newActa" method="POST" enctype="multipart/form-data">
+      <form class="col-md-10 acta" action="<?php echo constant('URL') ?>/acta/updateActa" method="POST" enctype="multipart/form-data">
         <div class="form-group">
           <input type="hidden" name="id" value="<?php echo $user->getId(); ?>">
+          <input type="hidden" name="idacta" value="<?php echo $acta->getId(); ?>">
+
           <label for="inputPassword4"><b>Asunto</b></label>
           <input type="text" name="asunto" class="form-control" id="inputPassword4" <?php if (isset($acta)) {
                                                                                       echo 'value="' . $acta->getAsunto() . '"';

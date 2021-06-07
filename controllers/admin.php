@@ -56,8 +56,28 @@ class Admin extends SessionController
     {
         $actas = [];
         $actasModel = new ActasModel();
-        $actas = $actasModel->getAll();
+        $actas2=$actasModel->getAll();
+        foreach ($actas2 as $acta){
+            $aprovados = $actasModel->getAprovados($acta->getId());
+            $participantes = $acta->getTotalParticipantes();
+            if(($participantes % 2) == 0){
+                $aprovacion = (($participantes/2)+1);
+            }else{
+                $aprovacion = (($participantes/2)+0.5);
+            }
+            error_log($aprovados);
+            error_log($aprovacion);
+
+            if($aprovados>=$aprovacion){
+                $e="Aprovado";
+                $a=$actasModel->updateEstado($acta->getId(),$e);
+            }else{
+                $e="Revisión";
+                $a=$actasModel->updateEstado($acta->getId(),$e);
+            }
+        }
         /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
+        $actas = $actasModel->getAll();
 
         $this->view->render('admin/list-actas', [
             'actas' => $actas,
@@ -78,7 +98,6 @@ class Admin extends SessionController
     function detalleActa()
     {
         if(isset($_POST['estado'])){
-            error_log('EEEEEEEEEEEE' .$_POST['estado']);
             $a = $_POST['idacta'];
             $u = $_POST['idusuario'];
             $participanteModel=new ParticipanteModel();
@@ -87,7 +106,6 @@ class Admin extends SessionController
             $participanteModel->setEstado("Aprovado");
             $participanteModel->update($participanteModel);
 
-            //error_log('Dashboard::render -> carga Index usuario' .print_r($participante));
         }
         if (isset($_GET['id'])) {
             $id = $_GET['id'];

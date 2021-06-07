@@ -76,4 +76,34 @@ class Acta extends SessionController
             $this->redirect('admin/listActas', ['error' => ErrorMessages::ERROR_ADMIN_ACTAPARTICIPANTE]);
         }
     }
+
+    function updateActa(){
+        $id = $_POST['idacta'];
+        if(isset($id)){
+            $asunto = $this->getPost('asunto');
+            $lugar = $this->getPost('lugar');
+            $temas = $this->getPost('temas');
+            $participantes = $this->getPost('participantes');
+            $fecha = $this->getPost('fecha');
+            $horaInicio = $this->getPost('horaInicio');
+            $horaFinal = $this->getPost('horaFinal');
+            $dependencia = $this->getPost('dependencia');
+            $orden = $this->getPost('orden');
+            $conclusiones = $this->getPost('conclusiones');
+            error_log('SIGNUP::UPDATE() => ENTRA A UPDATEV333: ' . $dependencia);      
+
+            $actasModel = new ActasModel();
+            $actasModel->setId($id);
+            $actasModel->setAsunto($asunto);
+            $actasModel->setLugar($lugar);
+            $actasModel->setIdDependencia($dependencia);
+            $actasModel->setFecha($fecha);
+            $actasModel->setHoraInicio($horaInicio);
+            $actasModel->setHoraFinal($horaFinal);
+            $actasModel->setOrden($orden);
+            $actasModel->setConclusiones($conclusiones);
+            $actasModel->update($actasModel);
+            $this->redirect('admin/detalleActa?id='.$id, []);
+        }
+    }
 }

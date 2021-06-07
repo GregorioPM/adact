@@ -21,19 +21,19 @@ class Signup extends SessionController
 
     function newUser()
     {
-        if ($this->existPOST(['correo', 'password', 'nombres', 'apellidos'])) {
+        if ($this->existPOST(['correo', 'pass', 'nombres', 'apellidos'])) {
             $correo = $this->getPost('correo');
-            $password = $this->getPost('password');
+            $pass = $this->getPost('pass');
             $nombres = $this->getPost('nombres');
             $apellidos = $this->getPost('apellidos');
             $user = new userModel();
             $user->setCorreo($correo);
-            $user->setPassword($password);
+            $user->setPass($pass);
             $user->setRol("user");
             $user->setNombres($nombres);
             $user->setApellidos($apellidos);
             //validate data
-            if ($correo === '' || empty($correo) || $password === '' || empty($password) || $nombres === '' || empty($nombres) || $apellidos === '' || empty($apellidos)) {
+            if ($correo === '' || empty($correo) || $pass === '' || empty($pass) || $nombres === '' || empty($nombres) || $apellidos === '' || empty($apellidos)) {
                 // error al validar datos
                 //$this->errorAtSignup('Campos vacios');
                 $this->redirect('admin/listUsuarios', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EMPTY]);

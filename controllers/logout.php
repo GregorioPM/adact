@@ -9,7 +9,7 @@ class Logout extends SessionController{
     public function render(){
         $this->logout();
 
-        $this->redirect('');
+        $this->redirect('',[]);
     }
 }
 

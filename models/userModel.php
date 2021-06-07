@@ -4,7 +4,7 @@
 
         private $id;
         private $correo;
-        private $password;
+        private $pass;
         private $rol;
         private $nombres;
         private $apellidos;
@@ -14,7 +14,7 @@
         public function __construct(){
                 parent::__construct();
                 $this->correo='';
-                $this->password='';
+                $this->pass='';
                 $this->rol='';
                 $this->nombres='';
                 $this->apellidos='';
@@ -40,10 +40,10 @@
 
         public function save(){
                 try {
-                        $query = $this->prepare('INSERT INTO usuario(correo, password, rol, nombres,apellidos) VALUES(:correo, :password, :rol, :nombres, :apellidos)');
+                        $query = $this->prepare('INSERT INTO usuario(correo, pass, rol, nombres,apellidos) VALUES(:correo, :pass, :rol, :nombres, :apellidos)');
                         $query->execute([
                              'correo' => $this->correo,
-                             'password' => $this->password,
+                             'pass' => $this->pass,
                              'rol' => $this->rol,
                              'nombres' => $this->nombres,
                              'apellidos' => $this->apellidos   
@@ -62,7 +62,7 @@
                                 $item= new UserModel();
                                 $item->setId($p['id']);
                                 $item->setCorreo($p['correo']);
-                                $item->setPassword($p['password']);
+                                $item->setPass($p['pass']);
                                 $item->setRol($p['rol']);
                                 $item->setNombres($p['nombres']);
                                 $item->setApellidos($p['apellidos']);
@@ -89,7 +89,7 @@
                                 
                                 $this->id = $user['id'];
                                 $this->correo = $user['correo'];
-                                $this->password = $user['password'];
+                                $this->pass = $user['pass'];
                                 $this->rol = $user['rol'];
                                 $this->nombres = $user['nombres'];
                                 $this->apellidos = $user['apellidos'];
@@ -134,7 +134,7 @@
         public function from($array){
                 $this->id       = $array['id'];
                 $this->correo   =$array['correo'];
-                $this->password =$array['password'];
+                $this->pass =$array['pass'];
                 $this->rol      =$array['rol'];
                 $this->nombres  =$array['nombres'];
                 $this->apellidos=$array['apellidos'];
@@ -158,7 +158,7 @@
         public function comparePasswords($password, $id){
                 try{
                         $user = $this->get($id);
-                        return password_verify($password, $user->getPassword());
+                        return password_verify($password, $user->getPass());
                 } catch (PDOException $e) {
                         error_log('USERMODEL::comparePasswords->PDOException ' . $e);
                         return false; 
@@ -192,16 +192,16 @@
                 return $this;
         }
 
-        public function getPassword()
+        public function getPass()
         {
-                return $this->password;
+                return $this->pass;
         }
 
-        public function setPassword($password, $hash = true){ 
+        public function setPass($pass, $hash = true){ 
                 if($hash){
-                    $this->password = $this->getHashedPassword($password);
+                    $this->pass = $this->getHashedPassword($pass);
                 }else{
-                    $this->password = $password;
+                    $this->passw = $pass;
                 }
             }
 

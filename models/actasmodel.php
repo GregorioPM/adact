@@ -118,10 +118,29 @@ class ActasModel extends Model  implements IModel
 
                         $query = $this->prepare('SELECT COUNT(p.id) as participantes FROM participante p INNER JOIN acta a ON p.id_acta=a.id WHERE a.id=:id');
                         $query->execute(['id' => $id]);
+                        
                         $participantes = $query->fetch(PDO::FETCH_ASSOC);
                         $this->totalParticipantes = $participantes['participantes'];
                         error_log('ACTASMODEL::GETParticipantes->ENTRO A OBTENRE ' . $participantes['participantes']);
                         return $this;
+                } catch (PDOException $e) {
+                        error_log('ACTASMODEL::GETParticipantes->PDOException ' . $e);
+                        return false;
+                }
+        }
+
+        public function getAprovados($id)
+        {
+                try {
+
+                        $query = $this->prepare('SELECT COUNT(p.id) aprovados FROM acta a
+                        INNER JOIN participante p ON a.id= p.id_acta
+                        WHERE a.id=:id and p.estado="Aprovado"');
+                        $query->execute(['id' => $id]);
+                        $aprovados = $query->fetch(PDO::FETCH_ASSOC);
+                        $totalAprovados= $aprovados['aprovados'];
+                        error_log('ACTASMODEL::GETParticipantes->ENTRO A OBTENRE ' .$totalAprovados);
+                        return $totalAprovados;
                 } catch (PDOException $e) {
                         error_log('ACTASMODEL::GETParticipantes->PDOException ' . $e);
                         return false;
@@ -169,8 +188,47 @@ class ActasModel extends Model  implements IModel
                         return false;
                 }
         }
-        public function update($id)
+        public function update($acta)
         {
+                try {
+                        $a=3;
+                        error_log('SIGNUP::UPDATE() => ENTRA A UPDATEV222' . $this->getOrden());      
+
+                        $query = $this->prepare('UPDATE acta SET asunto= :asunto, fecha=:fecha, hora_inicio=:hora_inicio, hora_final=:hora_final ,conclusiones=:conclusiones,orden_dia=:orden_dia, lugar=:lugar,id_dependencia=:id_dependencia WHERE id= :id');
+                        $query->execute([
+                                'id' => $this->getId(),
+                                'asunto' => $this->asunto,
+                                'fecha' => $this->fecha,
+                                'hora_inicio' => $this->horaInicio,  
+                                'hora_final'=> $this->horaFinal,
+                                'conclusiones'=>$this->conclusiones,
+                                'orden_dia'=>$this->orden,
+                                'lugar'=>$this->lugar,
+                                'id_dependencia'=>$this->idDependencia
+                        ]);
+                        return true;
+                } catch (PDOException $e) {
+                        error_log('SIGNUP::UPDATE() => ENTRA A UPDATEV222' . $this->getOrden());      
+
+                        error_log('USERMODEL::getAll->PDOException ' . $e);
+                        return false; 
+                }
+        }
+
+        public function updateEstado($id,$es){
+                try {
+                        
+                        $query = $this->prepare('UPDATE acta SET estado = :estado WHERE id=:id');
+                        $query->execute([                   
+                                'id'=>$id,
+                                'estado' =>$es
+                        ]); 
+                        error_log('ENTRO A UPDATE ESTADO' );      
+                        return true;
+                    } catch (PDOException $e) {
+                        error_log('DEPENDENCIAMODEL::UPDATE->PDOException ' . $e); 
+                        return false;
+                    }
         }
         public function from($array)
         {

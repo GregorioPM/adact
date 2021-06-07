@@ -127,6 +127,19 @@ class CompromisosModel extends Model
                 }
         }
 
+        public function delete($id){
+                try {
+                        $query = $this->prepare('DELETE FROM compromiso WHERE id = :id');
+                        $query->execute([
+                                'id' =>$id
+                        ]);
+                        return true;
+                } catch (PDOException $e) {
+                        error_log('USERMODEL::delete->PDOException ' . $e); 
+                        return false;
+                }
+        }
+
         /**
          * Get the value of id
          */

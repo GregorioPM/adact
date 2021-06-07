@@ -35,6 +35,19 @@ require_once "userModel.php";
             }
         }
 
+        public function delete($id){
+                try {
+                        $query = $this->prepare('DELETE FROM participante WHERE id = :id');
+                        $query->execute([
+                                'id' =>$id
+                        ]);
+                        return true;
+                } catch (PDOException $e) {
+                        error_log('USERMODEL::delete->PDOException ' . $e); 
+                        return false;
+                }
+        }
+
         public function misParticipaciones($id)
         {
 

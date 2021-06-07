@@ -137,7 +137,7 @@ $compromisos = $this->d['compromisos'];
         </div>
         <div class="form-group">
           <?php
-          if (isset($acta)) {
+          if (!$temas==NULL) {
             echo '<table class="table mt-4 table-striped table-bordered width=" 100%"">
               <caption>Listado Temas Guardados</caption>
               <thead>
@@ -156,7 +156,7 @@ $compromisos = $this->d['compromisos'];
                     <td class="text-center">
       
                    
-                      <a href="<?= URL ?>/acta/deleteActa?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
+                      <a href="' . constant('URL') . '/admin/deleteTema?idacta='.$acta->getId().'&id='.$tema->getId() . '"><span class="material-icons action-delete">delete</span></a>
                     </td>
       
                   </tr>';
@@ -233,7 +233,7 @@ $compromisos = $this->d['compromisos'];
                     <td class="text-center">
       
                    
-                      <a href="<?= URL ?>/acta/deleteActa?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
+                    <a href="' . constant('URL') . '/admin/deleteParticipante?idacta='.$acta->getId().'&id='.$participante->getId() . '"><span class="material-icons action-delete">delete</span></a>
                     </td>
       
                   </tr>';
@@ -332,7 +332,7 @@ $compromisos = $this->d['compromisos'];
                     <td class="text-center">
       
                    
-                      <a href="<?= URL ?>/acta/deleteActa?id=<?= $acta->getId() ?>"><span class="material-icons action-delete">delete</span></a>
+                    <a href="' . constant('URL') . '/compromiso/deleteCompromiso?idacta='.$acta->getId().'&id='.$c->getId() . '"><span class="material-icons action-delete">delete</span></a>
                     </td>
       
                   </tr>';

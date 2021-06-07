@@ -21,28 +21,47 @@ class Admin extends SessionController
     }
 
     function render()
-    {   $actasModel = new ActasModel();
+    {
+        $actasModel = new ActasModel();
         $dependenciaModel = new DependenciaModel();
         $userModel = new userModel();
         $compromisosModel = new CompromisosModel();
         $totalActas = $actasModel->totalActas();
-        $totalActasAprovadas =$actasModel->totalActasAprovadas();
-        $totalActasRevision =$actasModel->totalActasRevision();
-        $totalDependencias= $dependenciaModel->totalDependencias();
-        $totalUsers=$userModel->totalUsuarios();
+        $totalActasAprovadas = $actasModel->totalActasAprovadas();
+        $totalActasRevision = $actasModel->totalActasRevision();
+        $totalDependencias = $dependenciaModel->totalDependencias();
+        $totalUsers = $userModel->totalUsuarios();
         $totalCompromisos = $compromisosModel->misCompromisos($this->user->getId());
 
         $this->view->render('admin/index', [
             "user" => $this->user,
-            "totalActas"=>$totalActas,
-            "totalActasAprovadas"=>$totalActasAprovadas,
-            "totalActasRevision"=>$totalActasRevision,
-            "totalDependencias"=>$totalDependencias,
-            "totalUsers"=>$totalUsers,
-            "totalCompromisos"=>$totalCompromisos
+            "totalActas" => $totalActas,
+            "totalActasAprovadas" => $totalActasAprovadas,
+            "totalActasRevision" => $totalActasRevision,
+            "totalDependencias" => $totalDependencias,
+            "totalUsers" => $totalUsers,
+            "totalCompromisos" => $totalCompromisos
 
-            ]);
+        ]);
     }
+    function deleteTema()
+    {
+        $id = $_GET['id'];
+        $idacta = $_GET['idacta'];
+        $temasModel = new TemasModel();
+        $temasModel->delete($id);
+        $this->redirect('admin/detalleActa?id=' . $idacta, []);
+    }
+
+    function deleteParticipante()
+    {
+        $id = $_GET['id'];
+        $idacta = $_GET['idacta'];
+        $participanteModel = new ParticipanteModel();
+        $participanteModel->delete($id);
+        $this->redirect('admin/detalleActa?id=' . $idacta, []);
+    }
+
     function listDependencias()
     {
         /*$dependencias = [
@@ -77,24 +96,24 @@ class Admin extends SessionController
     {
         $actas = [];
         $actasModel = new ActasModel();
-        $actas2=$actasModel->getAll();
-        foreach ($actas2 as $acta){
+        $actas2 = $actasModel->getAll();
+        foreach ($actas2 as $acta) {
             $aprovados = $actasModel->getAprovados($acta->getId());
             $participantes = $acta->getTotalParticipantes();
-            if(($participantes % 2) == 0){
-                $aprovacion = (($participantes/2)+1);
-            }else{
-                $aprovacion = (($participantes/2)+0.5);
+            if (($participantes % 2) == 0) {
+                $aprovacion = (($participantes / 2) + 1);
+            } else {
+                $aprovacion = (($participantes / 2) + 0.5);
             }
             error_log($aprovados);
             error_log($aprovacion);
 
-            if($aprovados>=$aprovacion){
-                $e="Aprobado";
-                $a=$actasModel->updateEstado($acta->getId(),$e);
-            }else{
-                $e="Revisión";
-                $a=$actasModel->updateEstado($acta->getId(),$e);
+            if ($aprovados >= $aprovacion) {
+                $e = "Aprobado";
+                $a = $actasModel->updateEstado($acta->getId(), $e);
+            } else {
+                $e = "Revisión";
+                $a = $actasModel->updateEstado($acta->getId(), $e);
             }
         }
         /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
@@ -110,28 +129,27 @@ class Admin extends SessionController
     {
         $this->view->render('admin/perfil', ["user" => $this->user]);
     }
-    function detalleActas(){
+    function detalleActas()
+    {
         $id = $_GET['id'];
         $actasModel = new ActasModel();
-        $acta= $actasModel->get($id);
-        
+        $acta = $actasModel->get($id);
     }
     function detalleActa()
     {
-        if(isset($_POST['estado'])){
+        if (isset($_POST['estado'])) {
             $a = $_POST['idacta'];
             $u = $_POST['idusuario'];
-            $participanteModel=new ParticipanteModel();
-            $participante=$participanteModel->getParticipante($a,$u);
+            $participanteModel = new ParticipanteModel();
+            $participante = $participanteModel->getParticipante($a, $u);
             $participanteModel->setid($participante);
             $participanteModel->setEstado("Aprobado");
             $participanteModel->update($participanteModel);
-
         }
         if (isset($_GET['id'])) {
             $id = $_GET['id'];
             $temas = [];
-            $participantes=[];
+            $participantes = [];
             $dependenciaModel = new DependenciaModel();
             $dependencias = $dependenciaModel->getAll();
             $userModel = new userModel();
@@ -149,9 +167,9 @@ class Admin extends SessionController
                 'dependencias' => $dependencias,
                 'usuarios' => $usuarios,
                 'temas' => $temas,
-                'acta'=> $acta,
-                'participantes' =>$participantes,
-                'compromisos' =>$compromisos
+                'acta' => $acta,
+                'participantes' => $participantes,
+                'compromisos' => $compromisos
 
             ]);
         } else {
@@ -168,15 +186,14 @@ class Admin extends SessionController
     }
     function listCompromisos()
     {
-            $compromisos = [];
-            $compromisosModel = new CompromisosModel();
-            $user=$this->getUserSessionData();
-            $compromisos=$compromisosModel->totalCompromisos($user->getId());
-            $this->view->render('admin/list-compromisos', [
-                'compromisos' => $compromisos,
-                'user' => $this->user
-            ]);
-        
+        $compromisos = [];
+        $compromisosModel = new CompromisosModel();
+        $user = $this->getUserSessionData();
+        $compromisos = $compromisosModel->totalCompromisos($user->getId());
+        $this->view->render('admin/list-compromisos', [
+            'compromisos' => $compromisos,
+            'user' => $this->user
+        ]);
     }
 
     function datosTemas()
@@ -189,14 +206,14 @@ class Admin extends SessionController
     {
         $participantes = $_POST['id'];
         $nombres = $_POST['nombre'];
-        $datos[]=[$participantes , $nombres];
+        $datos[] = [$participantes, $nombres];
         echo json_encode($datos);
     }
     function datosCompromisos()
     {
         $participantes = $_POST['id'];
         $nombres = $_POST['nombre'];
-        $datos[]=[$participantes , $nombres];
+        $datos[] = [$participantes, $nombres];
         echo json_encode($datos);
     }
 }

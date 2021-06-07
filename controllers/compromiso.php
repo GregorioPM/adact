@@ -36,4 +36,13 @@ class Compromiso extends SessionController
         }
         $this->redirect('admin/detalleActa?id='.$id,[]);
     }
+
+    function deleteCompromiso()
+    {
+        $id = $_GET['id'];
+        $idacta = $_GET['idacta'];
+        $compromisoModel = new CompromisosModel();
+        $compromisoModel->delete($id);
+        $this->redirect('admin/detalleActa?id=' . $idacta, []);
+    }
 }

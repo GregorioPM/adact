@@ -44,6 +44,19 @@
                         error_log('ACTAMODEL::getAll->PDOException ' . $e); 
                 }  
         }
+
+        public function delete($id){
+                try {
+                        $query = $this->prepare('DELETE FROM tema WHERE id = :id');
+                        $query->execute([
+                                'id' =>$id
+                        ]);
+                        return true;
+                } catch (PDOException $e) {
+                        error_log('USERMODEL::delete->PDOException ' . $e); 
+                        return false;
+                }
+        }
         /**
          * Get the value of id
          */ 

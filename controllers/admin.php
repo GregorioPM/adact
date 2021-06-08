@@ -161,6 +161,7 @@ class Admin extends SessionController
             $participantes = $participantesModel->getAll($id);
             $compromisosModel = new CompromisosModel();
             $compromisos = $compromisosModel->getAll($id);
+            $estado = $userModel->estadoParticipante($this->user->getId(),$id);
             $acta = $actasModel->get($id);
             $this->view->render('admin/detalle-acta', [
                 "user" => $this->user,
@@ -169,7 +170,8 @@ class Admin extends SessionController
                 'temas' => $temas,
                 'acta' => $acta,
                 'participantes' => $participantes,
-                'compromisos' => $compromisos
+                'compromisos' => $compromisos,
+                'estado'=>$estado
 
             ]);
         } else {

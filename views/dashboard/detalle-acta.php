@@ -7,6 +7,7 @@ $acta = $this->d['acta'];
 $temas = $this->d['temas'];
 $participantes = $this->d['participantes'];
 $compromisos = $this->d['compromisos'];
+$estado = $this->d['estado'];
 
 ?>
 <?php require_once 'header.php'; ?>
@@ -253,14 +254,20 @@ $compromisos = $this->d['compromisos'];
 
             <b>Estado Del acta</b>
             <label class="switch">
-              <input type="checkbox" name="estado">
+              <input id="estadoActa" type="checkbox" name="estado">
               <span class="slider round"></span>
             </label>
             </div>
             <button  type="submit" class="btn mt-14 btn-registrar float-right">Guardar</button>
           </form>';
         }?>
-      
+ <?php 
+if($estado=="Aprobado"){
+  echo '<script>
+document.getElementById("estadoActa").checked = true;
+</script>';
+}
+?>     
    
     </div>
   </div>

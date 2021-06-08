@@ -7,6 +7,7 @@ $acta = $this->d['acta'];
 $temas = $this->d['temas'];
 $participantes = $this->d['participantes'];
 $compromisos = $this->d['compromisos'];
+$estado = $this->d['estado'];
 
 
 ?>
@@ -361,7 +362,7 @@ $compromisos = $this->d['compromisos'];
 
             <b>Estado Del acta</b>
             <label class="switch">
-              <input type="checkbox" name="estado">
+              <input id="estadoActa" type="checkbox" name="estado">
               <span class="slider round"></span>
             </label>
             </div>
@@ -375,6 +376,14 @@ $compromisos = $this->d['compromisos'];
   </div>
 
 </div>
+<?php 
+if($estado=="Aprobado"){
+  echo '<script>
+document.getElementById("estadoActa").checked = true;
+</script>';
+}
+?>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <?php require_once 'views/footer.php'; ?>
 <script src="<?php echo constant('URL'); ?>/public/js/sidebar.js"></script>

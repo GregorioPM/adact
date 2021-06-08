@@ -132,6 +132,25 @@
                         return false;
                 }
         }
+
+        public function estadoParticipante($id,$idActa)
+        {
+                try {
+                        
+                        $query = $this->prepare('SELECT p.estado estado FROM participante p
+                        INNER JOIN acta a ON p.id_acta=a.id
+                        INNER JOIN usuario u ON p.id_usuario=u.id
+                        WHERE u.id=:id and a.id=:idacta');
+                        $query->execute(['id'=>$id,'idacta' => $idActa]);
+                        $participantes = $query->fetch(PDO::FETCH_ASSOC);
+                        $estado = $participantes['estado'];
+
+                        return $estado;
+                } catch (PDOException $e) {
+                        error_log('ACTASMODEL::GETParticipantes->PDOException ' . $e);
+                        return false;
+                }
+        }
         public function update($user){
                 try {
                         $query = $this->prepare('UPDATE usuario SET correo= :correo, nombres=:nombres, apellidos=:apellidos, telefono=:telefono WHERE id= :id');

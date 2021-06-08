@@ -89,7 +89,7 @@ class Dashboard extends SessionController
             $participanteModel=new ParticipanteModel();
             $participante=$participanteModel->getParticipante($a,$u);
             $participanteModel->setid($participante);
-            $participanteModel->setEstado("Aprovado");
+            $participanteModel->setEstado("Aprobado");
             $participanteModel->update($participanteModel);
 
             //error_log('Dashboard::render -> carga Index usuario' .print_r($participante));
@@ -110,6 +110,8 @@ class Dashboard extends SessionController
             $participantes = $participantesModel->getAll($id);
             $compromisosModel = new CompromisosModel();
             $compromisos = $compromisosModel->getAll($id);
+            $estado = $userModel->estadoParticipante($this->user->getId(),$id);
+            error_log("ESTADO ACTA" . $estado);
             $acta = $actasModel->get($id);
             $this->view->render('dashboard/detalle-acta', [
                 "user" => $this->user,
@@ -118,8 +120,8 @@ class Dashboard extends SessionController
                 'temas' => $temas,
                 'acta'=> $acta,
                 'participantes' =>$participantes,
-                'compromisos' =>$compromisos
-
+                'compromisos' =>$compromisos,
+                'estado'=>$estado
             ]);
         } else {
             $dependenciaModel = new DependenciaModel();

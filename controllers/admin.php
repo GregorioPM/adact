@@ -145,6 +145,27 @@ class Admin extends SessionController
             $participanteModel->setid($participante);
             $participanteModel->setEstado("Aprobado");
             $participanteModel->update($participanteModel);
+            $actasModel = new ActasModel();
+            $actas2 = $actasModel->getAll();
+        foreach ($actas2 as $acta) {
+            $aprovados = $actasModel->getAprovados($acta->getId());
+            $participantes = $acta->getTotalParticipantes();
+            if (($participantes % 2) == 0) {
+                $aprovacion = (($participantes / 2) + 1);
+            } else {
+                $aprovacion = (($participantes / 2) + 0.5);
+            }
+            error_log($aprovados);
+            error_log($aprovacion);
+
+            if ($aprovados >= $aprovacion) {
+                $e = "Aprobado";
+                $a = $actasModel->updateEstado($acta->getId(), $e);
+            } else {
+                $e = "Revisión";
+                $a = $actasModel->updateEstado($acta->getId(), $e);
+            }
+        }
         }
         if (isset($_GET['id'])) {
             $id = $_GET['id'];

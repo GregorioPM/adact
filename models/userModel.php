@@ -10,6 +10,7 @@
         private $apellidos;
         private $foto;
         private $telefono;
+        private $cargo;
         
         public function __construct(){
                 parent::__construct();
@@ -20,6 +21,8 @@
                 $this->apellidos='';
                 $this->foto='';
                 $this->telefono='';
+                $this->cargo='';
+
         }
 
         function updatePhoto($name, $iduser){
@@ -40,13 +43,14 @@
 
         public function save(){
                 try {
-                        $query = $this->prepare('INSERT INTO usuario(correo, pass, rol, nombres,apellidos) VALUES(:correo, :pass, :rol, :nombres, :apellidos)');
+                        $query = $this->prepare('INSERT INTO usuario(correo, pass, rol, nombres,apellidos,cargo) VALUES(:correo, :pass, :rol, :nombres, :apellidos, :cargo)');
                         $query->execute([
                              'correo' => $this->correo,
                              'pass' => $this->pass,
                              'rol' => $this->rol,
                              'nombres' => $this->nombres,
-                             'apellidos' => $this->apellidos   
+                             'apellidos' => $this->apellidos,
+                             'cargo'=>$this->cargo  
                         ]);
                         return true;
                 } catch (PDOException $e) {
@@ -68,6 +72,8 @@
                                 $item->setApellidos($p['apellidos']);
                                 $item->setFoto($p['foto']);
                                 $item->setTelefono($p['telefono']);
+                                $item->setCargo($p['cargo']);
+
 
                                 array_push($items, $item);
                         }
@@ -113,6 +119,8 @@
                                 $this->apellidos = $user['apellidos'];
                                 $this->foto=$user['foto'];
                                 $this->telefono=$user['telefono'];
+                                $this->cargo=$user['cargo'];
+
 
                              
                         return $this;
@@ -153,13 +161,15 @@
         }
         public function update($user){
                 try {
-                        $query = $this->prepare('UPDATE usuario SET correo= :correo, nombres=:nombres, apellidos=:apellidos, telefono=:telefono WHERE id= :id');
+                        $query = $this->prepare('UPDATE usuario SET correo= :correo, nombres=:nombres, apellidos=:apellidos, telefono=:telefono, cargo=:cargo WHERE id= :id');
                         $query->execute([
                                 'id' => $this->getId(),
                                 'correo' => $this->correo,
                                 'nombres' => $this->nombres,
                                 'apellidos' => $this->apellidos,  
-                                'telefono'=> $this->telefono
+                                'telefono'=> $this->telefono,
+                                'cargo'=> $this->cargo
+
                         ]);
                         error_log('SIGNUP::UPDATE() => ENTRA A UPDATEV222' . $this->getId());      
                         return true;
@@ -299,6 +309,16 @@
         public function setTelefono($telefono)
         {
                 $this->telefono = $telefono;
+
+                return $this;
+        }
+        public function getCargo()
+        {
+                return $this->cargo;
+        }
+        public function setCargo($cargo)
+        {
+                $this->cargo = $cargo;
 
                 return $this;
         }

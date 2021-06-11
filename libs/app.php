@@ -15,6 +15,7 @@ class App{
             parameter->[2]
         */
         $url = explode('/', $url);
+        //var_dump($url);
 
         // cuando se ingresa sin definir controlador
         if(empty($url[0])){

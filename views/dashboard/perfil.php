@@ -35,9 +35,15 @@ $user = $this->d['user'];
             <input type="text" name="apellidos" class="form-control" id="inputAddress" value="<?php echo $user->getApellidos(); ?>">
           </div>
         </div>
-        <div class="form-group">
-          <label for="inputEmail4"><b>Telefono</b></label>
-          <input type="text" name="telefono" class="form-control" id="inputEmail4" value="<?php echo $user->getTelefono(); ?>">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4"><b>Telefono</b></label>
+            <input type="text" name="telefono" class="form-control" id="inputEmail4" value="<?php echo $user->getTelefono(); ?>">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputAddress"><b>Cargo</b></label>
+            <input type="text" name="cargo" class="form-control" id="inputAddress" value="<?php echo $user->getCargo(); ?>">
+          </div>
         </div>
         <div class="form-group img-per">
           <label for="inputEmail4"><b>Foto Perfil</b></label>

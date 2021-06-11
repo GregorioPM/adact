@@ -56,6 +56,10 @@ $user = $this->d['user'];
                     <label for="nombres"><b>Apellidos</b></label>
                     <input type="text" name="apellidos" id="apellidos">
                   </p>
+                  <p>
+                    <label for="cargo"><b>cargo</b></label>
+                    <input type="text" name="cargo" id="cargo">
+                  </p>
                 </div>
                 <div class="modal-footer">
                   <button type="submit" name="dependencia" class="btn btn-registrar">Registrar</button>
@@ -77,6 +81,7 @@ $user = $this->d['user'];
             <th scope="col">Nombre</th>
             <th scape="col">Correo</th>
             <th scape="col">Rol</th>
+            <th scape="col">Cargo</th>
             <th scope="col">Acciones</th>
 
           </tr>
@@ -90,6 +95,8 @@ $user = $this->d['user'];
               <td class="text-center"><?php echo $u->getNombres() . " " . $u->getApellidos();  ?></td>
               <td class="text-center"><?php echo $u->getCorreo() ?></td>
               <td class="text-center"><?php echo $u->getRol() ?></td>
+              <td class="text-center"><?php echo $u->getCargo() ?></td>
+
 
               <td class="text-center">
 

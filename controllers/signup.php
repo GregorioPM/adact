@@ -26,14 +26,17 @@ class Signup extends SessionController
             $pass = $this->getPost('pass');
             $nombres = $this->getPost('nombres');
             $apellidos = $this->getPost('apellidos');
+            $cargo = $this->getPost('cargo');
             $user = new userModel();
             $user->setCorreo($correo);
             $user->setPass($pass);
             $user->setRol("user");
             $user->setNombres($nombres);
             $user->setApellidos($apellidos);
+            $user->setCargo($cargo);
+
             //validate data
-            if ($correo === '' || empty($correo) || $pass === '' || empty($pass) || $nombres === '' || empty($nombres) || $apellidos === '' || empty($apellidos)) {
+            if ($correo === '' || empty($correo) || $pass === '' || empty($pass) || $nombres === '' || empty($nombres) || $apellidos === '' || empty($apellidos) || $cargo === '' || empty($cargo)) {
                 // error al validar datos
                 //$this->errorAtSignup('Campos vacios');
                 $this->redirect('admin/listUsuarios', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EMPTY]);
@@ -73,6 +76,7 @@ class Signup extends SessionController
             $telefono = $this->getPost('telefono');
             $nombres = $this->getPost('nombres');
             $apellidos = $this->getPost('apellidos');
+            $cargo = $this->getPost('cargo');
             $userActual = $this->getUserSessionData();
             $userModel = new userModel();
              
@@ -84,6 +88,7 @@ class Signup extends SessionController
                 $userModel->setTelefono($telefono);
                 $userModel->setNombres($nombres);
                 $userModel->setApellidos($apellidos);
+                $userModel->setCargo($cargo);
                 $userModel->update($userModel);
                 $p = $_FILES['photo'];
                 if($p['name']){

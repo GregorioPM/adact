@@ -5,9 +5,9 @@ $user = $this->d['user'];
 ?>
 <?php require_once 'header.php'; ?>
 <div id="probar">
-    <?php $this->showMessages(); ?>
+  <?php $this->showMessages(); ?>
 
-  </div>
+</div>
 <!-- Page content holder -->
 <div class="page-content p-5" id="content">
   <!-- Toggle button -->
@@ -16,12 +16,12 @@ $user = $this->d['user'];
   <div class="container">
 
     <div class="row justify-content-md-center mx-auto col-md-10">
-    <h2 class="titulo" style="text-align: center;">Actualizar Perfil</h2>
+      <h2 class="titulo" style="text-align: center;">Actualizar Perfil</h2>
 
 
-      <form  class="col-md-10 acta" action="<?php echo constant('URL') ?>/signup/updateUser" method="POST" enctype="multipart/form-data">
+      <form class="col-md-10 acta" action="<?php echo constant('URL') ?>/signup/updateUser" method="POST" enctype="multipart/form-data">
         <div class="form-group">
-        <input type="hidden" name="id" value="<?php echo $user->getId(); ?>">
+          <input type="hidden" name="id" value="<?php echo $user->getId(); ?>">
           <label for="inputEmail4"><b>Email</b></label>
           <input type="email" name="correo" class="form-control" id="inputEmail4" value="<?php echo $user->getCorreo(); ?>">
         </div>
@@ -35,10 +35,17 @@ $user = $this->d['user'];
             <input type="text" name="apellidos" class="form-control" id="inputAddress" value="<?php echo $user->getApellidos(); ?>">
           </div>
         </div>
-        <div class="form-group">
-          <label for="inputEmail4"><b>Telefono</b></label>
-          <input type="text" name="telefono" class="form-control" id="inputEmail4" value="<?php echo $user->getTelefono(); ?>">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4"><b>Telefono</b></label>
+            <input type="text" name="telefono" class="form-control" id="inputEmail4" value="<?php echo $user->getTelefono(); ?>">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputAddress"><b>Cargo</b></label>
+            <input type="text" name="cargo" class="form-control" id="inputAddress" value="<?php echo $user->getCargo(); ?>">
+          </div>
         </div>
+
         <div class="form-group img-per">
           <label for="inputEmail4"><b>Foto Perfil</b></label>
           <br>

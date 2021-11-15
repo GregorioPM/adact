@@ -22,7 +22,12 @@ $estado = $this->d['estado'];
   <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
 
   <div class="container">
+ 
     <div class="row justify-content-md-center mx-auto col-md-10">
+    <div class="col-12">
+    <button id="btnCrearPdf" onclick="generatePDF()" class="btn mt-14 btn-registrar float-right">Descargar PDF</button>
+
+    </div>
       <h2 class="titulo">
         <?php if (isset($acta)) {
           echo 'Actualizar Información Del Acta';
@@ -30,6 +35,7 @@ $estado = $this->d['estado'];
           echo 'Registrar Información Del Acta';
         } ?>
       </h2>
+      <div id="genPDF">
 
       <form class="col-md-10 acta" action="<?php echo constant('URL') ?>/acta/newActa" method="POST" enctype="multipart/form-data">
         <div class="form-group">
@@ -270,6 +276,8 @@ document.getElementById("estadoActa").checked = true;
 ?>     
    
     </div>
+    </div>
+
   </div>
 
 </div>
@@ -277,6 +285,8 @@ document.getElementById("estadoActa").checked = true;
 <?php require_once 'views/footer.php'; ?>
 <script src="<?php echo constant('URL'); ?>/public/js/sidebar.js"></script>
 <script src="<?php echo constant('URL'); ?>/public/js/ajax.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="<?php echo constant('URL'); ?>/public/js/pdf.js"> </script>
 
 
 </body>

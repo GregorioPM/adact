@@ -1,0 +1,2624 @@
+[15-Nov-2021 01:40:13 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:40:13 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:40:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:13 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:40:13 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:40:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:40:13 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:40:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:40:13 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:40:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:13 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:40:13 Europe/Berlin] ENTRO A BUSCAR FILTRARprev
+[15-Nov-2021 01:40:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:13 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO prev
+[15-Nov-2021 01:40:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:40:14 Europe/Berlin] 1
+[15-Nov-2021 01:40:14 Europe/Berlin] 2
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:40:14 Europe/Berlin] 1
+[15-Nov-2021 01:40:14 Europe/Berlin] 1
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO prev
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:40:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 01:40:20 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:40:20 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:40:20 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:40:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:40:20 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:40:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:40:20 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:40:20 Europe/Berlin] ENTRO A BUSCAR FILTRARcanc
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO canc
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:40:20 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:40:20 Europe/Berlin] 2
+[15-Nov-2021 01:40:20 Europe/Berlin] 2
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:40:20 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO canc
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:40:20 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:40:20 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:43:07 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:43:07 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:43:07 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:43:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:43:07 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:43:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:43:07 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:43:07 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:43:07 Europe/Berlin] 2
+[15-Nov-2021 01:43:07 Europe/Berlin] 2
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:43:07 Europe/Berlin] 2
+[15-Nov-2021 01:43:07 Europe/Berlin] 2
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:43:07 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:45:33 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:45:33 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:45:33 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:45:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:45:33 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:45:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:45:33 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:45:33 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:45:33 Europe/Berlin] 2
+[15-Nov-2021 01:45:33 Europe/Berlin] 2
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:45:33 Europe/Berlin] 2
+[15-Nov-2021 01:45:33 Europe/Berlin] 2
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:45:33 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:46:32 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:46:32 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:46:32 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:46:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:46:32 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:46:32 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:46:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:46:32 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:46:32 Europe/Berlin] 2
+[15-Nov-2021 01:46:32 Europe/Berlin] 2
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:46:32 Europe/Berlin] 2
+[15-Nov-2021 01:46:32 Europe/Berlin] 2
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:46:32 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:47:12 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:47:12 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:47:12 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:47:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:47:12 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:47:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:47:12 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:47:12 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:12 Europe/Berlin] 2
+[15-Nov-2021 01:47:12 Europe/Berlin] 2
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:12 Europe/Berlin] 2
+[15-Nov-2021 01:47:12 Europe/Berlin] 2
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:12 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:47:22 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:47:22 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:47:22 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:47:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:47:22 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:47:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:47:22 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:47:22 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:22 Europe/Berlin] 2
+[15-Nov-2021 01:47:22 Europe/Berlin] 2
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:22 Europe/Berlin] 2
+[15-Nov-2021 01:47:22 Europe/Berlin] 2
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:22 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:47:44 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:47:44 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:47:44 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:47:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:47:44 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:47:44 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:47:44 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:47:44 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:44 Europe/Berlin] 2
+[15-Nov-2021 01:47:44 Europe/Berlin] 2
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:44 Europe/Berlin] 2
+[15-Nov-2021 01:47:44 Europe/Berlin] 2
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:47:44 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:48:14 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:48:14 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:48:14 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:48:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:48:14 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:48:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:48:14 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:48:14 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:48:14 Europe/Berlin] 2
+[15-Nov-2021 01:48:14 Europe/Berlin] 2
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:48:14 Europe/Berlin] 2
+[15-Nov-2021 01:48:14 Europe/Berlin] 2
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:48:14 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:48:43 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:48:43 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:48:43 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:48:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:48:43 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:48:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:48:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:48:43 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:48:43 Europe/Berlin] 2
+[15-Nov-2021 01:48:43 Europe/Berlin] 2
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:48:43 Europe/Berlin] 2
+[15-Nov-2021 01:48:43 Europe/Berlin] 2
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:48:43 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:49:10 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:49:10 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:49:10 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:49:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:49:10 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:49:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:49:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:49:10 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:49:10 Europe/Berlin] 2
+[15-Nov-2021 01:49:10 Europe/Berlin] 2
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:49:10 Europe/Berlin] 2
+[15-Nov-2021 01:49:10 Europe/Berlin] 2
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:49:10 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:49:54 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:49:54 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:49:54 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:49:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:49:54 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:49:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:49:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:49:54 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:49:54 Europe/Berlin] 2
+[15-Nov-2021 01:49:54 Europe/Berlin] 2
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:49:54 Europe/Berlin] 2
+[15-Nov-2021 01:49:54 Europe/Berlin] 2
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:49:54 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:51:38 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:51:38 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:51:38 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:51:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:51:38 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:51:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:51:38 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:51:38 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:51:38 Europe/Berlin] 2
+[15-Nov-2021 01:51:38 Europe/Berlin] 2
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:51:38 Europe/Berlin] 2
+[15-Nov-2021 01:51:38 Europe/Berlin] 2
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:51:38 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:52:15 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:52:15 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:52:15 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:52:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:52:15 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:52:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:52:15 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:52:15 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:52:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:52:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:52:15 Europe/Berlin] 2
+[15-Nov-2021 01:52:15 Europe/Berlin] 2
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:52:15 Europe/Berlin] 2
+[15-Nov-2021 01:52:15 Europe/Berlin] 2
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:52:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:52:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:52:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:16 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:16 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:16 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:52:16 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:52:26 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:52:26 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:52:26 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:52:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:52:26 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:52:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:52:26 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:52:26 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:52:26 Europe/Berlin] 2
+[15-Nov-2021 01:52:26 Europe/Berlin] 2
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:52:26 Europe/Berlin] 2
+[15-Nov-2021 01:52:26 Europe/Berlin] 2
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:52:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:53:41 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:53:41 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:53:41 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:53:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:53:41 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:53:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:53:41 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:53:41 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:53:41 Europe/Berlin] 2
+[15-Nov-2021 01:53:41 Europe/Berlin] 2
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:53:41 Europe/Berlin] 2
+[15-Nov-2021 01:53:41 Europe/Berlin] 2
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:53:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:54:41 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:54:41 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:54:41 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:54:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:54:41 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:54:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:54:41 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:54:41 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:54:41 Europe/Berlin] 2
+[15-Nov-2021 01:54:41 Europe/Berlin] 2
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:54:41 Europe/Berlin] 2
+[15-Nov-2021 01:54:41 Europe/Berlin] 2
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:54:41 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:57:39 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:57:39 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:57:39 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:57:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:57:39 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:57:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:57:39 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:57:39 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:57:39 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:57:39 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:57:39 Europe/Berlin] 2
+[15-Nov-2021 01:57:39 Europe/Berlin] 2
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:57:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:39 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:57:39 Europe/Berlin] 2
+[15-Nov-2021 01:57:39 Europe/Berlin] 2
+[15-Nov-2021 01:57:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:40 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:57:40 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:57:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:57:40 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:57:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:57:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:57:40 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:58:03 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:58:03 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:03 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:58:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:58:03 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:58:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:58:03 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:03 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:58:03 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:03 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:03 Europe/Berlin] 2
+[15-Nov-2021 01:58:03 Europe/Berlin] 2
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:03 Europe/Berlin] 2
+[15-Nov-2021 01:58:03 Europe/Berlin] 2
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:58:03 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:03 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:04 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:04 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:58:04 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:58:04 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:04 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:04 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:04 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:04 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:58:20 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:58:20 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:20 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:58:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:58:20 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:58:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:58:20 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:20 Europe/Berlin] ENTRO A BUSCAR FILTRARa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:20 Europe/Berlin] 2
+[15-Nov-2021 01:58:20 Europe/Berlin] 2
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:20 Europe/Berlin] 2
+[15-Nov-2021 01:58:20 Europe/Berlin] 2
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO a
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:20 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 01:58:26 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:58:26 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:27 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:58:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:58:27 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:58:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 01:58:27 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:27 Europe/Berlin] ENTRO A BUSCAR FILTRARca
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO ca
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:58:27 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:27 Europe/Berlin] 2
+[15-Nov-2021 01:58:27 Europe/Berlin] 2
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:58:27 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO ca
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:27 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:58:27 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 01:58:30 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:58:30 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:30 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:58:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleActa?id=47, url => admin
+[15-Nov-2021 01:58:30 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:58:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/detalleActa?id=47, url => admin
+[15-Nov-2021 01:58:30 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL TEMAS 
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL TEMAS 
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL TEMAS 
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL TEMAS 
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL TEMAS 
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE falso jeanpi
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE eduard saass
+[15-Nov-2021 01:58:30 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:30 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE Jose Gregorio Perez Manosalva
+[15-Nov-2021 01:58:39 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:58:39 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:39 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:39 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:58:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[15-Nov-2021 01:58:39 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:58:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin, url => admin
+[15-Nov-2021 01:58:39 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:39 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:40 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:58:40 Europe/Berlin] Errores::construct -> Inicio de Errroes
+[15-Nov-2021 01:58:42 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:58:42 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:42 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:58:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 01:58:42 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:58:42 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 01:58:42 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:42 Europe/Berlin] 2
+[15-Nov-2021 01:58:42 Europe/Berlin] 2
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:42 Europe/Berlin] 2
+[15-Nov-2021 01:58:42 Europe/Berlin] 2
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:58:42 Europe/Berlin] 1
+[15-Nov-2021 01:58:42 Europe/Berlin] 2
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:58:42 Europe/Berlin] 1
+[15-Nov-2021 01:58:42 Europe/Berlin] 1
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:42 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:58:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:58:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:58:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:58:43 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 01:58:43 Europe/Berlin] PHP Warning:  Undefined array key "buscar" in C:\xampp\htdocs\adact\views\admin\list-actas.php on line 39
+[15-Nov-2021 01:59:08 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:59:08 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:59:08 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:59:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 01:59:08 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:59:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 01:59:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:08 Europe/Berlin] 2
+[15-Nov-2021 01:59:08 Europe/Berlin] 2
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:08 Europe/Berlin] 2
+[15-Nov-2021 01:59:08 Europe/Berlin] 2
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:59:08 Europe/Berlin] 1
+[15-Nov-2021 01:59:08 Europe/Berlin] 2
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:59:08 Europe/Berlin] 1
+[15-Nov-2021 01:59:08 Europe/Berlin] 1
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:59:08 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 01:59:08 Europe/Berlin] PHP Warning:  Undefined array key "buscar" in C:\xampp\htdocs\adact\views\admin\list-actas.php on line 39
+[15-Nov-2021 01:59:39 Europe/Berlin] Hello, errors!
+[15-Nov-2021 01:59:39 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 01:59:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:39 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:59:39 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 01:59:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 01:59:39 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 01:59:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 01:59:39 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 01:59:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:39 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 01:59:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:39 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:40 Europe/Berlin] 2
+[15-Nov-2021 01:59:40 Europe/Berlin] 2
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:40 Europe/Berlin] 2
+[15-Nov-2021 01:59:40 Europe/Berlin] 2
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:59:40 Europe/Berlin] 1
+[15-Nov-2021 01:59:40 Europe/Berlin] 2
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:59:40 Europe/Berlin] 1
+[15-Nov-2021 01:59:40 Europe/Berlin] 1
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 01:59:40 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 01:59:40 Europe/Berlin] PHP Warning:  Undefined array key "buscar" in C:\xampp\htdocs\adact\views\admin\list-actas.php on line 39
+[15-Nov-2021 02:00:05 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:00:05 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:00:05 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:00:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:00:05 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:00:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:00:05 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:05 Europe/Berlin] 2
+[15-Nov-2021 02:00:05 Europe/Berlin] 2
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:05 Europe/Berlin] 2
+[15-Nov-2021 02:00:05 Europe/Berlin] 2
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:05 Europe/Berlin] 1
+[15-Nov-2021 02:00:05 Europe/Berlin] 2
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:05 Europe/Berlin] 1
+[15-Nov-2021 02:00:05 Europe/Berlin] 1
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:05 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:00:05 Europe/Berlin] PHP Warning:  Undefined array key "buscar" in C:\xampp\htdocs\adact\views\admin\list-actas.php on line 39
+[15-Nov-2021 02:00:13 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:00:13 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:00:13 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:00:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:00:13 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:00:13 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:00:13 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:13 Europe/Berlin] 2
+[15-Nov-2021 02:00:13 Europe/Berlin] 2
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:13 Europe/Berlin] 2
+[15-Nov-2021 02:00:13 Europe/Berlin] 2
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:13 Europe/Berlin] 1
+[15-Nov-2021 02:00:13 Europe/Berlin] 2
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:13 Europe/Berlin] 1
+[15-Nov-2021 02:00:13 Europe/Berlin] 1
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:13 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:00:13 Europe/Berlin] PHP Warning:  Undefined array key "buscar" in C:\xampp\htdocs\adact\views\admin\list-actas.php on line 39
+[15-Nov-2021 02:00:21 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:00:21 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:00:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:00:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:00:21 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:00:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:00:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:21 Europe/Berlin] 2
+[15-Nov-2021 02:00:21 Europe/Berlin] 2
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:21 Europe/Berlin] 2
+[15-Nov-2021 02:00:21 Europe/Berlin] 2
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:21 Europe/Berlin] 1
+[15-Nov-2021 02:00:21 Europe/Berlin] 2
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:21 Europe/Berlin] 1
+[15-Nov-2021 02:00:21 Europe/Berlin] 1
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:00:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:00:21 Europe/Berlin] PHP Warning:  Undefined array key "buscar" in C:\xampp\htdocs\adact\views\admin\list-actas.php on line 39
+[15-Nov-2021 02:01:06 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:01:06 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:01:06 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:06 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:06 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:01:06 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:01:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:01:06 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:01:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:01:06 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:01:06 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:06 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:06 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:01:06 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:06 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:07 Europe/Berlin] 2
+[15-Nov-2021 02:01:07 Europe/Berlin] 2
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:07 Europe/Berlin] 2
+[15-Nov-2021 02:01:07 Europe/Berlin] 2
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:07 Europe/Berlin] 1
+[15-Nov-2021 02:01:07 Europe/Berlin] 2
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:07 Europe/Berlin] 1
+[15-Nov-2021 02:01:07 Europe/Berlin] 1
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:07 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:01:07 Europe/Berlin] PHP Warning:  Undefined array key "buscar" in C:\xampp\htdocs\adact\views\admin\list-actas.php on line 39
+[15-Nov-2021 02:01:15 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:01:15 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:01:15 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:01:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:01:15 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:01:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:01:15 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:01:15 Europe/Berlin] ENTRO A BUSCAR FILTRARpre
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO pre
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:15 Europe/Berlin] 1
+[15-Nov-2021 02:01:15 Europe/Berlin] 2
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:15 Europe/Berlin] 1
+[15-Nov-2021 02:01:15 Europe/Berlin] 1
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO pre
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:15 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:01:18 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:01:18 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:01:18 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:18 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:18 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:01:18 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:01:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:01:18 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:01:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:01:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:01:18 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:18 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:18 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:01:18 Europe/Berlin] ENTRO A BUSCAR FILTRARe
+[15-Nov-2021 02:01:18 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:18 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO e
+[15-Nov-2021 02:01:18 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:19 Europe/Berlin] 2
+[15-Nov-2021 02:01:19 Europe/Berlin] 2
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:19 Europe/Berlin] 2
+[15-Nov-2021 02:01:19 Europe/Berlin] 2
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:19 Europe/Berlin] 1
+[15-Nov-2021 02:01:19 Europe/Berlin] 2
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:19 Europe/Berlin] 1
+[15-Nov-2021 02:01:19 Europe/Berlin] 1
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO e
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:01:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:01:23 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:01:23 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:01:23 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:01:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:01:23 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:01:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:01:23 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:01:23 Europe/Berlin] ENTRO A BUSCAR FILTRARu
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO u
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:23 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:23 Europe/Berlin] 2
+[15-Nov-2021 02:01:23 Europe/Berlin] 2
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:01:23 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO u
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:01:23 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:01:23 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:03:28 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:03:28 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:03:28 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:03:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:03:28 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:03:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:03:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:03:28 Europe/Berlin] ENTRO A BUSCAR FILTRARu
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO u
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:03:28 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:03:28 Europe/Berlin] 2
+[15-Nov-2021 02:03:28 Europe/Berlin] 2
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:03:28 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO u
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:28 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:03:28 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:03:58 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:03:58 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:03:58 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:03:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:03:58 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:03:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:03:58 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:03:58 Europe/Berlin] ENTRO A BUSCAR FILTRARu
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO u
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:03:58 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:03:58 Europe/Berlin] 2
+[15-Nov-2021 02:03:58 Europe/Berlin] 2
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:03:58 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO u
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:03:58 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:03:58 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:05:19 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:05:19 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:05:19 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:05:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:05:19 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:05:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:05:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:05:19 Europe/Berlin] ENTRO A BUSCAR FILTRARu
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO u
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:05:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:05:19 Europe/Berlin] 2
+[15-Nov-2021 02:05:19 Europe/Berlin] 2
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:05:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO u
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:19 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:05:19 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:05:37 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:05:37 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:05:37 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:05:37 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:05:37 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:05:37 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:05:37 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:05:37 Europe/Berlin] ENTRO A BUSCAR FILTRARu
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO u
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:05:37 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:05:37 Europe/Berlin] 2
+[15-Nov-2021 02:05:37 Europe/Berlin] 2
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:05:37 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO u
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:37 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:05:37 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:05:54 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:05:54 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:05:54 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:05:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:05:54 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:05:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:05:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:05:54 Europe/Berlin] ENTRO A BUSCAR FILTRARca
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO ca
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:05:54 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:05:54 Europe/Berlin] 2
+[15-Nov-2021 02:05:54 Europe/Berlin] 2
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:54 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:05:54 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO ca
+[15-Nov-2021 02:05:54 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:55 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:55 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:55 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:55 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:05:55 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 02:05:59 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:05:59 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:05:59 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:59 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:59 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:05:59 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:05:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:05:59 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:05:59 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:05:59 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:05:59 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:59 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:59 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:05:59 Europe/Berlin] ENTRO A BUSCAR FILTRARpr
+[15-Nov-2021 02:05:59 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:59 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO pr
+[15-Nov-2021 02:05:59 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:59 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:59 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:05:59 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:00 Europe/Berlin] 1
+[15-Nov-2021 02:06:00 Europe/Berlin] 2
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:00 Europe/Berlin] 1
+[15-Nov-2021 02:06:00 Europe/Berlin] 1
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO pr
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:00 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:06:28 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:06:28 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:06:28 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:06:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:06:28 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:06:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:06:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:06:28 Europe/Berlin] ENTRO A BUSCAR FILTRARpr
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO pr
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:28 Europe/Berlin] 1
+[15-Nov-2021 02:06:28 Europe/Berlin] 2
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:28 Europe/Berlin] 1
+[15-Nov-2021 02:06:28 Europe/Berlin] 1
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO pr
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:28 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:06:36 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:06:36 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:06:36 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:06:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:06:36 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:06:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:06:36 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:06:36 Europe/Berlin] ENTRO A BUSCAR FILTRARpr
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO pr
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:36 Europe/Berlin] 1
+[15-Nov-2021 02:06:36 Europe/Berlin] 2
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:36 Europe/Berlin] 1
+[15-Nov-2021 02:06:36 Europe/Berlin] 1
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO pr
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:36 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:06:41 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:06:41 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:06:41 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:06:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:06:41 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:06:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:06:41 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:41 Europe/Berlin] 2
+[15-Nov-2021 02:06:41 Europe/Berlin] 2
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:41 Europe/Berlin] 2
+[15-Nov-2021 02:06:41 Europe/Berlin] 2
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:41 Europe/Berlin] 1
+[15-Nov-2021 02:06:41 Europe/Berlin] 2
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:41 Europe/Berlin] 1
+[15-Nov-2021 02:06:41 Europe/Berlin] 1
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:06:41 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:06:41 Europe/Berlin] PHP Warning:  Undefined array key "buscar" in C:\xampp\htdocs\adact\views\admin\list-actas.php on line 39
+[15-Nov-2021 02:14:21 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:14:21 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:14:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:14:21 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:14:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:14:21 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:14:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:14:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:14:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:21 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:14:21 Europe/Berlin] ENTRO A BUSCAR FILTRARexito
+[15-Nov-2021 02:14:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:21 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO exito
+[15-Nov-2021 02:14:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:14:21 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:14:21 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:21 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:14:21 Europe/Berlin] 2
+[15-Nov-2021 02:14:22 Europe/Berlin] 2
+[15-Nov-2021 02:14:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:22 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:14:22 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO exito
+[15-Nov-2021 02:14:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:22 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:22 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:14:22 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:14:25 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:14:25 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:14:25 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:25 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:25 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:14:25 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:14:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:14:25 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:14:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:14:25 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:14:25 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:25 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:25 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:14:25 Europe/Berlin] ENTRO A BUSCAR FILTRAR
+[15-Nov-2021 02:14:25 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:25 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO 
+[15-Nov-2021 02:14:25 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:14:26 Europe/Berlin] 2
+[15-Nov-2021 02:14:26 Europe/Berlin] 2
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:14:26 Europe/Berlin] 2
+[15-Nov-2021 02:14:26 Europe/Berlin] 2
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:14:26 Europe/Berlin] 1
+[15-Nov-2021 02:14:26 Europe/Berlin] 2
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:14:26 Europe/Berlin] 1
+[15-Nov-2021 02:14:26 Europe/Berlin] 1
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO 
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 3
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:14:26 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:25:11 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:25:11 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:25:11 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:25:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:25:11 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:25:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActasFiltro, url => admin
+[15-Nov-2021 02:25:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:25:11 Europe/Berlin] ENTRO A BUSCAR FILTRARprevios
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO previos
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:25:11 Europe/Berlin] 1
+[15-Nov-2021 02:25:11 Europe/Berlin] 2
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:25:11 Europe/Berlin] 1
+[15-Nov-2021 02:25:11 Europe/Berlin] 1
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO previos
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 2
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:25:11 Europe/Berlin] ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR 1
+[15-Nov-2021 02:25:14 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:25:14 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:25:14 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:25:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:25:14 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:25:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listActas, url => admin
+[15-Nov-2021 02:25:14 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:25:14 Europe/Berlin] 2
+[15-Nov-2021 02:25:14 Europe/Berlin] 2
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:25:14 Europe/Berlin] 2
+[15-Nov-2021 02:25:14 Europe/Berlin] 2
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:25:14 Europe/Berlin] 1
+[15-Nov-2021 02:25:14 Europe/Berlin] 2
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:25:14 Europe/Berlin] 1
+[15-Nov-2021 02:25:14 Europe/Berlin] 1
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ENTRO A UPDATE ESTADO
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 3
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 3
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 2
+[15-Nov-2021 02:25:14 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 2
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:14 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:15 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:25:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A OBTENRE 1
+[15-Nov-2021 02:25:15 Europe/Berlin] ACTASMODEL::GETParticipantes->ENTRO A GETALL 1
+[15-Nov-2021 02:25:15 Europe/Berlin] PHP Warning:  Undefined array key "buscar" in C:\xampp\htdocs\adact\views\admin\list-actas.php on line 39
+[15-Nov-2021 02:33:07 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:33:07 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:33:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:07 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:07 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:33:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/perfil, url => admin
+[15-Nov-2021 02:33:07 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:33:07 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/perfil, url => admin
+[15-Nov-2021 02:33:07 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:33:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:07 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:07 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:08 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:33:08 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:33:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:08 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:33:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listDependencias, url => admin
+[15-Nov-2021 02:33:08 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:33:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listDependencias, url => admin
+[15-Nov-2021 02:33:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:33:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:08 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:08 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:09 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:09 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:09 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:09 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:09 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:09 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:09 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:33:11 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dependencia/deleteDependencias?id=14, url => dependencia
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::isPublic(): currentURL => dependencia
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dependencia/deleteDependencias?id=14, url => dependencia
+[15-Nov-2021 02:33:11 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[15-Nov-2021 02:33:11 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[15-Nov-2021 02:33:11 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:33:11 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listDependencias, url => admin
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listDependencias, url => admin
+[15-Nov-2021 02:33:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:11 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:12 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:19 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:33:19 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:33:19 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dependencia/updateDependencia, url => dependencia
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::isPublic(): currentURL => dependencia
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/dependencia/updateDependencia, url => dependencia
+[15-Nov-2021 02:33:20 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[15-Nov-2021 02:33:20 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =admin
+[15-Nov-2021 02:33:20 Europe/Berlin] SessionController::redirectDefaulsitebyRole-> =/adact/admin
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] DependenciaModel::exists() => FALSE
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Hello, errors!
+[15-Nov-2021 02:33:20 Europe/Berlin] SessionController::validateSession()
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::validateSession(): correo:admin@gmail.com - role: admin
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listDependencias?success=59c5655aaa9478237125e19d4cf22496, url => admin
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::isPublic(): currentURL => admin
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/adact/admin/listDependencias?success=59c5655aaa9478237125e19d4cf22496, url => admin
+[15-Nov-2021 02:33:20 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] sessionController::getUserSessionData(): admin@gmail.com
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa
+[15-Nov-2021 02:33:20 Europe/Berlin] Conexión a BD exitosa

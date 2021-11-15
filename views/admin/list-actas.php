@@ -23,11 +23,29 @@ $user = $this->d['user'];
 
     <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
     <div class="container">
+      <div class="row mb-4">
+          <div class="col-6">
+            <button type="button" class="btn btn-add" data-toggle="modal" data-target="#newDependencia">
+              <a class="btn-a" href="<?php echo constant('URL'); ?>/admin/detalleActa">Agregar Acta</a>
 
-      <button type="button" class="btn btn-add" data-toggle="modal" data-target="#newDependencia">
-        <a class="btn-a" href="<?php echo constant('URL'); ?>/admin/detalleActa">Agregar Acta</a>
+            </button>
+          </div>
 
-      </button>
+          <div class="col-6">
+
+            <form id="form2" name="form2" method="POST" action="<?php echo constant('URL') ?>/admin/listActasFiltro">
+              <div class="row">
+                <div class="col-11">
+                  <input type="text" class="form-control" id="buscar" style="height: 40px;" placeholder="Buscar por asunto" name="buscar" value="<?php echo $_POST["buscar"] ?>">
+                </div>
+                <div class="col-1">
+                  <input type="submit" class="btn btn-success" value="Buscar" style="margin-top: -1px; margin-left:-34px;">
+                </div>
+              </div>
+            </form>
+          </div>
+      </div>
+
       <h2 class="titulo" style="text-align: center;">Listado de Actas</h2>
 
       <table class="table mt-4 table-striped table-bordered width=" 80%"">

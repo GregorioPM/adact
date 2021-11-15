@@ -112,6 +112,38 @@ class ActasModel extends Model  implements IModel
                 }
         }
 
+        public function filtrarPorAsunto($string){
+               $items=[];
+               try{
+                error_log('ACTASMODEL::GETFILTRAR->ENTRO A FILTRAR RECIBE PARAMETRO ' .$string);
+
+                $query = $this->query("SELECT * FROM acta Where asunto LIKE '%".$string."%'");
+                while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
+                        $item = new ActasModel();
+                        $item->setId($p['id']);
+                        $item->setAsunto($p['asunto']);
+                        $item->setFecha($p['fecha']);
+                        $item->setHoraInicio($p['hora_inicio']);
+                        $item->setHoraFinal($p['hora_final']);
+                        $item->setLugar($p['lugar']);
+                        $item->setIdDependencia($p['id_dependencia']);
+                        $item->setOrden($p['orden_dia']);
+                        $item->setConclusiones($p['conclusiones']);
+                        $item->setElaboro($p['elaboro']);
+                        $item->setAprobo($p['reviso_aprobo']);
+                        $item->setEstado($p['estado']);
+                        $acta = new ActasModel();
+                        $parti = $acta->getParticipantes($p['id']);
+                        $item->setTotalParticipantes($parti->getTotalParticipantes());
+                        error_log('ACTASMODEL::GETFILTRAR->ENTRO A BUSCAR ' . $parti->getTotalParticipantes());
+                        array_push($items, $item);
+                }
+                return $items;
+               } catch(PDOException $e){
+                error_log('ACTAMODEL::getFiltro->PDOException ' . $e);
+               }
+        }
+
         public function getParticipantes($id)
         {
                 try {
@@ -146,6 +178,8 @@ class ActasModel extends Model  implements IModel
                         return false;
                 }
         }
+
+        
 
         public function totalActas()
         {

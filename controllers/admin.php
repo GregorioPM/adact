@@ -125,6 +125,42 @@ class Admin extends SessionController
         ]);
     }
 
+    function listActasFiltro()
+    {
+
+        $string = $_POST["buscar"];
+        error_log('ENTRO A BUSCAR FILTRAR' . $string);
+        $actas = [];
+        $actasModel = new ActasModel();
+        $actas2 = $actasModel->filtrarPorAsunto($string);
+        foreach ($actas2 as $acta) {
+            $aprovados = $actasModel->getAprovados($acta->getId());
+            $participantes = $acta->getTotalParticipantes();
+            if (($participantes % 2) == 0) {
+                $aprovacion = (($participantes / 2) + 1);
+            } else {
+                $aprovacion = (($participantes / 2) + 0.5);
+            }
+            error_log($aprovados);
+            error_log($aprovacion);
+
+            if ($aprovados >= $aprovacion) {
+                $e = "Aprobado";
+                $a = $actasModel->updateEstado($acta->getId(), $e);
+            } else {
+                $e = "Revisión";
+                $a = $actasModel->updateEstado($acta->getId(), $e);
+            }
+        }
+        /*error_log('Admin::getDependencia() => new dependencia created' . var_dump($dependencias));*/
+        $actas = $actasModel->filtrarPorAsunto($string);
+
+        $this->view->render('admin/list-actas', [
+            'actas' => $actas,
+            'user' => $this->user
+        ]);
+    }
+
     function perfil()
     {
         $this->view->render('admin/perfil', ["user" => $this->user]);

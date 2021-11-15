@@ -77,6 +77,17 @@ class Acta extends SessionController
         }
     }
 
+    function filtrarActa(){
+        $string = $_POST["buscar"];
+        error_log('ENTRO A BUSCAR' . $string);
+        $actasModel = new ActasModel();
+        if($actasModel->filtrarPorAsunto($string)){
+            error_log('ENTRO A BUSCAR2 ' . $string);
+            $this->redirect('admin/listActas', []);
+        }
+
+    }
+
     function updateActa(){
         $id = $_POST['idacta'];
         if(isset($id)){

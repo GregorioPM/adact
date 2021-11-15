@@ -64,8 +64,11 @@ class Signup extends SessionController
     {
         $id = $_GET['id'];
         $userModel = new UserModel();
-        $userModel->delete($id);
-        $this->redirect('admin/listUsuarios', []);
+        if( $userModel->delete($id)){
+            $this->redirect('admin/listUsuarios', ['success' => SuccessMessages::SUCCESS_SIGNUP_DELETEUSER]);
+        }else{
+            $this->redirect('admin/listUsuarios', ['error' => ErrorMessages::ERROR_SIGNUP_DELETEUSER]);
+        }  
     }
 
     function updateUser()

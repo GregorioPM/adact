@@ -10,6 +10,8 @@
         const ERROR_SIGNUP_NEWUSER = "2121fb69c350c69f3246eb65aec12c14";
         const ERROR_SIGNUP_NEWUSER_EMPTY = "a5bcd7089d83f45e17e989fbc86003ed";
         const ERROR_SIGNUP_NEWUSER_EXISTS = "6ed9f1614737c71ba4128caa787304c4";
+        const ERROR_ADMIN_DELETEDEPENDENCY_EXISTS="d18899692faf9c09edcaa390a236ce19";
+        const ERROR_SIGNUP_DELETEUSER="9f630f25403bf454142f2d0742ebd326";
        
         
 
@@ -25,7 +27,10 @@
                 ErrorMessages::ERROR_SIGNUP_NEWUSER_EMPTY => 'Los campos no pueden estar vacíos',
                 ErrorMessages::ERROR_SIGNUP_NEWUSER_EXISTS => 'El correo ya existe, intenta con otro',
                 ErrorMessages::ERROR_ADMIN_ACTAPARTICIPANTE => 'Error el acta tiene asociado participantes',
-                
+                ErrorMessages::ERROR_ADMIN_DELETEDEPENDENCY_EXISTS => 'Error La dependencia esta siendo utilizada en un acta',
+                ErrorMessages::ERROR_SIGNUP_DELETEUSER => 'Error el Usuario no se puede eliminar , por que esta participando en un acta',
+
+
                 
                 
             ];

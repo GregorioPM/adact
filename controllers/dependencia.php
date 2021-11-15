@@ -32,8 +32,12 @@ class Dependencia extends SessionController{
     function deleteDependencias(){
         $id = $_GET['id'];
         $dependenciaModel = new DependenciaModel();
-        $dependenciaModel->delete($id);
-        $this->redirect('admin/listDependencias', []);
+        if( $dependenciaModel->delete($id)){
+            $this->redirect('admin/listDependencias', ['success' => SuccessMessages::SUCCESS_ADMIN_DELETEDEPENDENCY]);
+        }else{
+            $this->redirect('admin/listDependencias', ['error' => ErrorMessages::ERROR_ADMIN_DELETEDEPENDENCY_EXISTS]);
+        }
+       
      }
     
      function updateDependencia(){

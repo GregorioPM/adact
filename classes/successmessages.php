@@ -8,6 +8,8 @@
         const  SUCCESS_ADMIN_DEPENDENCY_UPDATE ="59c5655aaa9478237125e19d4cf22496";
         const  SUCCESS_PERFIL_UPDATE ="704ca811644c9c87821134a7bf3cd16f";
         const  SUCCESS_ADMIN_DELETEACTA ="6e9b5f3b0a15ca7dc9c2c71a1a929ce3";
+        const SUCCESS_ADMIN_DELETEDEPENDENCY="d7d2fb049485c8bbb5812b0be5e9fe41";
+        const SUCCESS_SIGNUP_DELETEUSER="106f16ede12a050b51ac2ea22ac8c3cf";
 
         
 
@@ -22,7 +24,10 @@
                 SuccessMessages::SUCCESS_ADMIN_DEPENDENCY_UPDATE => 'Actualizada la dependencia',
                 SuccessMessages::SUCCESS_PERFIL_UPDATE => 'Perfil actualizado correctamente',
                 SuccessMessages::SUCCESS_ADMIN_NEWACTA => 'Acta creada correctamente',
-                SuccessMessages::SUCCESS_ADMIN_DELETEACTA => 'Acta Eliminada Correctamente'
+                SuccessMessages::SUCCESS_ADMIN_DELETEACTA => 'Acta Eliminada Correctamente',
+                SuccessMessages::SUCCESS_ADMIN_DELETEDEPENDENCY => 'La dependencia se ha borrado correctamente',
+                SuccessMessages::SUCCESS_SIGNUP_DELETEUSER => 'Usuario eliminado correctamente',
+
             ];
         }
 

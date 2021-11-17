@@ -20,11 +20,12 @@
             </div>
         </section>
 <h1>Este es login</h1>
-<p><?php
-    $this->showMessages();
-?></p> 
+
 <div class="login">
 <div class="form-login">
+<div style="position: relative;"><?php
+    $this->showMessages();
+?></div> 
 <form action="<?php echo constant('URL'); ?>/login/authenticate" method="POST">
         <div><?php (isset($this->errorMessage))?  $this->errorMessage : '' ?></div>
 
